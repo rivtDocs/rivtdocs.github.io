@@ -4,7 +4,7 @@ layout: default
 
 ------------------------------------------
 
-<p style="text-align:center; font-weight:bold"> share docs and calcs anywhere and anytime </p>
+<p style="text-align:center; font-weight:bold"> share docs and calcs anywhere anytime </p>
 <table>
 <colgroup>
   <col width="20%" />
@@ -37,16 +37,16 @@ layout: default
 
 ## Introduction
 
-Recent developments in open source software tools can be applied to reducing
-barriers to producing and sharing engineering documents.
+Recent developments in open source software tools can be applied to improving
+the writing and sharing of engineering documents.
 
 Many engineering technologies in the 21st century are evolving slowly, and
-design procedures are often fixed in standard codes for decades. The heart of
-engineering work lies in understanding different, established, technologies and
-then skillfully and efficiently combining them to fit project requirements.
-Shared calculations can provide a first draft for many projects by combining
-previous designs and then adapting and editing to fit the needs of a particular
-project.
+design procedures are often fixed in standard codes for decades. Recently the
+core of good engineering work lies in understanding different, established,
+technologies and then skillfully and efficiently combining them to fit project
+requirements. Calculations documents provide a first draft of how that
+combination should work. Being able to cut and paste from previous projects
+is and effective and efficient starting point.
 
 Engineering professions have an opportunity to produce large, general
 calculation libraries that can be reused and recombined as needed.  The model of
