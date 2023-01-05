@@ -109,21 +109,21 @@ are shown bracketed and notes are in parenthesis.
         - **[rv00*_user_config_name*]** (calc configuration data)
             - units.py
             - config.py
-        - **[rv0101*_user_calc_division_name*]**  (folder report division name)
-            - *r0101*_calc_name.py (calc file name) 
-            - README.txt (text calc output file)
-            - chart.csv (text file used in calc)
-            - functions.py (function file used in calc)
-        - **[rv0102*_user_calc_division_name*]** 
+        - **[rv0101*_user_division_name*]**  (folder division name)
+            - *r0101*_calc_name.py (rivt file name) 
+            - README.txt (text output file)
+            - chart.csv (text resource file)
+            - functions.py (function resource file)
+        - **[rv0102*_user_division_name*]** 
             - *r0102*_calc_name.py
             - README.txt
             - chart1.csv 
             - functions1.py 
-         - **[rv0201*_user_calc_division_name*]**
+         - **[rv0201*_user_division_name*]**
             - *r0201*_calc_name.py
             - README.txt
             - paragraph.txt
-    - **[binary]**
+    - **[bin]**
         - **[b00]** (report configuration data)
             - pdf_style.sty
             - project_data.syk
