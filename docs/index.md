@@ -192,8 +192,7 @@ Execution steps include:
                    |    cell or function types:     |
                    |       R(), I(), V(), T()       |
                    \---------------||---------------/
-                                   \/
-
+                                   ||
 +---------------+  +--------------------------------+  +-------------+
 |   Process     |  |   Working in interactive IDE?  |  |  Process    |
 |   cell to     |  |     (VSCode, Spyder, Pyzo)     |  |  file       |
@@ -204,8 +203,7 @@ Execution steps include:
        +===========>    calc to file                <=========+
                    |================================|
                    +===============||===============+
-                                   \/
-
+                                   ||
 +===============+  +--------------------------------+
 | Write HTML    |  |                                |  /---------\
 | or PDF doc    |  |         Write docs?            |  |   End   |
@@ -216,8 +214,7 @@ Execution steps include:
       |            |         Write report?          |  |   End   |
       +============>               YES           NO +==>         |
                    +---------------||---------------+  \---------/
-                                   \/
-
+                                   ||
                    +================================+
                    |    Write PDF report file       |
                    |================================|
