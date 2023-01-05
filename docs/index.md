@@ -37,23 +37,23 @@ layout: default
 
 ## Introduction
 
-Recent developments in open source software tools can be applied to improving
-the writing and sharing of engineering documents.
+Recent developments in open source software tools can be applied to writing and
+sharing engineering documents.
 
 Many engineering technologies in the 21st century are evolving slowly, and
 design procedures are often fixed in standard codes for decades. The core of
 good engineering work now lies in understanding different, established,
 technologies and then skillfully and efficiently combining them to fit project
 requirements. Calculation documents are the first draft in the process of
-making these combinations work. Being able to easily cut and paste from
+making these combinations work. Being able to easily cut, paste and share from
 previous projects lets an engineer explore more options, focus on key issues
 and improve solutions.
 
 Engineering professions have an opportunity to produce large, general
-calculation libraries that can be reused and recombined as needed.  The model of
-shared incremental improvement in text documents (software code) has proven
+calculation libraries that can be reused and recombined as needed. The model of
+shared incremental improvement in text documents e.g.software code, has proven
 effective in programming. The extension of this approach to engineering
-calculations appears promising.
+calculations is promising.
 
 A number of powerful calculation programs exist, but they include barriers to
 widespread sharing. These include high initial and recurring software costs.
