@@ -62,7 +62,7 @@ collated reports, or allow for version control or inclusion of information from
 arbitrary sources often needed for clarity. 
 
 Taken together these barriers prevent widespread sharing. Instead they lead to
-nearly identical calculations being written thousands of times. **rivt** was
+nearly identical calculations being rewritten many times. **rivt** was
 written as an an open source software stack to minimize these barriers and
 promote sharing.
 
