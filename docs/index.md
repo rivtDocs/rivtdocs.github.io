@@ -37,14 +37,14 @@ layout: default
 ## Introduction
 
 Recent developments in open source software tools can be applied to reducing
-barriers to sharing and collaborating on document preparation. In particular there is a need for simpler sharing of engineering calculation documents. 
+barriers to producing and sharing engineering documents.
 
-Because most engineering technologies are changing slowly, design procedures are
-often fixed in codes for decades. The heart of engineering work lies in
-understanding different, established, technologies and then skillfully and
+Most engineering technologies are now changing slowly and design procedures are
+often fixed in standard codes for decades. The heart of engineering work lies
+in understanding different, established, technologies and then skillfully and
 efficiently combining them to fit project requirements. Shared calculations can
 provide a first draft for many projects. The draft can then be edited and
-adapted to fit the needs of a particular project. 
+adapted to fit the needs of a particular project.
 
 Engineering professions have an opportunity to produce large, general
 calculation libraries that can be reused and recombined as needed.  The model of
