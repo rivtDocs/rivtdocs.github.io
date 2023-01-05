@@ -184,7 +184,7 @@ generated. Calculation writing is dramatically improved if a full-featured code
 editor or IDE (i.e. VSCode) is used the calculations can be executed
 interactively and in stages by tagging (# %%) the API functions as cells.
 Execution steps include:
-'''
+<pre> 
                     ---------------------------------
                     |     Edit and run rivt file    |
                     |     or interactive cells.     |
@@ -217,7 +217,7 @@ Execution steps include:
                    ==================================
                    |    Write PDF report file       |
                    ==================================
- '''                  
+</pre>
 
 RivtCalc may be installed by:
 
