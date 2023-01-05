@@ -12,7 +12,7 @@ share calcs anywhere, anytime
 
 [link to **rivt** code on Github](https://github.com/rivtdocs/rivt)
 
-[link to **rivt** user manual](https://github.com/ShareCalcs/rivtdocs)
+[link to **rivt** user manual](https://github.com/rivtdocs/rivtmanual)
 
 [link to **rivt** installers](https://github.com/rivtdocs/rivtinstall)
 
