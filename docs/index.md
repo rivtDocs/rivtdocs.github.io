@@ -23,7 +23,7 @@ layout: default
 </thead>
 <tbody>
 <tr>
-  <td style="text-align:center;background-color:#AC776C"><a href="https://github.com/rivtdocs/rivt"> <img src="./assets/img/rivtdocs.png" width="75" height="55" /></a></td>
+  <td style="text-align:center;background-color:#999290"><a href="https://github.com/rivtdocs/rivt"> <img src="./assets/img/rivtdocs.png" width="75" height="55" /></a></td>
   <td style="text-align: center"><a href="https://github.com/rivtdocs/rivt"> <img src="./assets/img/rivt01.png" width="75" height="55" /></a></td>
   <td style="text-align: center"><a href="https://github.com/search?q=rivt&ref=simplesearch"> <img src="./assets/img/search01.png" width="70" height="60" /></a></td>
   <td style="text-align: center"><a href="https://rivtinstall.net"> <img src="./assets/img/rivtcalc01.png" width="75" height="55" /></a></td>
@@ -39,12 +39,13 @@ layout: default
 Recent developments in open source software tools can be applied to reducing
 barriers to producing and sharing engineering documents.
 
-Most engineering technologies are now changing slowly and design procedures are
-often fixed in standard codes for decades. The heart of engineering work lies
-in understanding different, established, technologies and then skillfully and
-efficiently combining them to fit project requirements. Shared calculations can
-provide a first draft for many projects. The draft can then be edited and
-adapted to fit the needs of a particular project.
+Many engineering technologies in the 21st century are evolving slowly, and
+design procedures are often fixed in standard codes for decades. The heart of
+engineering work lies in understanding different, established, technologies and
+then skillfully and efficiently combining them to fit project requirements.
+Shared calculations can provide a first draft for many projects by combining
+previous designs and then adapting and editing to fit the needs of a particular
+project.
 
 Engineering professions have an opportunity to produce large, general
 calculation libraries that can be reused and recombined as needed.  The model of
