@@ -2,6 +2,7 @@ title: rivtDocs
 logo: /assets/img/docs_home.png
 description: rivt program stack
 show_downloads: true
+full_width: true
 google_analytics:
 remote_theme: just-the-docs/just-the-docs
 # Enable or disable the site search

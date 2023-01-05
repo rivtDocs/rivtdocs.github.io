@@ -2,36 +2,41 @@
 layout: default
 ---
 
-<img src="./assets/img/286.png" width="300" height="80" />
+------------------------------------------------------
 
 <table>
 <colgroup>
-  <col width="25%" />
-  <col width="25%" />
-  <col width="25%" />
-  <col width="25%" />
+  <col width="20%" />
+  <col width="20%" />
+  <col width="20%" />
+  <col width="20%" />
+  <col width="20%" />
 </colgroup>
 <thead>
 <tr class="header">
+  <th style="text-align: center">rivtDocs</th>
   <th style="text-align: center">rivt</th>
   <th style="text-align: center">rivtSearch</th>
-  <th style="text-align: center">rivtInstall</th>
-  <th style="text-align: center">rivtManual</th>
+  <th style="text-align: center">rivtDocs Install</th>
+  <th style="text-align: center">rivtDocs Manual</th>
 </tr>
 </thead>
 <tbody>
 <tr>
+  <td style="text-align: center, background-color: #AC776C"><a href="https://github.com/rivtdocs/rivt"> <img src="./assets/img/rivtdocs.png" width="75" height="55" /></a></td>
   <td style="text-align: center"><a href="https://github.com/rivtdocs/rivt"> <img src="./assets/img/rivt01.png" width="75" height="55" /></a></td>
   <td style="text-align: center"><a href="https://github.com/search?q=rivt&ref=simplesearch"> <img src="./assets/img/search01.png" width="70" height="60" /></a></td>
   <td style="text-align: center"><a href="https://rivtinstall.net"> <img src="./assets/img/rivtcalc01.png" width="75" height="55" /></a></td>
-  <td style="text-align: center"><a href="https://rivtmanual.net"> <img src="./assets/img/codedocs09.png" width="80" height="60" /></a></td>
+  <td style="text-align: center"><a href="https://rivtmanual.net"> <img src="./assets/img/rivtmanual.png" width="80" height="60" /></a></td>
 </tr>
 </tbody>
 </table>
 
+------------------------------------------------------
+
 ## Introduction
 
-Recent progress in open source software tools can be applied to reducing
+Recent developments in open source software tools can be applied to reducing
 barriers to sharing and collaborating on document preparation. In particular there is a need for simpler sharing of engineering calculation documents. 
 
 Because most engineering technologies are changing slowly, design procedures are
