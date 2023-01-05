@@ -2,19 +2,32 @@
 layout: default
 ---
 
-<img src="./assets/img/manual_logo01.png" width="300" height="80" />
+<img src="./assets/img/286.png" width="300" height="80" />
 
-share calcs anywhere, anytime
-
----------------------------
-
-**rivtlib code documentation menu (left or upper right)**
-
-[link to **rivt** code on Github](https://github.com/rivtdocs/rivt)
-
-[link to **rivt** user manual](https://github.com/rivtdocs/rivtmanual)
-
-[link to **rivt** installers](https://github.com/rivtdocs/rivtinstall)
+<table>
+<colgroup>
+  <col width="25%" />
+  <col width="25%" />
+  <col width="25%" />
+  <col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+  <th style="text-align: center">rivt</th>
+  <th style="text-align: center">rivtSearch</th>
+  <th style="text-align: center">rivtInstall</th>
+  <th style="text-align: center">rivtManual</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="text-align: center"><a href="https://github.com/rivtdocs/rivt"> <img src="./assets/img/rivt01.png" width="75" height="55" /></a></td>
+  <td style="text-align: center"><a href="https://github.com/search?q=rivt&ref=simplesearch"> <img src="./assets/img/search01.png" width="70" height="60" /></a></td>
+  <td style="text-align: center"><a href="https://rivtinstall.net"> <img src="./assets/img/rivtcalc01.png" width="75" height="55" /></a></td>
+  <td style="text-align: center"><a href="https://rivtmanual.net"> <img src="./assets/img/codedocs09.png" width="80" height="60" /></a></td>
+</tr>
+</tbody>
+</table>
 
 ## Introduction
 
