@@ -179,11 +179,12 @@ calcs folder. Options are available to write pdf or html files and reports to
 the report or site folder. Functions are available to assemble complete project
 reports from pdf files.
 
-If a LaTeX distribution is installed, formatted PDF documents and reports can be
-generated. Calculation writing is dramatically improved if a full-featured code
-editor or IDE (i.e. VSCode) is used the calculations can be executed
-interactively and in stages by tagging (# %%) the API functions as cells.
-Execution steps include:
+If a LaTeX distribution is installed, formatted PDF documents and reports can
+be generated. Document writing speed is dramatically improved if a
+full-featured IDE (i.e. VSCode) is used. Each method can be executed
+interactively and in stages using the standard cell tag (# %%). Execution steps
+include:
+
 <pre> 
                     ---------------------------------
                     |     Edit and run rivt file    |
