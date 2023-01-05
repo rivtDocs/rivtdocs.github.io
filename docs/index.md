@@ -123,7 +123,7 @@ are shown bracketed and notes are in parenthesis.
             - *r0201*_calc_name.py
             - README.txt
             - paragraph.txt
-   - **[binary]**
+    - **[binary]**
         - **[b00]** (report configuration data)
             - pdf_style.sty
             - project_data.syk
