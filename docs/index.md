@@ -104,49 +104,49 @@ are shown bracketed and notes are in parenthesis.
 
 **rivt Folder Structure**
 
- **[rivt*_user_project_name*]** (user project_name)
+ - **[rivt*_user_project_name*]** (user project_name)
     - **[text]**
-        - **[rv00*_user_config_name*]** (calc configuration data)
-            - units.py
-            - config.py
-        - **[rv0101*_user_division_name*]**  (folder division name)
-            - *r0101*_calc_name.py (rivt file name) 
-            - README.txt (text output file)
-            - chart.csv (text resource file)
-            - functions.py (function resource file)
-        - **[rv0102*_user_division_name*]** 
-            - *r0102*_calc_name.py
-            - README.txt
-            - chart1.csv 
-            - functions1.py 
-         - **[rv0201*_user_division_name*]**
-            - *r0201*_calc_name.py
-            - README.txt
-            - paragraph.txt
+      - **[rv00*_user_config_name*]** (calc configuration data)
+          - units.py
+          - config.py
+      - **[rv0101*_user_division_name*]**  (folder division name)
+          - *r0101*_calc_name.py (rivt file name) 
+          - README.txt (text output file)
+          - chart.csv (text resource file)
+          - functions.py (function resource file)
+      - **[rv0102*_user_division_name*]** 
+          - *r0102*_calc_name.py
+          - README.txt
+          - chart1.csv 
+          - functions1.py 
+        - **[rv0201*_user_division_name*]**
+          - *r0201*_calc_name.py
+          - README.txt
+          - paragraph.txt
     - **[bin]**
-        - **[b00]** (report configuration data)
-            - pdf_style.sty
-            - project_data.syk
-        - **[b01]**
-            - image1.jpg
-        - **[b02]**
-            - image2.jpg
-            - attachment.pdf    
+      - **[b00]** (report configuration data)
+          - pdf_style.sty
+          - project_data.syk
+      - **[b01]**
+          - image1.jpg
+      - **[b02]**
+          - image2.jpg
+          - attachment.pdf    
     - **[report]** (pdf output files)
-        - r0101_gravity.pdf
-        - r0102_wind.pdf
-        - r0201_floor.pdf
-        - r0202_roof.pdf
-        - report.pdf
+      - r0101_gravity.pdf
+      - r0102_wind.pdf
+      - r0201_floor.pdf
+      - r0202_roof.pdf
+      - report.pdf
     - **[site]** (html calc output files)
-        - **[resources]**
-            - image1.png
-            - image2.png
-        - index.html
-        - s0101_gravity.html
-        - s0102_wind.html
-        - s0201_gravity.html
-        - s0202_wind.html
+      - **[resources]**
+          - image1.png
+          - image2.png
+      - index.html
+      - s0101_gravity.html
+      - s0102_wind.html
+      - s0201_gravity.html
+      - s0202_wind.html
 
 The four top-level folder names (text, binary, report and site) are required.
 Other file names are user determined using the specified prefixes. Underscores
