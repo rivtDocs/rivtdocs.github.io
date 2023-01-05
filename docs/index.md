@@ -10,11 +10,11 @@ share calcs anywhere, anytime
 
 **rivtlib code documentation menu (left or upper right)**
 
-[link to **rivtlib** code on Github](https://github.com/ShareCalcs/rivtlib)
+[link to **rivt** code on Github](https://github.com/rivtdocs/rivt)
 
 [link to **rivt** user manual](https://github.com/ShareCalcs/rivtdocs)
 
-[link to **rivt** installers](https://github.com/ShareCalcs/rivtdocs)
+[link to **rivt** installers](https://github.com/rivtdocs/rivtinstall)
 
 ## Introduction
 
