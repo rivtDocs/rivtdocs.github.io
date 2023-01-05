@@ -201,8 +201,7 @@ Execution steps include:
         |           ==================================         |
         |           |    Write utf-8, reST, TeX      |         |
         +===========>    calc to file                <=========+
-                    |================================|
-                    +===============||===============+
+                    |===============||===============|
                                     ||
  =================  +--------------------------------+
  | Write HTML    |  |                                |  -----------
@@ -224,7 +223,7 @@ RivtCalc may be installed by:
 
 - Locally installing and configuring the individual open source components.
 
-- Download and unzipping a pre-configured installation (Windows only).
+- Download and unzipping a pre-configured folder (Windows only).
 
 - Remotely installing as a cloud service in a container.
 
