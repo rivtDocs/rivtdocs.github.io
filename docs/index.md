@@ -38,14 +38,14 @@ layout: default
 Recent developments in open source software tools can be applied to writing and
 sharing engineering documents.
 
-Many engineering technologies in the 21st century are evolving slowly, and
-design procedures are often fixed in standard codes for decades. The core of
-good engineering work now lies in understanding different, established,
-technologies and then skillfully and efficiently combining them to fit project
-requirements. Calculation documents are the first draft in the process of
-making these combinations work. Being able to easily cut, paste and share from
-previous projects lets an engineer explore more options, focus on key issues
-and improve solutions.
+After rapid improvements in the 20th century, many engineering technologies in
+the 21st century are evolving slowly. Design procedures are often fixed in
+standard codes for decades. The foundation of good engineering work now lies in
+understanding a range of established technologies and then skillfully and
+efficiently combining them to fit project requirements. Calculation documents
+are the first draft in the process of making these combinations work. Being
+able to easily cut, paste and share from previous projects lets an engineer
+explore more options, focus on key issues and improve solutions.
 
 Engineering professions have an opportunity to produce large, general
 calculation libraries that can be reused and recombined as needed. The model of
