@@ -195,6 +195,7 @@ Execution steps include:
                    |       R(), I(), V(), T()       |
                    \---------------||---------------/
                                    \/
+
 +---------------+  +--------------------------------+  +-------------+
 |   Process     |  |   Working in interactive IDE?  |  |  Process    |
 |   cell to     |  |     (VSCode, Spyder, Pyzo)     |  |  file       |
@@ -206,6 +207,7 @@ Execution steps include:
                    |================================|
                    +===============||===============+
                                    \/
+
 +===============+  +--------------------------------+
 | Write HTML    |  |                                |  /---------\
 | or PDF doc    |  |         Write docs?            |  |   End   |
@@ -217,18 +219,27 @@ Execution steps include:
       +============>               YES           NO +==>         |
                    +---------------||---------------+  \---------/
                                    \/
+
                    +================================+
                    |    Write PDF report file       |
                    |================================|
                    +================================+
+
 RivtCalc may be installed by:
 
-Locally installing and configuring the individual open source components.
-Download and unzipping a pre-configured installation (Windows only).
-Remotely installing as a cloud service in a container.
-RivtCalc may also be installed on a remote server and run in a broswer. RivtConnect is the remote server framework and it is also available as a paid service Refer to the RivtCalc User Manual for details.
+- Locally installing and configuring the individual open source components.
 
-Rivt User Manual <http://www.rivtdocs.net>
+- Download and unzipping a pre-configured installation (Windows only).
+
+- Remotely installing as a cloud service in a container.
+
+- RivtDocs may also be installed on a remote server and run in a broswer.
+
+RivtTeams is the remote server framework available as a paid service
+
+Refer to the RivtDocs User Manual for details.
+
+Rivt User Manual <http://www.rivtmanual.net>
 
 Efficient IDE's
 By far the most efficient way to write rivt files is with a full featured code editor or IDE like Microsoft VSCode. Use of VSCode is documented in the Rivt User Manual. When working in VSCode the rivt functions can be written and evaluated step by step and graphics can be output inline. Other effective editors include Pyzo and Spyder.
