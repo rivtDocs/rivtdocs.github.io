@@ -1,0 +1,7 @@
+variable,value,unit,[unit],description
+ld1,2.,PSF,KPA,1/2 in plywood sheathing
+ld2,2.,PSF,KPA,2x4 studs at 16 in o.c.
+ld3,3.,PSF,KPA,5/8 in sheet rock
+ld4,1.5,PSF,KPA,fixtures
+ , , , , 
+extwalldl1,8.5,PSF,KPA,Total exterior wall unit load

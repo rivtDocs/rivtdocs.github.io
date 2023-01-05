@@ -1,0 +1,128 @@
+.. raw:: latex
+
+    \setlength{\parindent}{0.2in}
+    \begin{tabbing}
+    \hspace*{4cm}            \= \kill
+    \indent\textbf{ASD}      \>  {Allowable Stress Design}\\
+    \indent\textbf{ACI}      \>  {American Concrete Institute}\\
+    \indent\textbf{AISC}     \>  {American Institute of Steel Construction}\\
+    \indent\textbf{AISI}     \>  {American Iron and Steel Institute}\\
+    \indent\textbf{ASTM}     \>  {American Society for Testing and Materials}\\
+    \indent\textbf{AWS}      \>  {American Welding Society}\\
+    \indent\textbf{AB}       \>  {Anchor Bolt}\\
+    \indent\textbf{B}        \>  {Bottom}\\
+    \indent\textbf{BM}       \>  {Beam}\\
+    \indent\textbf{BRG}      \>  {Bearing}\\
+    \indent\textbf{BLK}      \>  {Block}\\
+    \indent\textbf{BOF}      \>  {Bottom of Foundation}\\
+    \indent\textbf{BOT}      \>  {Bottom}\\
+    \indent\textbf{BRKT}     \>  {Bracket}\\
+    \indent\textbf{CIP}      \>  {Cast-In-Place}\\
+    \indent\textbf{CLR}      \>  {Clear}\\
+    \indent\textbf{COL}      \>  {Column}\\
+    \indent\textbf{CONC}     \>  {Concrete}\\
+    \indent\textbf{CMU}      \>  {Concrete Masonry Unit}\\
+    \indent\textbf{CRSI}     \>  {Concrete Reinforcing Steel Institute}\\
+    \indent\textbf{CONST JT} \>  {Construction Joint}\\
+    \indent\textbf{CONT}     \>  {Continuous}\\
+    \indent\textbf{CJ}       \>  {Control Joint}\\
+    \indent\textbf{DEPR}     \>  {Depression}\\
+    \indent\textbf{DET}      \>  {Detail}\\
+    \indent\textbf{DL}       \>  {Development Length}\\
+    \indent\textbf{DIA}      \>  {Diameter}\\
+    \indent\textbf{DIM}      \>  {Dimension}\\
+    \indent\textbf{DIR}      \>  {Direction}\\
+    \indent\textbf{DWLS}     \>  {Dowels}\\
+    \indent\textbf{EA}       \>  {Each}\\
+    \indent\textbf{EE}       \>  {Each End}\\
+    \indent\textbf{EF}       \>  {Each Face}\\
+    \indent\textbf{EJ}       \>  {Expansion Joint}\\
+    \indent\textbf{ES}       \>  {Each Side}\\
+    \indent\textbf{EQ}       \>  {Equal}\\
+    \indent\textbf{EW}       \>  {Each Way}\\
+    \indent\textbf{EXP Bolt} \>  {Expansion Bolt}\\
+    \indent\textbf{EXP JT}   \>  {Expansion Joint}\\
+    \indent\textbf{FF}       \>  {Far Face}\\
+    \indent\textbf{FT}       \>  {Foot or Feet}\\
+    \indent\textbf{FIN}      \>  {Finish}\\
+    \indent\textbf{FL}       \>  {Floor}\\
+    \indent\textbf{FTG}      \>  {Footing}\\
+    \indent\textbf{FND}      \>  {Foundation}\\
+    \indent\textbf{GALV}     \>  {Galvanized}\\
+    \indent\textbf{GA}       \>  {Gauge}\\
+    \indent\textbf{GR}       \>  {Grade}\\
+    \indent\textbf{GB}       \>  {Grade Beam}\\
+    \indent\textbf{GP}       \>  {Gusset Plate}\\
+    \indent\textbf{HT}       \>  {Height}\\
+    \indent\textbf{HP}       \>  {High Point}\\
+    \indent\textbf{HS}       \>  {High Strength}\\
+    \indent\textbf{HEF}      \>  {Horizontal Each Face}\\
+    \indent\textbf{HIF}      \>  {Horizontal Inside Face}\\
+    \indent\textbf{HOF}      \>  {Horizontal Outside Face}\\
+    \indent\textbf{HOR}      \>  {Horizontal}\\
+    \indent\textbf{IN}       \>  {Inch}\\
+    \indent\textbf{ID}       \>  {Inside Diameter}\\
+    \indent\textbf{ICBO}     \>  {International Conference of Building Officials}\\
+    \indent\textbf{INV}      \>  {Invert}\\
+    \indent\textbf{JT}       \>  {Joint}\\
+    \indent\textbf{JST}      \>  {Joist}\\
+    \indent\textbf{K}        \>  {Kip (1000 Pounds)}\\
+    \indent\textbf{LW}       \>  {Light Weight}\\
+    \indent\textbf{LWC}      \>  {Light Weight Concrete}\\
+    \indent\textbf{LRFD}     \>  {Load and Resistance Factor Design}\\
+    \indent\textbf{LLV}      \>  {Long Leg Vertical}\\
+    \indent\textbf{LP}       \>  {Low Point}\\
+    \indent\textbf{MAS}      \>  {Masonry}\\
+    \indent\textbf{MTL}      \>  {Metal}\\
+    \indent\textbf{NF}       \>  {Near Face}\\
+    \indent\textbf{NWC}      \>  {Normal Weight Concrete}\\
+    \indent\textbf{NIC}      \>  {Not in Contract}\\
+    \indent\textbf{OC}       \>  {On Center}\\
+    \indent\textbf{OD}       \>  {Outside Diameter}\\
+    \indent\textbf{OPNG}     \>  {Opening}\\
+    \indent\textbf{PC}       \>  {Pile Cap}\\
+    \indent\textbf{PL}       \>  {Plate}\\
+    \indent\textbf{PT}       \>  {Point}\\
+    \indent\textbf{PVC}      \>  {Polyvinyl Chloride}\\
+    \indent\textbf{PSF}      \>  {Pounds per Square Foot}\\
+    \indent\textbf{PSI}      \>  {Pounds per Square Inch}\\
+    \indent\textbf{R}        \>  {Radius}\\
+    \indent\textbf{REINF}    \>  {Reinforced}\\
+    \indent\textbf{RETG}     \>  {Retaining}\\
+    \indent\textbf{RET}      \>  {Return}\\
+    \indent\textbf{RE}       \>  {Right End}\\
+    \indent\textbf{SECT}     \>  {Section}\\
+    \indent\textbf{SC}       \>  {Shear Connector}\\
+    \indent\textbf{SHT}      \>  {Sheet}\\
+    \indent\textbf{SLV}      \>  {Short Leg Vertical}\\
+    \indent\textbf{SIM}      \>  {Similar}\\
+    \indent\textbf{SOG}      \>  {Slab on Grade}\\
+    \indent\textbf{SL}       \>  {Splice Length}\\
+    \indent\textbf{SQ}       \>  {Square}\\
+    \indent\textbf{STD}      \>  {Standard}\\
+    \indent\textbf{STL}      \>  {Steel}\\
+    \indent\textbf{SDI}      \>  {Steel Deck Institute}\\
+    \indent\textbf{SF}       \>  {Step Footing or Square Foot}\\
+    \indent\textbf{STIFF}    \>  {Stiffener}\\
+    \indent\textbf{STR}      \>  {Structural}\\
+    \indent\textbf{SUP}      \>  {Support}\\
+    \indent\textbf{SYM}      \>  {Symmetrical}\\
+    \indent\textbf{THK}      \>  {Thick or Thickness}\\
+    \indent\textbf{THRD}     \>  {Threaded}\\
+    \indent\textbf{T&B}      \>  {Top and Bottom}\\
+    \indent\textbf{T}        \>  {Top}\\
+    \indent\textbf{TO}       \>  {Top of}\\
+    \indent\textbf{TOC}      \>  {Top of Concrete}\\
+    \indent\textbf{TOF}      \>  {Top of Foundation}\\
+    \indent\textbf{TOS}      \>  {Top of Steel}\\
+    \indent\textbf{TOW}      \>  {Top of Wall}\\
+    \indent\textbf{TYP}      \>  {Typical}\\
+    \indent\textbf{UNO}      \>  {Unless Noted Otherwise}\\
+    \indent\textbf{US}       \>  {Underside}\\
+    \indent\textbf{VEF}      \>  {Vertical Each Face}\\
+    \indent\textbf{VIF}      \>  {Vertical Inside Face or Verify in Field}\\
+    \indent\textbf{VOF}      \>  {Vertical Outside Face}\\
+    \indent\textbf{WWF}      \>  {Welded Wire Fabric}\\
+    \indent\textbf{W/}       \>  {With}\\
+    \indent\textbf{WP}       \>  {Working Point}\\
+    \end{tabbing}

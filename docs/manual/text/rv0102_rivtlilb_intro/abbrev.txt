@@ -1,0 +1,60 @@
+  .. raw:: latex
+  `
+    \setlength{\parindent}{0.2in}
+    \begin{tabbing}
+    \hspace*{4cm}             \= \kill
+    \indent\bf{array}         \>  {a group of blocks}\\
+    \indent\bf{AST}           \>  {Alion StormTracker}\\
+    \indent\bf{assm.}         \>  {assembly}\\    
+    \indent\bf{A-frame}       \>  {factory assembled foot, leg, tie, pivot arm, purlin bracket}\\
+    \indent\bf{A-frame assm.} \>  {field assembled A-framefoot, leg, tie, pivot arm, purlin bracket assembly}\\
+    \indent\bf{Arc-gear}      \>  {large gear assembly of CFS and stainless}\\
+    \indent\bf{Arc assembly}  \>  {factory assembled Arc-gear to pivot arm}\\
+    \indent\bf{block}         \>  {contiguous set of rows with equal spacing, determines GCR}\\
+    \indent\bf{bushing}       \>  {bearing surface for pinion gear}\\    
+    \indent\bf{chord}         \>  {cross row module dimension (typically about 2 m)}\\
+    \indent\bf{clamp}         \>  {aluminum extrusion that clamps modules to Z-purlin}\\
+    \indent\bf{drive}         \>  {drive tube, bushing and pinion gear }\\
+    \indent\bf{drive coupler} \>  {CFS coupling tube between drives}\\
+    \indent\bf{drive system}  \>  {row of drive tubes, couplers, slew drive and drive ballast}\\
+    \indent\bf{drive tube}    \>  {continuous tube under each table}\\
+    \indent\bf{end row}       \>  {first row on each end of block, includes two slew drives per row}\\
+    \indent\bf{exterior table} \>  {table with three A-frames per table }\\
+    \indent\bf{edge table}    \> {last table on the end of each row}\\
+    \indent\bf{ext.}          \> {exterior}\\
+    \indent\bf{exterior track} \> {stiffened concrete strip}\\
+    \indent\bf{foot}          \>  {stamped CFS anchor plate at the base of a leg}\\
+    \indent\bf{FEJ}           \>  {foot epoxy joint}\\
+    \indent\bf{foot epoxy joint}\> {joint connecting foot and track}\\
+    \indent\bf{GCR}           \>  {ground coverage ratio of AST}\\
+    \indent\bf{groove}        \>  {slip formed groove for anchoring FEJ}\\
+    \indent\bf{gear lock}     \>  {stow locking plate attached to Arc-gear}\\
+    \indent\bf{half table}    \>  {part of a table with three modules and one A-frame}\\
+    \indent\bf{half row}      \>  {10 tables connected to a shared slew drive}\\
+    \indent\bf{int.}          \>  {interior}\\
+    \indent\bf{interior row}  \>  {all rows in a block except firc-gear and Z purlin to pivot arm}\\
+    \indent\bf{leg}           \>  {stiffened CFS C section, rollded or stamped}\\
+    \indent\bf{lock bolts}    \>  {1/4" proprietary bolts with high clamping force}\\
+    \indent\bf{O&M}           \>  {operations and maintenance}\\
+    \indent\bf{PAC}           \>  {power modules and controller for slew drive}\\
+    \indent\bf{pivot arm}     \>  {pair of stiffened, CFS U-channels supporting 2 or 3 modules}\\
+    \indent\bf{pivot pin}     \>  {pin at pivot arm to A-frame connection}\\
+    \indent\bf{pinion}        \>  {small sintered gear attached to drive tube}\\
+    \indent\bf{pop rivets}    \>  {1/8" rivets used in Arc-gear assembly}\\
+    \indent\bf{portrait}      \>  {module orientation on purlins, long dimension is cross row}\\
+    \indent\bf{quarter row}   \>  {5 tables connected to a shared slew drive at end rows}\\
+    \indent\bf{row}           \>  {20 tables on a track with 1 or 2 slew drives}\\
+    \indent\bf{slew drive}    \>  {motor and gearing system that }\\
+    \indent\bf{slew coupler}  \>  {coupling tube between slew drive and drive tube}\\
+    \indent\bf{slew ballast}  \>  {cast in place concrete ballast for slew drive}\\
+    \indent\bf{table}         \>  {2 A-frames and drive supporting 6 portrait modules}\\
+    \indent\bf{table modules}  \>  {Set of six portrait oriented modules mounted to table}\\
+    \indent\bf{third of table} \>  {part of a table with two modules and one A-frame}\\
+    \indent\bf{tie}            \>  {stamped CFS tie plate between legs}\\
+    \indent\bf{track}          \>  {two separated plain concrete grade beams}\\
+    \indent\bf{transition row} \>  {second row from each end in block}\\
+    \indent\bf{width (module)} \> {along row module width (typically about 1 m)}\\
+    \indent\bf{Z-purlin}       \>  {asymmetric roll formed CFS purlin supporting modules}\\
+    \indent\bf{ZA}             \>  {Zinc Aluminum alloy}\\
+    \end{tabbing}
+  `

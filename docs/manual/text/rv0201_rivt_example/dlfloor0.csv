@@ -1,0 +1,7 @@
+variable,assign,value,[value],description
+ld1,3.,PSF,KPA,3/4 in. hardwood flooring
+ld2,2.,PSF,KPA,1/2 in. plywood subfloor
+ld3,4.,PSF,KPA,2x10 joists at 16 in. o.c.
+ld4,1.5,PSF,KPA,fixtures
+ , , , , 
+floordl1,10.5,PSF,KPA,Total floor unit load

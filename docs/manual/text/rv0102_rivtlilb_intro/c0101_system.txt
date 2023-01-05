@@ -1,0 +1,400 @@
+2017-03-30 22:51:28.937277      on-c-e version: 0.9.0
+ Calc Sections
+=============
+[1] Project Description
+[2] AST Overview
+[3] Track and Slew Drive Base
+[4] A-frame, Arc Assembly, Z-purlin
+[5] Drive System
+[6] AST Terms and Definitions
+
+
+ 
+============================================================================
+ject Description                                                  [0101][1]
+============================================================================
+ 
+  This calculation report covers the structural design of the Alion StormTracker
+  (AST) 66 kW pilot project located in the Kurnool District, Andhra Pradesh,
+  India. The AST is a single axis tracker with :math:`\pm` 60 :math:`\degree`
+  tilt designed to maximize power output while reducing installation and
+  maintenance costs. Calculations are numbered and organized as **[rrcc][s]**,
+  where **rr** is the report section, **cc** is the calculation number and **s**
+  is the calculation section. The report is divided into four sections that
+  provide a design overview, performance criteria, and track and table
+  structural analysis and design calculations. Three appendices contain
+  supporting project and product information, test descriptions and detailed
+  computer output. Structural drawings listed on the cover sheet provide
+  structural details, dimensions and field installation instructions. 
+ 
+  The small pilot project includes 210, 2m x 1m dual glass modules arranged in a
+  two row block. Blocks in full scale projects typically have dozens of rows.
+  Because wind loads vary between exterior and interior rows the structural
+  design varies for different parts of the block. The figure below shows the
+  overall structural configuration. This project includes only exterior rows and
+  does not include calculations for the interior row design. For a complete
+  system calculation please refer to the separate document *AST Reference
+  Structural Calculations - LRFD*.
+ 
+ 
+ 
+ 
+ 
+  The structural design loads are based on geographically mapped loads and other
+  building code parameters adopted by local authorities with project
+  jurisdiction. For this project the National Building Code - India (NBC-I)
+  is used. The wind and seismic maps from the NBC-I including project location
+  are shown below. AST terms are defined below in Section 7. Design standards
+  and calculation terms are listed in Report Section 02.
+ 
+  |
+  |
+ 
+ 
+ 
+  |
+  |
+ 
+ 
+ 
+  |
+  |
+  |
+  |
+ 
+ 
+ 
+   |
+   |
+ 
+============================================================================
+ Overview                                                         [0101][2]
+============================================================================
+ 
+  The AST is a single axis ballasted system with automated cleaning
+  and maintenance capability integrated into the structural design (see Figures
+  2.1 and 2.2). The three primary structural components are a slip formed
+  concrete track (track), a CFS table that supports six modules (table), and a
+  geared drive system that reduces torque demand by more than an order of
+  magnitude (drive).
+ 
+  The concrete ballast provides soil bearing, resists seismic and wind
+  overturning and serves as a guide track for the maintenance vehicles. The CFS
+  table is designed to minimize steel weight and integrate with the track and
+  drive system. The drive system is designed to follow terrain using couplers
+  that allow for angle changes between tables. AST features supporting the
+  design goals of installation flexibility and simplicity, system longevity,
+  and material reduction include:
+ 
+  - The system is supported on long life, slip-formed concrete tracks. Soil
+    bearing pressures are low and metal is not buried in soil.
+  - Automated O&M vehicles operate on the tracks.
+  - A tracker row is divided into six-module tables
+    with drive line couplers between each table that accommodate
+    uneven ground with minimal site preparation.      
+  - Field assembled components, including A-frames, purlins, arc-gears and
+    drive tubes are fabricated from cold formed pre-galvanized
+    sheet that weigh less than 30 pounds each. Total steel weight in a table is
+    approximately 120 lbs, or 1 psf of module area.
+  - The drive tube is geared to reduce transmission torques and reduce the size
+    of the drive tube.      
+  - Panels are mechanically locked at 0 :math:`\degree` stow to minimize wind
+    forces and eliminate system torsional instability and divergence.
+    Locking occurs through a Geneva drive mechanism that provides a rotation
+    dwell when the table is flat. In this position a semi-circular locking plate
+    resists module rotation through a radial contact force with the drive tube.
+    The drive tube does not rotate in the stow position.
+  - PV panels may be framed or dual glass.
+ 
+  Terms for the assemblies and components are defined as follows:
+ 
+ 
+ 
+ 
+ 
+  |
+  |
+  |
+ 
+ 
+ 
+ 
+ 
+  **Tracks:** Tracks are separated pairs of structural plain concrete grade beams
+  that provide bearing capacity, over-turning ballast and guides for the
+  maintenance vehicles. They are slip-formed as continuous strips with control
+  joints (CJ) cut between table legs to control the location of shrinkage cracks.
+  There are two CJ per table and the maximum spacing between control joints is
+  about 10 feet. Project plans provide specific dimensions. They include a slip
+  formed groove on the top surface for anchoring the A-frame feet. The CJ pair
+  for the last A-frame in a row is referred to as a locking control joint and is
+  angled to engage adjacent concrete in area-averaged uplift in these more wind
+  intensive regions. The AST uses two types of cross section profiles; tracks
+  and exterior tracks.
+ 
+  **Exterior Tracks:** Exterior tracks are used for the outside rows
+  of a block and the second row in, referred to as exterior and transition rows
+  respectively. They are similar to tracks with the followings differences:
+ 
+  - The cross section profile is a single, stiffened strip that provides
+    additional ballast.
+  - Where three A-frames per table are used, three control joints per table
+    between each of the three A-frames are cut.
+ 
+  **Slew Drive Base:** The slew drive base is a cast-in-place concrete ballast
+  block under each slew drive (see section [3]).
+ 
+  **A-Frame:** A-frames are standardized, factory assembled, stamped or rolled
+  pre-galvanized 18 gauge sections. Additional structural capacity can be added
+  to a project design by increasing the number of A-frames per table. Standard
+  designs include two A-frames per table for interior and transition rows, and
+  three A-frames at exterior rows. A-frame components include feet, stiffened
+  C-channel legs and C-channel ties. Connections are made with standard torqued
+  or proprietary lock bolts with sufficient tension to prevent slip in the
+  joints. A-frame feet are anchored in the track groove with structural epoxy. 
+ 
+  **Arc assembly:** Arc-gears are riveted, semi-circular factory assembled
+  racks made from stamped 16 gauge pre-galvanized CFS and 20 gauge stainless
+  steel sheet for wearing surfaces. The Arc-gear is factory bolted to two 16
+  gauge stiffened C-channel pivot arms at the spring line and to two ZA27
+  stow-locking plates at the rack mid-point.
+ 
+  **A-frame Assembly:** The A-frame assembly includes the Arc-gear assembly
+  field installed to the A-frame with a pin through the mid-point of the pivot
+  arm.
+ 
+  **Z-purlins:** Purlins are pre-galvanized, pre-punched, 18 guage, asymetric
+  cold-rolled sections that accommodate two or three A-frames per table and
+  support the PV panels. 
+ 
+  **Drive system:** The drive system is an assembly of stainless steel pinion
+  gears, zinc-alloy bushings, and 16 gauge galvanized drive tubes and couplers.
+  A continuous drive tube section with field installed pinions at each A-frame
+  is inserted through the A-frame tie. Couplers connect the drive tubes between
+  tables and accommodate grade changes.
+ 
+ 
+ 
+============================================================================
+ck and Slew Drive Base                                            [0101][3]
+============================================================================
+ 
+  Tracks are structural plain concrete grade beams that provide ballast against
+  over-turning and sliding and transfer loads from the A-frame to the ground
+  through bearing and friction. They are slip formed and divided into one
+  segment per A-frame leg with control joints . The weight of each segment is
+  designed to resist sliding and uplift. Concrete material is a significant
+  project cost and the track geometry is evaluated for the wind demands at each
+  project site to minimize material by varying the track height. The final track
+  geometry is controlled by the following factors:
+ 
+  - minimum section weight required for uplift and sliding
+  - maximum concrete tensile stress under down and uplift forces
+  - maximum allowable distance between control joints controlled by shrinkage
+  - geometry requirements for vehicle tracking
+ 
+  Maximum design tensile stress must be less than ACI 318 allowable levels for
+  structural plain concrete. The maximum design uplift is 1" under design wind
+  loads and no slip under ASCE seismic design methods for rigid structures
+  supported at grade. The maintenance vehicles traverse a track approximately
+  monthly. Maximum wheel loads are 300 lbs and the maximum allowable
+  differential offset across joints is 1/2 inch.
+ 
+  Tracks are placed in continuous rows as either a strip (exterior
+  tracks), or two simultaneously formed parallel footings. Control joints
+  are saw cut shortly after initial set. Expansion joints are typically not
+  required but may be needed in some cases where concrete drying shrinkage does
+  not offset potential thermal expansion. 
+ 
+  Concrete materials and batching are locally sourced following Alion
+  concrete and slip forming specifications. Typical track mix designs follow
+  local practices for sidewalk or paving mixes. Mix designs are prepared
+  by local contractors that take into consideration the soil
+  chemistry, slip forming process and load requirements for the project site.
+  Mix design and quality control processes follow ACI and other project
+  specifications.
+ 
+  Concrete mix designs are specified to meet project requirements, including:
+ 
+  - Durability specified in ACI 318
+  - Compressive strength to satisfy imposed loads and permeability
+  - Placement rates, geometry tolerances and surface quality
+ 
+  Geotechnical studies provide minimum bearing capacities and maximum long
+  term differential settlement and heave. In general, sites prepared with
+  standard proof rolling requirements (1/4" maximum deflection under loaded
+  truck tires) can satisfy the low bearing pressure demands of the system (about
+  1 psi). Track bearing and applied loads are small so native soil stability is
+  the primary consideration, not imposed structural loads.
+ 
+  The lifespan of plain structural concrete can be as long as 80 years.  Typical
+  lifespans considered by municipalities for unreinforced sidewalks and curbs is
+  25 to 50 years. In practice, lifespans for curb and pavement structures can be
+  shortened by tensile stresses induced by heavy wheel loads or uplift from tree
+  roots. These are not load cases for the AST.
+ 
+ 
+ 
+ 
+ 
+  Slew drives are located at the center of rows
+  and at the outside quarter points of the end and transition rows.
+  They are anchored to a cast-in-place, drive block with embedded or
+  post installed adhesive anchors.  Peak demands on the ballast and slew drive
+  anchorage are under software control.  If wind speeds reach 50 mph or
+  slew drive power demands exceed expected values the row rotates to flat
+  (0 degree) stow until wind speeds subside or repairs are made.
+ 
+ 
+ 
+ 
+============================================================================
+rame, Arc Assembly, Z-purlin                                      [0101][4]
+============================================================================
+ 
+  Tables are supported by two A-frame assemblies at interior rows and three at
+  exterior rows. A table is field assembled from A-frame and Arc 
+  assemblies and Z-purlins. The component materials are pre-galvanized (G90), 50
+  ksi, 16 or 18 gauge, steel sheet formed with stamping or rolling processes.
+  The three table components are connected by field installed bolts and
+  inter-locking tabs. Connections between components are generally made with
+  1/4" lock bolts or high strength nuts and bolts torqued to develop a minimum
+  clamping force of 1,800 lbs.
+ 
+  Arc-gear assemblies include a large curved rack gear bolted to a stiffened
+  C-channel pivot arm connected in turn to the A-frame with a pin. The gear
+  wearing surface is a stamped, 20 gauge stainless steel strip. The various
+  arc-gear rack components, including interlocking L-shapes and wearing strips
+  are connected with factory installed rivets.
+ 
+  Asymmetries in the components are accounted for in the analysis and design
+  checks and confirmed by assembly and component load tests. Z-purlin flanges
+  are asymmetric, with larger bottom flanges to compensate for longer unbraced
+  lengths. Legs are braced by ties which are asymmetrically connected to leg
+  flanges. Loads from Arc-gears are transferred asymmetrically to the pivot
+  arms.
+ 
+  Member capacities are calculated and evaluated by test based on the *Indian
+  Standard Code of Practice for Use of Cold-Formed Light Guage Steel Structural
+  Memebers in General Building Construction* and the *North
+  American Specification for the Design of Cold-Formed Steel Structural
+  Members*. The specifications include the effects of buckling, property
+  variations and residual stresses generated by forming. Full scale tests
+  confirm the calculated design capacities. 
+ 
+ |
+ | 
+ | 
+ 
+ 
+ 
+ 
+============================================================================
+ve System                                                         [0101][5]
+============================================================================
+ 
+  The drive system includes the drive tubes, couplers, Arg-gear, pinion gear and
+  bushing. Tubes and couplers are pre-galvanized, 16 gauge tubes with stamped
+  holes and stainless steel fittings to permit grade following and allow for
+  thermal expansion. The drive tube is continuous under each table. Four or five
+  through bolt field connections are made in each drive tube depending on
+  whether it is an interior or exterior row. A coupler is connected between drive tubes wi
+th a through bolt and
+  cast fitting that distributes shear stresses. A pinion gear engages the
+  arc-gear at each A-frame (two or three). Pinion gears are cast stainless
+  steel. Bushings and locking plates are cast or sintered Zinc Aluminum alloy
+  (ZA). 
+ 
+  The drive system is designed to rotate the tables to 0 degrees stow under
+  software control when either of two conditions are met:  
+ 
+  1. Wind speeds exceed the operation limit of 50 mph. 
+  2. Slew drive power demand exceeds expected values, indicating a potential
+     problem in the row.
+ 
+  These software limits, together with power and mechanical limits on the motor
+  and drive set an upper bound on the drive system and slew ballast torque
+  demand.
+ 
+ 
+ 
+ 
+ 
+ 
+============================================================================
+ Terms and Definitions                                            [0101][6]
+============================================================================
+ 
+  .. raw:: latex
+  `
+    \setlength{\parindent}{0.2in}
+    \begin{tabbing}
+    \hspace*{4cm}             \= \kill
+    \indent\bf{array}         \>  {a group of blocks}\\
+    \indent\bf{AST}           \>  {Alion StormTracker}\\
+    \indent\bf{assm.}         \>  {assembly}\\    
+    \indent\bf{A-frame}       \>  {factory assembled foot, leg, tie, pivot arm, purlin bra
+cket}\\
+    \indent\bf{A-frame assm.}   \>  {field assembled A-framefoot, leg, tie, pivot arm, pur
+lin bracket assembly}\\
+    \indent\bf{Arc-gear}      \>  {large gear assembly of CFS and stainless}\\
+    \indent\bf{Arc assembly}  \>  {factory assembled Arc-gear to pivot arm}\\
+    \indent\bf{block}         \>  {contiguous set of rows with equal spacing, determines G
+CR}\\
+    \indent\bf{bushing}       \>  {bearing surface for pinion gear}\\    
+    \indent\bf{chord}         \>  {cross row module dimension (typically about 2 m)}\\
+    \indent\bf{clamp}         \>  {aluminum extrusion that clamps modules to Z-purlin}\\
+    \indent\bf{drive}         \>  {drive tube, bushing and pinion gear }\\
+    \indent\bf{drive coupler} \>  {CFS coupling tube between drives}\\
+    \indent\bf{drive system}  \>  {row of drive tubes, couplers, slew drive and drive ball
+ast}\\
+    \indent\bf{drive tube}    \>  {continuous tube under each table}\\
+    \indent\bf{end row}       \>  {first row on each end of block, includes two slew drive
+s per row}\\
+    \indent\bf{exterior table}  \>  {table with three A-frames per table }\\
+    \indent\bf{edge table}    \>  {last table on the end of each row}\\
+    \indent\bf{ext.}           \> {exterior}\\
+    \indent\bf{exterior track} \> {stiffened concrete strip}\\
+    \indent\bf{foot}          \>  {stamped CFS anchor plate at the base of a leg}\\
+    \indent\bf{FEJ}           \>  {foot epoxy joint}\\
+    \indent\bf{foot epoxy joint}\> {joint connecting foot and track}\\
+    \indent\bf{GCR}           \>  {ground coverage ratio of AST}\\
+    \indent\bf{groove}        \>  {slip formed groove for anchoring FEJ}\\
+    \indent\bf{gear lock}     \>  {stow locking plate attached to Arc-gear}\\
+    \indent\bf{half table}    \>  {part of a table with three modules and one A-frame}\\
+    \indent\bf{half row}      \>  {10 tables connected to a shared slew drive}\\
+    \indent\bf{int.}          \>  {interior}\\
+    \indent\bf{interior row} \>   {all rows in a block except firc-gear and Z purlin to pi
+vot arm}\\
+    \indent\bf{leg}           \>  {stiffened CFS C section, rollded or stamped}\\
+    \indent\bf{lock bolts}    \>  {1/4" proprietary bolts with high clamping force}\\
+    \indent\bf{O&M}           \>  {operations and maintenance}\\
+    \indent\bf{PAC}           \>  {power modules and controller for slew drive}\\
+    \indent\bf{pivot arm}     \>  {pair of stiffened, CFS U-channels supporting 2 or 3 mod
+ules}\\
+    \indent\bf{pivot pin}     \>  {pin at pivot arm to A-frame connection}\\
+    \indent\bf{pinion}        \>  {small sintered gear attached to drive tube}\\
+    \indent\bf{pop rivets}    \>  {1/8" rivets used in Arc-gear assembly}\\
+    \indent\bf{portrait}      \>  {module orientation on purlins, long dimension is cross 
+row}\\
+    \indent\bf{quarter row}   \>  {5 tables connected to a shared slew drive at end rows}\
+\
+    \indent\bf{row}           \>  {20 tables on a track with 1 or 2 slew drives}\\
+    \indent\bf{slew drive}    \>  {motor and gearing system that }\\
+    \indent\bf{slew coupler}  \>  {coupling tube between slew drive and drive tube}\\
+    \indent\bf{slew ballast}  \>  {cast in place concrete ballast for slew drive}\\
+    \indent\bf{table}          \>  {2 A-frames and drive supporting 6 portrait modules}\\
+    \indent\bf{table modules}  \>  {Set of six portrait oriented modules mounted to table}
+\\
+    \indent\bf{third of table} \>  {part of a table with two modules and one A-frame}\\
+    \indent\bf{tie}            \>  {stamped CFS tie plate between legs}\\
+    \indent\bf{track}          \>  {two separated plain concrete grade beams}\\
+    \indent\bf{transition row} \>  {second row from each end in block}\\
+    \indent\bf{width (module)} \> {along row module width (typically about 1 m)}\\
+    \indent\bf{Z-purlin}       \>  {asymmetric roll formed CFS purlin supporting modules}\
+\
+    \indent\bf{ZA}             \>  {Zinc Aluminum alloy}\\
+    \end{tabbing}
+  `
+
+[end of calc]

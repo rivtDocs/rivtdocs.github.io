@@ -1,0 +1,947 @@
+AA 
+Aluminum Association
+1400 Crystal Drive, Suite 43
+Arlington, VA 22202
+ADM—2015 Aluminum Design
+
+
+AAMA 
+American Architectural Manufacturers Association 
+1827 Waldon Office Square, Suite 550 
+Schaumburg, IL 60173 
+Manual: Part 1—A Specification for 
+Aluminum Structures 
+1604.3.5, 2002.1 
+ASM 35—00 
+Aluminum Sheet Metal Work in Building 
+Construction (Fourth Edition) 
+2002.1 
+711—16 
+Voluntary Specification for Self Adhering 
+Flashing Used for Installation of Exterior Wall 
+Fenestration Products 
+1404.4 
+714—15 
+Voluntary Specification for Liquid Applied 
+Flashing Used to Create a Water-resistive 
+Seal around Exterior Wall Openings in 
+Buildings 
+1404.4 
+1402—09 
+Standard Specifications for Aluminum 
+Siding, Soffit and Fascia 
+1403.5.1 
+AAMA/WDMA/CSA 101/I.S.2/A440—17 
+North American Fenestration 
+Standard/Specifications for Windows, Doors 
+and Skylights 
+1709.5.1, 2405.5 
+501.4-09 
+Recommended Static Test Method for 
+Evaluating Curtain Wall and Storefront 
+Systems Subjected to Seismic and Wind 
+Induced Interstory Drifts 
+2410.1 
+501.6-09 
+Recommended Dynamic Test Method for 
+Determining the Seismic Drift Causing Glass 
+Fallout from a Wall System 
+2410.1 
+TIR A8-16 
+Structural Performance of Composite 
+Thermal Barrier Framing Systems 
+2411.1 
+
+
+ACI 
+American Concrete Institute 
+38800 Country Club Drive 
+Farmington Hills, MI 48331 
+318—14 
+Building Code Requirements for Structural Concrete 
+722.2.4.3, 1604.3.2, 1616.2.1, 1616.3.1, 1704.5, 
+Table 1705.3, 1705.3.2, Table 1705A.2.1, Table 
+1705A.3, 1808.8.2, Table 1808.8.2, 1808.8.5, 
+1808.8.6, 1810.1.3, 1810.2.4.1, 1810.3.2.1.1, 
+1810.3.2.1.2, 1810.3.8.3.1, 1810.3.8.3.3, 
+1810.3.9.4.2.1, 1810.3.9.4.2.2, 1810.3.10.1, 
+1810.3.11.1, 1810.3.12, 1810A.3.10.4, 1901.2, 
+1901.3, 1901.3.4.4, 1902.1, 1903.1, 1904.1, 
+1904.2, 1905.1, 1905.1.1, 1905.1.2, 1905.1.3, 
+1905.1.4, 1905.1.5, 1905.1.6, 1905.1.7, 1905.1.8, 
+1906.1, 1909.2, 1909.3, 1903A, 1904A, 1905A, 
+1910A.5.4, 2108.3, 2206.1 
+355.2—07 
+Qualification of Post-Installed Mechanical Anchors in Concrete and Commentary 
+1617A.1.19 
+355.4—11 
+Qualification of Post-Installed Adhesive Anchors in Concrete and Commentary 
+1617A.1.19 
+440.2R-08 
+Guide for the Design and Construction of Externally Bonded FRP Systems for Strengthening Concrete Structures 
+1911.3, 1911A.3 
+503.7—07 
+Specification for Crack Repair by Epoxy Injection 
+1911.2, 1911A.2 
+506R—16 
+Guide to Shotcrete 
+1908.1, 1908A.1, 1908.3, 1908A.3, 1908.12, 
+1908A.12 
+506.2—13 
+[DSA-SS, DSA-SS/CC] Guide to Shotcrete 
+1908A.1, 1908A.9 
+216.1—14 
+Code Requirements for Determining Fire Resistance of Concrete and Masonry Construction Assemblies 
+Table 721.1(2), 722.1 
+
+
+AISC 
+American Institute of Steel 
+130 East Randolph Street, Suite 2000 
+Chicago, IL 60601-6219 
+ANSI/AISC 341—16 
+Seismic Provisions for Structural Steel Buildings 
+1705.12.1.1, 1705.12.1.2, 1705.13.1.1, 
+1705.13.1.2, 2205.2.1.1, 2205.2.1.2, 2205.2.2, 
+2206.2.1, 1705A.2.1, 1705A.2.5, 2212.2, 2205A, 
+2206A, 2205.3 
+358—16 
+Prequalified Connections for Special and Intermediate Steel Moment Frames for Seismic Applications 
+1705A.2.1, 2205A, 2205.4, 2206A.2, 2206.2.1, 
+2212.3, 3413A 
+ANSI/AISC 360—16 
+Specification for Structural Steel Buildings 
+722.5.2.2.1, 1604.3.3, 1705.2.1, 2202.1, 2203.1, 
+2205.1, 2205.2.1.1, 2206.1, 1705A.2.1, Table 
+1705A.2.1, 1705A.2.5, 2212.1.1, 2204A.4, 
+2212A.1.2. 2212A.2.1, 2204.4 
+
+
+AISI 
+American Iron and Steel Institute 
+25 Massachusetts Avenue, NW Suite 800 
+Washington, DC 20001 
+AISI S100—16 
+North American Specification for the Design of Cold-formed Steel Structural Members, 2016 
+1604.3.3, 1905.1.8, 2202.1, 2203.1, 2210.1, 
+2210.2, 2211A.2 
+AISI S202—15 
+Code of Standard Practice for Cold-formed 
+Steel Framing, 2015 
+2211.1.3.1 
+AISI S220—15 
+North American Standard for Cold-formed Steel Framing—Nonstructural Members, 2015 
+2202.1, 2203.1, 2211.2, Table 2506.2, Table 
+2507.2 
+AISI S230—15 
+Standard for Cold-formed Steel Framing— Prescriptive Method for One- and Two-family 
+Dwellings, 2015 
+1609.1.1, 1609.1.1.1, 2211.1.2 
+AISI S240—15 
+North American Standard for Cold-Formed Steel Structuring Framing, 2015 
+1705.2.2.2, 2202.1, 2203.1, 2211.1, 2211.1.1.1, 
+2211.1.3.3, Table 2306.12.2, Table 2506.2, Table 
+2507.2, Table 2603.12.1 
+AISI S400—15/S1—16 
+North American Standard for Seismic Design of Cold-formed Steel Structural Systems, 
+2015, with Supplement 1, dated 2016. 
+2210.2, 2211.1.1.1, 2211.1.1.2 
+
+ANSI 
+American National Standards Institute 
+25 West 43rd Street, Fourth Floor 
+New York, NY 10036 
+540—13 
+Test Method for Louvers Impacted by Wind Borne Debris 
+1609.2.1 
+A13.1—2015 
+Scheme for the Identification of Piping Systems 
+415.11.6.5 
+A108.1A—16 
+Installation of Ceramic Tile in the Wet-set 
+Method, with Portland Cement Mortar 
+2103.2.3 
+A108.1B—99 
+Installation of Ceramic Tile, Quarry Tile on a 
+Cured Portland Cement Mortar Setting Bed 
+with Dry-set or Latex-Portland Mortar 
+2103.2.3 
+A108.4—99 
+Installation of Ceramic Tile with Organic 
+Adhesives or Water-cleanable Tile-setting 
+Epoxy Adhesive 
+2103.2.3.6 
+A108.5—99 
+Installation of Ceramic Tile with Dry-set 
+Portland Cement Mortar or Latex-Portland 
+Cement Mortar 
+2103.2.3.1, 2103.2.3.2 
+A108.6—99 
+Installation of Ceramic Tile with Chemical-
+resistant, Water Cleanable Tile-setting and - 
+grouting Epoxy 
+2103.2.3.3 
+A108.8—99 
+Installation of Ceramic Tile with Chemical-resistant 
+Furan Resin Mortar and Grout 
+2103.2.3.4 
+A108.9—99 
+Installation of Ceramic Tile with Modified 
+Epoxy Emulsion Mortar/Grout 
+2103.2.3.5 
+A108.10—99 
+Installation of Grout in Tilework 
+2103.2.3.7 
+A118.1—16 
+American National Standard Specifications 
+for Dry-set Portland Cement Mortar 
+2103.2.3.1 
+A118.3—13 
+American National Standard Specifications 
+for Chemical-resistant, Water-cleanable Tile-setting 
+and -grouting Epoxy and Water 
+Cleanable Tile-setting Epoxy Adhesive 
+2103.2.3.3 
+A118.4—16 
+American National Standard Specifications 
+for Modified Dry-set Cement Mortar 
+2103.2.3.2, 2103.2.4 
+A118.5—99 
+American National Standard Specifications 
+for Chemical Resistant Furan Mortar and 
+Grouts for Tile Installation 
+2103.2.3.4 
+A118.6—10 
+American National Standard Specifications 
+for Cement Grouts for Tile Installation 
+2103.2.3.7 
+A118.8—99 
+American National Standard Specifications 
+for Modified Epoxy Emulsion Mortar/Grout 
+2103.2.3.5 
+A136.1—08 
+
+
+APA 
+APA - Engineered Wood Association 
+7011 South 19th Street 
+Tacoma, WA 98466 
+American National Standard Specifications 
+for the Installation of Ceramic Tile 
+2103.2.3.6 
+A137.1—17 
+American National Standard Specifications 
+for Ceramic Tile 
+202 
+S3.41 
+American National Standard Specifications 
+for Audible Emergency Evacuation Signal 
+907.5.2.1.3 
+Z 97.1—14 
+Safety Glazing Materials Used in Buildings— 
+Safety Performance Specifications and 
+Methods of Test 
+2406.1.2, 2406.2, Table 2406.2(2), 2406.3.1, 
+2407.1, 2407.1.4.1, 2408.2.1, 2408.3, 2409.2, 
+2409.3, 2409.4.1 
+APA PDS—12 
+Panel Design Specification 
+2306.1 
+APA PDS Supplement 1—12 
+Design and Fabrication of Plywood Curved Panels (revised 2013) 
+2306.1 
+Design and Fabrication of Plywood-lumber 
+Beams (revised 2013) 
+2306.1 
+APA PDS Supplement 3—12 
+Design and Fabrication of Plywood Stressed-skin 
+Panels (revised 2013) 
+2306.1 
+APA PDS Supplement 4—12 
+Design and Fabrication of Plywood Sandwich 
+Panels (revised 2013) 
+2306.1 
+APA PDS Supplement 5—16 
+Design and Fabrication of All-plywood 
+Beams (revised 2013) 
+2306.1 
+ANSI/APA PRG 320—17 
+Standard for Performance-rated Cross-laminated 
+Timber 
+2303.1.4 
+APA R540—13 
+Builders Tips: Proper Storage and Handling 
+of Glulam Beams 
+2306.1 
+APA S475—16 
+Glued Laminated Beam Design Tables 
+2306.1 
+APA S560—14 
+Field Notching and Drilling of Glued 
+Laminated Timber Beams 
+2306.1 
+APA T300—16 
+Glulam Connection Details 
+2306.1 
+APA X440—17 
+Product Guide: Glulam 
+2306.1 
+APA X450—01 
+Glulam in Residential Construction—Western 
+Edition 
+PS 2—10 
+Performance Standard for Wood-based Structural-use Panels 
+2303.1.5, 2304.7, Table 2304.8(5), Table 2306.2(1), 
+Table 2306.2(2) 
+PS 20—05 
+American Softwood Lumber Standard 
+202, 1810.3.2.4, 2303.1.1 
+
+
+
+ASABE 
+American Society of Agricultural and Biological Engineers 
+2950 Niles Road 
+St. Joseph, MI 49085 
+2306.1 
+EP 484.3 MON2016 
+Diaphragm Design of Metal-clad, Wood-frame Rectangular Buildings 
+2306.1 
+EP 486.2 OCT 2012ED 
+Shallow-post and Pier Foundation Design 
+2306.1 
+EP 559.2 MON2016 
+Design Requirements and Bending Properties for Mechanically Laminated Wood Assemblies 
+2306.1 
+
+
+ASCE/SEI 
+American Society of Civil Engineers 
+Structural Engineering Institute 
+1801 Alexander Bell Drive 
+Reston, VA 20191-4400 
+7—16 Minimum Design Loads and Associated Criteria for Buildings and Other Structures 
+with Supplement No. 1 
+104.11, 202, Table 1504.1.1, Table 1504.8, 
+1510.7.1, 1602.1, 1603A.2, 1604.3, 1604A.4, Table 
+1604.3, 1604.5, Table 1604.5, 1604.8.2, 1604.9, 
+1605.1, 1605.2.1, 1605.3.1, 1605.3.1.2, 1605.3.2, 
+1605.3.2.1, 1607.8.1, 1607.8.1.1, 1607.8.1.2, 
+1607.9, 1607.13.1, 1607.13.3.1, 1608.1, 1608.2, 
+1608.3, 1609.1.1, 1609.2, 1609.3, 1609.5.1, 
+1609.5.3, 1611.2, 1612.2, 1613.1, 1613.2.2, 
+1613.2.3, 1613.2.5, Table 1613.2.3(1), Table 
+1613.2.3(2), 1613.2.5.1, 1613.2.5.2, 1613.3, 
+1614.1, 1615.1, 1613A, 1617A, 1617.9, 1617.10, 
+1617.2, 1705.12, 1705.12.1.1, 1705.12.1.2, 
+1705.12.4, 1705.13.1.1, 1705.13.1.2, 1705.13.2, 
+1705.13.3, 1705.13.4, 1709.5, 1803A.6, 1803.5.12, 
+1808.3.1, 1809.13, 1810.3.6.1, 1810.3.8.3.2, 
+1810.3.8.3.3, 1810.3.9.4, 1810.3.11.2, 1810.3.12, 
+1901.2, 1905.1.1, 1905.1.2, 1905.1.7, 1905.1.8, 
+2205.2.1.1, 2205.2.1.2, 2205.2.2, 2206.2.1, 2209.1, 
+2209.2, 2210.2, 2211.1.1.1, 2212A.1.1, 2212A.2.4, 
+Table 2304.6.1, Table 2306.3(3), Table 2308.7.5, 
+2404.1, 2410.1.1, 2410.1.2, 2505.1, 2505.2, 
+2506.2.1 
+8—17 
+Standard Specification for the Design of Cold-formed Stainless Steel Structural Members 
+1604.3.3, 2210.1, 2210.2 
+19—16 
+Structural Applications of Steel Cables for Buildings 
+2208.1 
+Standard Calculation Methods for Structural Fire Protection 
+722.1 
+32—17 
+Design and Construction of Frost Protected Shallow Foundations 
+1809.5 
+41—13 
+Seismic Evaluation and Retrofit of Existing Buildings 
+1603A.2 
+41—17 
+[DSA-SS, DSA-SS/CC] Seismic Evaluation and 
+Retrofit of Existing Buildings 
+1603A.2, 1617A.1.30, 1617A.1.34 
+49—12 
+Wind Tunnel Testing for Buildings and Other Structures 
+1609.1.1 
+55—16 
+Tensile Membrane Structures 
+3102.2 
+
+ASME 
+American Society of Mechanical Engineers 
+Two Park Avenue 
+New York, NY 10016-5990 
+24—14 
+Flood Resistant Design and Construction 
+1202.4.2, 1202.4.4, 1612.4, 1612.5, 2702.1.8, 
+3001.3 
+29—17 
+
+
+AITC 110—01 
+Standard Appearance Grades for Structural 
+Glued Laminated Timber 
+2306.1 
+AITC 111—05 
+Recommended Practice for Protection of 
+Structural Glued Laminated Timber During 
+Transit, Storage and Erection 
+2303.1.3.1 
+AITC 113—10 
+Standard for Dimensions of Structural Glued 
+Laminated Timber 
+2306.1 
+AITC 119—96 
+Standard Specifications for Structural Glued 
+Laminated Timber of Hardwood Species 
+2306.1 
+AITC 200—09 
+Manufacturing Quality Control Systems 
+Manual for Structural Glued Laminated 
+Timber 
+2306.1 
+AITC 404—05 
+Standard for Radially Reinforcing Curved 
+Glued Laminated Timber Members to Resist 
+Radial Tension 
+2303.1.3.1 
+AITC 104—03 
+Typical Construction Details 
+
+
+AWC 
+American Wood Council 
+222 Catoctin Circle SE, Suite 201 
+Leesburg, VA 20175 
+AWC WCD No. 4—2003 
+Wood Construction Data—Plank and Beam 
+Framing for Residential Buildings 
+2306.1.2 
+ANSI/AWC WFCM—2018  
+ANSI/AWC NDS—2018 
+National Design Specification (NDS) for 
+Wood Construction—with 2018 NDS 
+Supplement 
+202, 722.1, Table 1604.3, 1809.12, 1810.3.2.4, 
+Table 1810.3.2.6, 1905.1.8, 2304.13, 2306.1, Table 
+2306.2(1), Table 2306.2(2), Table 2306.3(1), Table 
+2306.3(2), 2307.1, Table 2603.1.3.1, Table 
+2603.13.2 
+AWC STJR—2015 
+Span Tables for Joists and Rafters 
+2306.1.1, 2308.4.2.1, 2308.7.1, 2308.7.2 
+ANSI/AWC PWF—2015 
+Permanent Wood Foundation Design 
+Specification 
+1805.2, 1807.1.4, 2304.10.5.2 
+ANSI/AWC SDPWS—2015 
+Special Design Provisions for Wind and 
+Seismic 
+202, 2305.1, 2305.2, 2305.3, 2306.1, 2306.2, 
+2306.3, Table 2306.3(1), Table 2306.3(3), 2307.1 
+12-B—14 
+C1—03 
+
+
+AWCI 
+Association of the Wall and Ceiling Industry 
+513 West Broad Street, Suite 210 
+Falls Church, VA 22046 
+
+
+AWPA 
+American Wood Protection Association 
+P.O. Box 361784 
+Birmingham, AL 35236-1784 
+Wood Frame Construction Manual for One-and 
+Two-Family Dwellings 
+1609.1.1, 1609.1.1.1, 2302.1, 2308.2.4, 2308.6.7.2, 
+2309.1 
+USE CATEGORY SYSTEM: User Specification 
+for Treated Wood Except Commodity 
+Specification H 
+Table 1507.9.6, 1807.1.4, 1807.3.1, 1809.12, 
+1810.3.2.4.1, 1812.2, 1812A.2, 2303.1.9, 
+2304.12.1, 2304.12.2, 2304.12.3, 2304.12.4, 
+2304.12.5 
+All Timber Products—Preservative 
+Treatment by Pressure Processes 
+1505.6 
+M4—16 
+Standard for the Care of Preservative-treated 
+Wood Products 
+1810.3.2.4.1, 2303.1.9 
+
+
+AWS 
+American Welding Society 
+8669 NW 36 Street, #130 
+Miami, FL 33166 
+D1.1/D1.1M—15 
+Structural Welding Code—Steel 
+Table 1705A.2.1, 1705A.2.5, 2204.1.1, 2204A.1.1, 
+2212.6.2, 2213.2, 2213A.2 
+D1.2/D1.2M—15 
+Structural Welding Code—Aluminum 
+2003.1 
+D1.3/D1.3M—08 
+Structural Welding Code—Sheet Steel 
+Table 1705A.2.1, 1705A.2.5 
+D1.4/D1.4M—2011 
+Structural Welding Code
+Reinforcing Steel Including Metal Inserts and Connections In Reinforced Concrete Construction 
+1704.5, 1704A.5, Table 1705A.2.1, 1705.2.5, 
+1705A.2.5, Table 1705.3, 1705.3.1, 1705A.3.1, 
+1903.8, 1903A.8, 2107.3 
+D1.8/D1.8M—2016 
+Structural Welding Code — Seismic Supplement 
+Table 1705A.2.1, 1705A.2.5, 1705.2.5 
+QC1—2016 
+Specification for AWS Certification of Welding Inspectors 
+1705.2.5, 1705A.2.5 
+A 156.10—2011 
+
+ANSI 
+A135.4—2012 
+Basic Hardboard 
+1403.3.1, 2303.1.7 
+ANSI A135.5—2012 
+Prefinished Hardboard Paneling 
+2303.1.7, 2304.7 
+ANSI A135.6—2012 
+Engineered Wood Siding 
+1403.3.2, 2303.1.7 
+ANSI 117—15 Standard Specification for Structural Glued 
+Laminated Timber of Softwood Species 
+2303.1.3.1, 2306.1 
+ANSI/APA A190.1—17 
+Structural Glued Laminated Timber 
+1705A.5.4, 2303.1.3, 2306.1 
+ANSI/APA PRP 210—14 
+Standard for Performance-Rated Engineered Wood Siding 
+2303.1.5, 2304.7, 2306.3, Table 2306.3(1) 
+ANSI/APA PRR 410—16 
+Standard for Performance-Rated Engineered Wood Rim Boards 
+2303.1.13 
+
+
+CPA 
+Composite Panel Association 
+19465 Deerfield Avenue, Suite 306 
+Leesburg, VA 20176 
+CPSC 
+A208.1—2016 
+Particleboard 
+2303.1.8, 2303.1.8.1 
+
+
+FEMA 
+Federal Emergency Management Agency 
+Federal Center Plaza 
+500 C Street S.W. 
+Washington, DC 20472 
+FEMA-TB-11—01 
+Crawlspace Construction for Buildings Located in Special Flood Hazard Areas 
+1805.1.2.1 
+
+FM 
+FM Approvals 
+Headquarters Office 
+1151 Boston-Providence Turnpike 
+P.O. Box 9102 
+Norwood, MA 02062 
+29 
+CFR 
+Part 
+1910.1000 (2015) 
+Air Contaminants 
+202 
+FM 1950— 2016 
+American 
+National 
+Standard for Seismic Sway Braces for Pipe, Tubing and Conduit 
+1705A.13.2, 1705.13.2 
+3260—00 
+910.3.1 
+FM 4430—12 
+Approved Standard for Smoke and Heat Vents 
+910.3.2 
+4430—80 
+Acceptance Criteria for Smoke and Heat 
+Vents 
+910.3.1 
+4430—2012 
+Approval Standard for Heat and Smoke Vents 
+910.3.1 
+4450—(1989) 
+Approval Standard for Class 1 Insulated Steel Deck Roofs—with Supplements 
+through July 1992 
+1509.2 
+4470—2016 
+Approval Standard for Single-ply Polymer-modified Bitumen Sheet, Built-up Roof (BUR) 
+and Liquid Applied Roof Assemblies for Use in Class 1 and Noncombustible Roof Deck Construction 
+1504.7 
+4474—2011 
+American National Standard for Evaluating the Simulated Wind Uplift Resistance of Roof 
+Assemblies Using Static Positive and/or Negative Differential Pressures 
+1504.3.1, 1504.3.2, 1504.3.3 
+4880—2015 
+Approval Standard for Class 1 Fire Rating of Building Panels or Interior Finish Materials 
+2603.4, 2603.9 
+GA 216— 
+2016 
+
+
+GA 
+Gypsum Association 
+6525 Belcrest Road, Suite 480 
+Hyattsville, MD 20782 
+
+
+ICC 
+International Code Council, Inc. 
+500 New Jersey Ave NW 
+6th Floor 
+Washington, DC 20001 
+ICC 300—17 
+ICC Standard on Bleachers, Folding and Telescopic Seating and Grandstands 
+1029.1.1, 1029.7, Table 1607.1 
+ICC 400—17 Standard on Design and Construction of Log Structures 
+2302.2 
+ICC 500—14 
+ICC/NSSA Standard on the Design and Construction of Storm Shelters 
+202, 423.1, 423.2, 423.3, 423.4, 1604.5.1, 1604.10 
+ICC 600—14 
+Standard for Residential Construction in High-wind Regions 
+1609.1.1, 1609.1.1.1, 2308.2.4 
+ICC 900/SRCC 300—2015 
+Solar Thermal System Standard 
+3111.2.1 
+ICC 901/SRCC 100—2015 Solar Thermal Collector Standard 
+3111.2.1 
+ICC-ES AC 01—18* 
+Acceptance Criteria for Expansion Anchors in Masonry Elements 
+1617A.1.19 
+ICC-ES AC 58—18* 
+Acceptance Criteria for Adhesive Anchors in Masonry Elements 
+1617A.1.19 
+ICC-ES AC 70—18* 
+Acceptance Criteria for Fasteners Power-Driven into Concrete, Steel and Masonry Elements 
+1617A.1.20 
+ICC-ES AC 77 
+52 of 92 Exported from 
+Acceptance Criteria for Smoke Containment Systems Used with Fire-resistance-rated 
+Elevator Hoistway Doors and Frames 
+707.14.1 
+ICC-ES AC 106—18* 
+Acceptance Criteria for Predrilled Fasteners (Screw Anchors) in Masonry 
+1617A.1.19 
+ICC-ES AC 125—18* 
+Acceptance Criteria for Concrete, and Reinforced and Unreinforced Masonry 
+Strengthening Using Externally Bonded Fiber-Reinforced Polymer (FRP) Composite Systems 
+1911A.3, 1911.3 
+ICC-ES AC 156—18* 
+Acceptance Criteria for Seismic Certification by Shake-Table Testing of Nonstructural Components 
+1705A.13.3 
+ICC-ES AC 178—18* 
+Acceptance Criteria for Inspection and Verification of Concrete, and Reinforced and 
+Unreinforced Masonry Strengthening Using Fiber-Reinforced Polymer (FRP) Composite Systems 
+1911A.3, 1911.3 
+ICC-ES AC 193—18* 
+Acceptance Criteria for Mechanical Anchors in Concrete Elements 
+1617A.1.19, 1901.3.2 
+ICC-ES AC 232—18* 
+Acceptance Criteria for Anchor Channels in Concrete Elements 
+1617A.1.19, 1901.3.2 
+ICC-ES AC 308—18* 
+Acceptance Criteria for Post-Installed Adhesive Anchors in Concrete Elements 
+1617A.1.19, 1901.3.3 
+ICC-ES AC 331 
+Acceptance Criteria for Smoke and Heat 
+Vents 
+910.3.1 
+ICC-ES AC 358—18* 
+Acceptance Criteria for Helical Foundation Systems and Devices 
+53 of 92 Exported from 
+ICC 900/SRCC 300—2015 
+Solar Thermal System Standard 
+3111.2.1 
+ICC 901/SRCC 100—2015 
+Solar Thermal Collector Standard 
+3111.2.1 
+222-H— 
+2016 
+Structural Standards for Antenna Supporting Structures and Antennas 
+1609.1.1, 3108.1, 3108.2 
+216 
+2013 
+
+
+ISO 
+International Organization for Standardization 
+Chemin de Blandonnet 8 
+CP 401 
+1214 Vernier 
+Geneva, Switzerland 
+
+
+MHI 
+Material Handling Institute 
+8720 Red Oak Blvd. Suite 201 
+Charlotte, NC 28217 
+
+
+NAAMM 
+National Association of Architectural Metal Manufacturers 
+800 Roosevelt Road, Bldg. C, Suite 312 
+Glen Ellyn, IL 60137 
+
+
+NCMA 
+National Concrete Masonry Association 
+13750 Sunrise Valley 
+Herndon, VA 22071-4662 
+1810A.3.1.5.1, 1810.3.1.5.1 
+ICC-ES AC 446—18* 
+Acceptance Criteria for Headed Cast-in Specialty Inserts in Concrete 
+1617A.1.19, 1901.3.2 
+SBCCI SSTD 11—97 
+Test Standard for Determining Wind Resistance of Concrete or Clay Roof Tiles 
+1504.2.1.1, 1504.2.1.2 
+* Refers to International Building Code, 2018 as a reference standard. 
+ISO 8115— 86Cotton 
+Bales—Dimensions and Density 
+Table 307.1(1), Table 415.11.1.1.1 
+ISO 8336—09 
+Fiber-cement Flat Sheets—Product Specification and Test Methods 
+1403.10, 1404.16.1, 1404.16.2, Table 2509.2 
+ISO 9001—15 
+Quality Management Systems - Requirements 
+1705A.13.3 
+
+
+ANSI 
+MH29.1—08 
+Safety Requirements for Industrial Scissors Lifts 
+Table 3001.3 
+FP 1001—17 
+Guide Specifications for Design of Metal Flag Poles 1609.1.1 
+TEK 5—84(1996) 
+ANSI/SPRI/FM 4435-ES-1—11 
+Wind Test Design Standard for Edge Systems Used with Low Slope Roofing Systems 
+1504.5 
+ANSI/SPRI RP-4—13 
+Wind Design Guide for Ballasted Single-ply Roofing Systems 
+1504.4 
+ANSI/SPRI VF1—10 
+External Fire Design Standard for Vegetative Roofs 
+1505.10 
+
+
+PCI 
+Precast Prestressed Concrete Institute 
+200 West Adams Street, Suite 2100 
+Chicago, IL 60606-6938 
+Design for Fire Resistance of Precast Prestressed Concrete 
+722.2.3.1 
+MNL 128—01 
+Recommended Practice for Glass Fiber Reinforced Concrete Panels 
+1903.3 
+MNL 120—17 PCI Design Handbook 8th Edition 
+1905A.1.1, 1905A.1.2 
+
+
+PTI 
+Post-Tensioning Institute 
+38800 Country Club Drive 
+Farmington Hills, MI 48331 
+PTI DC—10.5-12 
+Standard Requirements for Design and Analysis of Shallow Concrete Foundations on Expansive Soils 
+1808.6.2 
+ANSI/MH16.1—12 PTI DC35.1— 14 
+Recommendations for Prestressed Rock and Soil Anchors 
+1810A.3.10.4, 1811A.2, 1812A.4, 1812A.5, 
+1810.3.10.4.1, 1811.2, 1812.4, 1812.5,1813.2 
+
+
+RMI 
+Rack Manufacturers Institute 
+8720 Red Oak Boulevard, Suite 201 
+Charlotte, NC 28217 
+415.6.1.1 
+2001—15 
+
+
+SBCA 
+Structural Building Components Association 
+6300 Enterprise Lane 
+Madison, WI 53719 
+
+
+SFM 
+State of California Department of Forestry and Fire Protection Office of the State Fire Marshal 
+P.O. Box 944246 
+Sacramento, CA 94246-2460 
+Specification for Design, Testing and Utilization of Industrial Steel Storage Racks 
+2209.1 
+ANSI/MH16.3—16 
+Specification for the Design, Testing and Utilization of Industrial Steel Cantilevered Storage Racks 
+2209.2 
+ANSI/FS 100-12 
+Standard Requirements for Wind Pressure Resistance of Foam Plastic Insulating 
+Sheathing Used in Exterior Wall Covering Assemblies 
+2603.10 
+
+
+SDI 
+Steel Deck Institute 
+2661 Clearview Road #3 
+Allison Park, PA 15101 
+SDI NC—2017 
+Standard 
+for 
+Noncomposite Steel Floor Deck 
+2210.1.1.1 
+SDI RD—2017 
+Standard for Steel Roof Deck 
+2210.1.1.2 
+SDI-C—2017 
+Standard for Composite Steel Floor Deck— 
+Slabs 
+2210.1.1.3 
+SDI-QA/QC—2017 
+Standard for Quality Control and Quality Assurance for Installation of Steel Deck 
+1705.2.2 
+
+
+SJI 100—15 
+44th Edition 
+Standard Specification Load Tables and Weight Tables for Steel Joists and Joist Girders 
+K-Series, LH-Series, DHL-Series, Joist Girders 
+SJI 200—15 
+Standard Specification for Composite Steel 
+Joists, CJ-Series 
+1604.3.3, 2203.2, 2207.1 
+
+
+SPRI 
+Single-Ply Roofing Institute 
+465 Waverly Oaks Road, Suite 421 
+Waltham, MA 02452 
+
+
+SRCC 
+Solar Rating & Certification Corporation 
+3060 Saturn Street, Suite 100 
+Brea, CA 92821 
+
+
+TIA 
+Telecommunications Industry Association 
+1320 N. Courthouse Road #200 
+Arlington, VA 22201-3834 
+
+
+TMS 
+The Masonry Society 
+105 South Sunset Street, Suite Q 
+Longmont CO 80501 
+1604.3.3, 2203.2, 2207.1 
+402—2016 
+Building Code for Masonry Structures 
+1404.6, 1404.6.2, 1404.10, 1604.3.4, 1705.4, 
+1705.4.1, 1807.1.6.3.2, 1808.9, 2101.2, 2106.1, 
+2107.1, 2107.2, 2107.3, 2108.1, 2108.2, 2108.3, 
+2109.1, 2109.1.1, 2109.2, 2110.1, 2114.1, 2114.4, 
+1411.2.1, 2106A.1.1, 2107A.5, 2107A.6, 2115.7, 
+2115.8, 2107.4, 2107.5, 2107.6, 2105A.3, 
+2106A.1.1, 2115.9, 2115.10 
+403—2017 Direct Design Handbook for Masonry Structures 2101.2 
+404—2016 Standard for the Design of Architectural Cast Stone 2102.2 
+504—2016 Standard for the Fabrication of Architectural Cast Stone 2103.1 
+602—2016 Specification for Masonry Structures 
+1404.6.1, 1705.4, 1705A.4, 1807.1.6.3, 2103.1, 
+2103.2.1, 2103.3, 2103A.3.1, 2103.4, 2104.1, 
+2104A.1.3.1.1, 2105A.1.3.1.2, 2104A.1.3.1.1, 
+2104A.1.3.1.2.1, 2105.1, 2105.3, 2105A.3, 2105.5, 
+2105A.5, 2105A.6, 2105.6, 2106.6 
+604—2016 
+Standard for the Installation of Architectural Cast Stone 2104.1 
+302-2018 
+Standard Method for Determining the Sound Transmission Class Rating for Masonry Walls 1207.2.1 
+
+
+TPI 
+Truss Plate Institute 
+218 N. Lee Street, Suite 312 
+Alexandria, VA 22314 
+TPI 1—2014 National Design Standard for Metal-plate-connected Wood Truss Construction 
+2303.4.6, 2306.1 
+Standard Method for Determining Fire 
+Resistance of Concrete and Masonry 
+Construction Assemblies 
+Table 721.1(2), 722.1 
+
+
+UBC 
+International Code Council, Inc. 
+500 New Jersey Avenue, NW 6th Floor 
+Washington, DC 20001 
+302—2012 UBC Standard 15-2
+UBC Standard 15-3 
+Wood Shakes 1505.6 
+UBC Standard 15-4 Wood Shingles 1505.6 
+
+
+UL 
+UL LLC 
+333 Pfingsten Road 
+Northbrook IL60062-2096 
+Test Standard for Determining the Fire 
+Retardancy of Roof-Covering Materials 
+1505.6 
+Materials for Built-up Roof Coverings 
+1507.10.2 
+103—2010 
+Factory-built Chimneys, for Residential Type 
+and Building Heating Appliances—with 
+Revisions through July 2012 
+718.2.5.1 
+127—2011 
+Uplift Tests for Roof Covering Systems—with 
+Revisions through September 2015 
+1504.3.1, 1504.3.3, 1507.18.7 
+1975—06 
+
+
+USC 
+United States Code 
+c/o Superintendent of Documents 
+U.S. Government Printing Office 
+732 North Capitol Street NW 
+Washington, DC 20401 
+
+
+WCLIB 
+West Coast Lumber Inspection Bureau 
+P.O. Box 23145 
+Portland, OR 97281 
+
+
+WDMA 
+Window and Door Manufacturers Association 
+2025 M Street NW, Suite 800 
+Washington, DC 20036-3309 
+
+
+WRI 
+Wire Reinforcement Institute, Inc. 
+942 Main Street, Suite 300 
+Hartford, CT 06103 
+2306.1 
+WRI/CRSI—81 
+Design of Slab-on-ground Foundations—with 
+1996 Update 
+

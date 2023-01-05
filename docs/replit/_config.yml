@@ -1,0 +1,5 @@
+theme: jekyll-theme-minimal
+title: RivtCalc on repl.it 
+logo: images/repl1_logo.jpg
+description: Interactive RivtCalc examples
+show_downloads: false

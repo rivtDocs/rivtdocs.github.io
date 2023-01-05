@@ -1,0 +1,570 @@
+2017-04-01 00:55:05.607228      on-c-e version: 0.9.0
+ Calc Sections
+=============
+[1] A-frame Assembly Tests - S100 Chapter F
+[2] A-frame Assembly Tests - D/C Ratios
+[3] Leg, Tie, Pivot Arm D/C
+
+
+ 
+============================================================================
+rame Assembly Tests - S100 Chapter F                              [0401][1]
+============================================================================
+ 
+  A-frame assembly pairs were tested as illustrated in Fig. 1.1 through 1.3. The
+  tests loaded the following five components up to and beyond the design loads.
+  The test loads that were used are ultimate factored loads which are
+  approximately 1.4 times the loads derived from the NIBC ASD methods applied to
+  the project site.
+ 
+  - A-frame
+  - Arc-gear
+  - pivot arm and pin
+  - pinion gear and bushing
+  - locking plate
+ 
+  Z-purlins, FEJ and other components were tested in separate tests summarized
+  in [0402][1].  
+ 
+  Test details are provided in Appendix 2. The tests followed the
+  procedures of *AISI S100 - Chapter F: Tests For Special Cases* which specifies
+  how to calculate the capacity reduction factor :math:`\phi` as a function of
+  several test parameters specified below. Tests of three A-frame pairs were
+  conducted at 0 degree stow and two at 20 degree tilt.  A total of 6 A-frame
+  assembly tests were conducted at stow and 4 at 20 degrees. The Arc-gear was
+  the limiting component for the stow tests. The 20 degree tests were stopped
+  at before failure. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                   Parameters for Resistance Factor \phi  [1.1]
+ 
+    calibration coefficient          | C_c = 1.52
+ 
+    material factor                  | M_m = 1.1
+ 
+    fabrication factor               | F_m = 1
+ 
+    professional factor              | P_m = 1.0
+ 
+    material variation               | V_m = 0.06
+ 
+    fabrication factor               | V_f = 0.05
+ 
+    test variation                   | V_p = 0.065
+ 
+    load effect                      | V_q = 0.21
+ 
+    reliability index                | B_o = 2.5
+ 
+    sample size                      | n4 = 4
+ 
+    sample size                      | n6 = 6
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                      Sample size correction factor n=6   [1.2]
+ 
+⎛    1 ⎞         
+⎜1 + ──⎟⋅(n₆ - 1)
+⎝    n₆⎠         
+─────────────────
+      n₆ - 3     
+ 
+ 
+                                                                      C6_P=1.94
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                    Resistance factor - sample size n=6   [1.3]
+ 
+                                        0.5             
+         ⎛        2      2     2      2⎞                
+     -Bₒ⋅⎝C_6_P⋅Vₚ  + V_f  + Vₘ  + V_q ⎠                
+2.718                                      ⋅C_c⋅Fₘ⋅Mₘ⋅Pₘ
+ 
+ 
+                                                                      phi6=0.91
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                      Sample size correction factor n=4   [1.4]
+ 
+⎛    1 ⎞         
+⎜1 + ──⎟⋅(n₄ - 1)
+⎝    n₄⎠         
+─────────────────
+      n₄ - 3     
+ 
+ 
+                                                                      C4_P=3.75
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                    Resistance factor - sample size n=4   [1.5]
+ 
+                                        0.5             
+         ⎛        2      2     2      2⎞                
+     -Bₒ⋅⎝C_4_P⋅Vₚ  + V_f  + Vₘ  + V_q ⎠                
+2.718                                      ⋅C_c⋅Fₘ⋅Mₘ⋅Pₘ
+ 
+ 
+                                                                      phi4=0.88
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+============================================================================
+rame Assembly Tests - D/C Ratios                                  [0401][2]
+============================================================================
+ 
+ 
+  | **Table 2.1 : Force (Fd) and Moment (Md) Design Capacities From Tests**
+ 
+  ======== ========== ========== ========= ============ ==== === ==== 
+  Test No. Tilt (deg) Distortion  Ft (kN)  Mt (kN-M)    phi  Fd  Md   
+  ======== ========== ========== ========= ============ ==== === ==== 
+  1        0          A-gear     5.8       3.0          0.91 2.7 1.4  
+  2        0          A-gear     5.8       3.0          0.91 2.7 1.4  
+  3        0          A-gear     5.7       2.9          0.91 2.6 1.3  
+  4        0          A-gear     5.7       2.9          0.91 2.6 1.3  
+  5        0          A-gear     5.9       3.1          0.91 2.7 1.4  
+  6        0          A-gear     5.9       3.1          0.91 2.7 1.4  
+  Average  0                                                 2.7 1.4  
+  1        20         None       7.0       3.6          0.88 3.1 1.5 
+  2        20         None       7.0       3.6          0.88 3.1 1.5 
+  3        20         None       7.1       3.7          0.88 3.2 1.6 
+  4        20         None       7.1       3.7          0.88 3.2 1.6 
+  Average  20                                                3.2 1.6 
+  ======== ========== ========== ========= ============ ==== === ==== 
+ 
+ 
+ 
+  For the following calculations:
+ 
+  - See Table 2.1 above and [0202][3] Table 3.2 for factored demands and
+    capacities
+  - Dynamic factor is 1x for 0 degree stow and 2x for 20 degree moments
+ 
+                                                                 Demands  [2.1]
+ 
+    from [0202][3] Table 3.2         | F_0 = 1.80 KN
+ 
+    from [0202][3] Table 3.2         | M_0 = 0.90 KN.m
+ 
+    from [0202][3] Table 3.2         | F_20 = 1.50 KN
+ 
+    from [0202][3] Table 3.2         | M_20 = 1.40 KN.m
+ 
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                                 Force D/C - 0 deg stow   [2.2]
+ 
+0.37037037037037⋅F₀
+───────────────────
+         KN        
+ 
+ 
+                                                                  DC0_F = 0.67 
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                          Moment D/C Ratio - 0 deg stow   [2.3]
+ 
+0.714285714285714⋅M₀
+────────────────────
+        KN⋅M        
+ 
+ 
+                                                                  DC0_M = 0.64 
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                     Force D/C Ratio Operation - 20 deg   [2.4]
+ 
+0.3125⋅F₂₀
+──────────
+    KN    
+ 
+ 
+                                                                 DC20_F = 0.47 
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                     Moment D/C Ratio - Operation with dynamics- 20 deg   [2.5]
+ 
+0.625⋅M₂₀
+─────────
+   KN⋅M  
+ 
+ 
+                                                                 DC20_M = 0.87 
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+============================================================================
+, Tie, Pivot Arm D/C                                              [0401][3]
+============================================================================
+ 
+  **Leg - critical section at tie**
+ 
+                                    load case 1 at leg: wind down - stow  [3.1]
+ 
+    maximum compression in leg       | Pcomp_1 = 1.50 KN
+ 
+    maximum moment at tie            | Myy_1 = 0.20 KN.m
+ 
+    maximum shear at tie             | Vx_1 = 0.50 KN
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  ::
+  `
+    | CFS Version 10.0.0
+    | Section: leg2_25_18.cfss
+    | Channel 2.5x2x0.5-18 Gage
+    | 
+    | Rev. Date: Thursday, Nov, 03, 16 3:40:50 PM
+    | 
+    | Printed: Saturday, Apr, 01, 17 12:06:17 AM
+    | 
+    | Full Section Properties
+    | 
+    | Area      208.29 mm^2   Wt.     0.016020 kN/m   Width     181.83 mm
+    |  
+    | Ix        146964 mm^4   rx        26.562 mm     Ixy            0 mm^4
+    | Sx(t)     4628.8 mm^3   y(t)      31.750 mm     a          0.000 deg
+    | Sx(b)     4628.8 mm^3   y(b)      31.750 mm
+    |                        Height     63.500 mm
+    | Iy         75950 mm^4   ry        19.095 mm     xo       -46.129 mm
+    | Sy(l)     3760.3 mm^3   x(l)      20.198 mm     yo         0.000 mm
+    | Sy(r)     2481.8 mm^3   x(r)      30.602 mm     jx        53.896 mm
+    |                        Width      50.800 mm     jy         0.000 mm
+    | I1        146964 mm^4   r1        26.562 mm
+    | I2         75950 mm^4   r2        19.095 mm
+    | Ic        222914 mm^4   rc        32.714 mm     Cw      77054910 mm^6
+    | Io        666143 mm^4   ro        56.552 mm     J          91.11 mm^4
+    |  
+    | Net Section Properties
+    | 
+    | Ix        135650 mm^4   rx        26.264 mm     Area      196.65 mm^2
+    | Sx(t)     4272.4 mm^3   y(t)      31.750 mm     Ixy            0 mm^4
+    | Sx(b)     4272.4 mm^3   y(b)      31.750 mm     a          0.000 deg
+    |  
+    | Iy         71974 mm^4   ry        19.131 mm     xo       -44.157 mm
+    | Sy(l)     3760.7 mm^3   x(l)      19.138 mm     yo         0.000 mm
+    | Sy(r)     2273.2 mm^3   x(r)      31.662 mm     jx        53.062 mm
+    |                                                 jy         0.000 mm
+    | Ic        207624 mm^4   rc        32.493 mm     Cw      75562500 mm^6
+    | Io        591063 mm^4   ro        54.823 mm     J          86.02 mm^4
+    | 
+    |  
+    | Fully Braced Strength - 1999 AISI Specification (ASD)
+    | 
+    | Material Type: A653 SS Grade 50/1, Fy=344.74 MPa
+    | Compression             Positive Moment         Positive Moment
+    | Pao       23.949 kN     Maxo     0.62369 kN-m   Mayo     0.46843 kN-m
+    | Ae        125.05 mm^2   Ixe       109608 mm^4   Iye        71900 mm^4
+    |                         Sxe(t)    3021.3 mm^3   Sye(l)    3761.4 mm^3
+    | Tension                 Sxe(b)    4026.5 mm^3   Sye(r)    2269.2 mm^3
+    | Ta        44.066 kN
+    |                         Negative Moment         Negative Moment
+    |                         Maxo     0.62369 kN-m   Mayo     0.46091 kN-m
+    | Shear                   Ixe       109608 mm^4   Iye        68677 mm^4
+    | Vay        9.097 kN     Sxe(t)    4026.5 mm^3   Sye(l)    3426.8 mm^3
+    | Vax       14.183 kN     Sxe(b)    3021.3 mm^3   Sye(r)    2232.7 mm^3
+    | 
+    |  
+    | Member Check - 1999 AISI Specification (ASD)
+    | 
+    | Material Type: A653 SS Grade 50/1, Fy=344.74 MPa
+    | Design Parameters:
+    | Lx        1.0000 m      Ly        1.0000 m      Lt        1.0000 m
+    | Kx        1.0000        Ky        1.0000        Kt        1.0000
+    | Cbx       1.0000        Cby       1.0000        ex        0.0000 mm
+    | Cmx       1.0000        Cmy       1.0000        ey        0.0000 mm
+    | Braced Flange: None     kf             0 kN     
+    | Red. Factor, R: 0       Lm        6.0960 m      
+    |  
+    | Loads:           P         Mx         Vy         My         Vx
+    |                (kN)     (kN-m)       (kN)     (kN-m)       (kN)
+    | Entered       1.500    0.00000      0.000    0.21000      0.500
+    | Applied       1.500    0.00000      0.000    0.21000      0.500
+    | Strength     15.459    0.62369      9.097    0.46843     14.183
+    |  
+    | Effective section properties at applied loads:
+    | Ae        208.29 mm^2   Ixe       146964 mm^4   Iye        75950 mm^4
+    |                         Sxe(t)    4628.8 mm^3   Sye(l)    3760.3 mm^3
+    |                         Sxe(b)    4628.8 mm^3   Sye(r)    2481.8 mm^3
+    |  
+    | Interaction Equations
+    | AISI Eq. C5.2.1-1 (P, Mx, My)  0.097 + 0.000 + 0.456 = 0.553 <= 1.0
+    | AISI Eq. C5.2.1-2 (P, Mx, My)  0.063 + 0.000 + 0.448 = 0.511 <= 1.0
+    | AISI Eq. C3.3.1-1    (Mx, Vy)          0.000 + 0.000 = 0.000 <= 1.0
+    | AISI Eq. C3.3.1-1    (My, Vx)          0.201 + 0.001 = 0.202 <= 1.0
+  `
+ 
+ 
+ 
+  **Tie - critical section at leg**
+ 
+                                      load case 1 at leg: wind up - stow  [3.2]
+ 
+    maximum compression in tie       | Pcomp_2 = 0.90 KN
+ 
+    maximum moment at tie            | Myy_2 = 0.20 KN.m
+ 
+    maximum shear at tie             | Vx_2 = 0.80 KN
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  ::
+  `
+    | CFS Version 10.0.0
+    | Section: tie_35_18.cfss
+    | Channel 3.5x1-18 Gage
+    | 
+    | Rev. Date: Tuesday, Mar, 28, 17 6:53:59 PM
+    | 
+    | Printed: Saturday, Apr, 01, 17 12:21:11 AM
+    | 
+    | Full Section Properties
+    | 
+    | Area      155.07 mm^2   Wt.     0.011926 kN/m   Width     135.36 mm
+    |  
+    | Ix        169460 mm^4   rx        33.058 mm     Ixy            0 mm^4
+    | Sx(t)     3812.4 mm^3   y(t)      44.450 mm     a          0.000 deg
+    | Sx(b)     3812.4 mm^3   y(b)      44.450 mm
+    |                        Height     88.900 mm
+    | Iy          8477 mm^4   ry         7.394 mm     xo       -12.556 mm
+    | Sy(l)     1652.2 mm^3   x(l)       5.131 mm     yo         0.000 mm
+    | Sy(r)      418.2 mm^3   x(r)      20.269 mm     jx        52.385 mm
+    |                        Width      25.400 mm     jy         0.000 mm
+    | I1        169460 mm^4   r1        33.058 mm
+    | I2          8477 mm^4   r2         7.394 mm
+    | Ic        177937 mm^4   rc        33.875 mm     Cw      11512660 mm^6
+    | Io        202383 mm^4   ro        36.127 mm     J         67.829 mm^4
+    | 
+    |  
+    | Fully Braced Strength - 1999 AISI Specification (ASD)
+    | 
+    | Material Type: A653 SS Grade 50/1, Fy=344.74 MPa
+    | Compression             Positive Moment         Positive Moment
+    | Pao       17.937 kN     Maxo     0.65938 kN-m   Mayo     0.02623 kN-m
+    | Ae        93.656 mm^2   Ixe       150760 mm^4   Iye         2854 mm^4
+    |                         Sxe(t)    3194.2 mm^3   Sye(l)     971.5 mm^3
+    | Tension                 Sxe(b)    3615.2 mm^3   Sye(r)     127.1 mm^3
+    | Ta        32.010 kN
+    |                         Negative Moment         Negative Moment
+    |                         Maxo     0.65938 kN-m   Mayo     0.08575 kN-m
+    | Shear                   Ixe       150760 mm^4   Iye         8338 mm^4
+    | Vay        9.731 kN     Sxe(t)    3615.2 mm^3   Sye(l)    1565.5 mm^3
+    | Vax        7.091 kN     Sxe(b)    3194.2 mm^3   Sye(r)     415.4 mm^3
+    | 
+    |  
+    | Member Check - 1999 AISI Specification (ASD)
+    | 
+    | Material Type: A653 SS Grade 50/1, Fy=344.74 MPa
+    | Design Parameters:
+    | Lx        0.5000 m      Ly        0.5000 m      Lt        0.5000 m
+    | Kx        1.0000        Ky        1.0000        Kt        1.0000
+    | Cbx       1.0000        Cby       1.0000        ex        0.0000 mm
+    | Cmx       1.0000        Cmy       1.0000        ey        0.0000 mm
+    | Braced Flange: None     kf             0 kN     
+    | Red. Factor, R: 0       Lm        6.0960 m      
+    |  
+    | Loads:           P         Mx         Vy         My         Vx
+    |                (kN)     (kN-m)       (kN)     (kN-m)       (kN)
+    | Entered       0.900    0.20000      0.800    0.00000      0.500
+    | Applied       0.900    0.20000      0.800    0.00000      0.500
+    | Strength     14.565    0.63310      9.731    0.02623      7.091
+    |  
+    | Effective section properties at applied loads:
+    | Ae       155.066 mm^2   Ixe       169460 mm^4   Iye         8477 mm^4
+    |                         Sxe(t)    3812.4 mm^3   Sye(l)    1652.2 mm^3
+    |                         Sxe(b)    3812.4 mm^3   Sye(r)     418.2 mm^3
+    |  
+    | Interaction Equations
+    | AISI Eq. C5.2.1-1 (P, Mx, My)  0.062 + 0.316 + 0.000 = 0.378 <= 1.0
+    | AISI Eq. C5.2.1-2 (P, Mx, My)  0.050 + 0.316 + 0.000 = 0.366 <= 1.0
+    | AISI Eq. C3.3.1-1    (Mx, Vy)          0.092 + 0.007 = 0.099 <= 1.0
+    | AISI Eq. C3.3.1-1    (My, Vx)          0.000 + 0.005 = 0.005 <= 1.0
+  `
+ 
+ 
+ 
+ 
+  **Pivot Arm - critical section at pin**
+ 
+                                      load case 1 at leg: wind up - stow  [3.3]
+ 
+    maximum compression arm          | Pcomp_3 = 100.00 lbs
+ 
+    maximum moment in arm            | Myy_3 = 2800.00 in.lbs
+ 
+    maximum shear in arm             | Vx_3 = 130.00 lbs
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  ::
+  `
+    | CFS Version 10.0.0
+    | Section: pivot_35x.cfss
+    | Channel 3.5x1-18 Gage
+    | 
+    | Rev. Date: Monday, Nov, 21, 16 4:36:29 PM
+    | 
+    | Printed: Saturday, Apr, 01, 17 12:26:30 AM
+    | 
+    | Full Section Properties
+    | 
+    | Area      161.74 mm^2   Wt.     0.012439 kN/m   Width     141.19 mm
+    |  
+    | Ix        177521 mm^4   rx        33.130 mm     Ixy            0 mm^4
+    | Sx(t)     3993.7 mm^3   y(t)      44.450 mm     a          0.000 deg
+    | Sx(b)     3993.7 mm^3   y(b)      44.450 mm
+    |                        Height     88.900 mm
+    | Iy          9951 mm^4   ry         7.844 mm     xo       -14.226 mm
+    | Sy(l)     1725.9 mm^3   x(l)       5.766 mm     yo         0.000 mm
+    | Sy(r)      582.1 mm^3   x(r)      17.094 mm     jx        48.469 mm
+    |                        Width      22.860 mm     jy         0.000 mm
+    | I1        177521 mm^4   r1        33.130 mm
+    | I2          9951 mm^4   r2         7.844 mm
+    | Ic        187472 mm^4   rc        34.046 mm     Cw      15283290 mm^6
+    | Io        220206 mm^4   ro        36.898 mm     J          70.75 mm^4
+    |  
+    | Net Section Properties
+    | 
+    | Ix        176681 mm^4   rx        34.646 mm     Area      147.19 mm^2
+    | Sx(t)     3919.5 mm^3   y(t)      45.078 mm     Ixy          527 mm^4
+    | Sx(b)     4031.8 mm^3   y(b)      43.822 mm     a         -0.181 deg
+    |  
+    | Iy          9518 mm^4   ry         8.042 mm     xo       -14.784 mm
+    | Sy(l)     1515.9 mm^3   x(l)       6.279 mm     yo         0.124 mm
+    | Sy(r)      574.0 mm^3   x(r)      16.581 mm     jx        45.357 mm
+    |                                                 jy         0.714 mm
+    | Ic        186200 mm^4   rc        35.567 mm     Cw      15211970 mm^6
+    | Io        218373 mm^4   ro        38.518 mm     J          64.38 mm^4
+    | 
+    |  
+    | Fully Braced Strength - 1999 AISI Specification (ASD)
+    | 
+    | Material Type: A653 SS Grade 50/1, Fy=344.74 MPa
+    | Compression             Positive Moment         Positive Moment
+    | Pao       19.525 kN     Maxo     0.93142 kN-m   Mayo     0.14453 kN-m
+    | Ae        101.95 mm^2   Ixe       176681 mm^4   Iye         9518 mm^4
+    |                         Sxe(t)    3919.5 mm^3   Sye(l)    1515.9 mm^3
+    | Tension                 Sxe(b)    4031.8 mm^3   Sye(r)     574.0 mm^3
+    | Ta        32.982 kN
+    |                         Negative Moment         Negative Moment
+    |                         Maxo     0.93142 kN-m   Mayo     0.11244 kN-m
+    | Shear                   Ixe       176681 mm^4   Iye         8139 mm^4
+    | Vay       10.468 kN     Sxe(t)    3919.5 mm^3   Sye(l)    1028.1 mm^3
+    | Vax        5.356 kN     Sxe(b)    4031.8 mm^3   Sye(r)     544.7 mm^3
+    | 
+    |  
+    | Member Check - 1999 AISI Specification (ASD)
+    | 
+    | Material Type: A653 SS Grade 50/1, Fy=344.74 MPa
+    | Design Parameters:
+    | Lx        1.0000 m      Ly        1.0000 m      Lt        1.0000 m
+    | Kx        1.0000        Ky        1.0000        Kt        1.0000
+    | Cbx       1.0000        Cby       1.0000        ex        0.0000 mm
+    | Cmx       1.0000        Cmy       1.0000        ey        0.0000 mm
+    | Braced Flange: None     kf             0 kN     
+    | Red. Factor, R: 0       Lm        6.0960 m      
+    |  
+    | Loads:           P         Mx         Vy         My         Vx
+    |                (kN)     (kN-m)       (kN)     (kN-m)       (kN)
+    | Entered       0.600    0.20000      0.400    0.00000      0.500
+    | Applied       0.600    0.20000      0.400    0.00000      0.500
+    | Strength      7.424    0.50915     10.468    0.13288      5.356
+    |  
+    | Effective section properties at applied loads:
+    | Ae        161.74 mm^2   Ixe       177521 mm^4   Iye         9951 mm^4
+    |                         Sxe(t)    3993.7 mm^3   Sye(l)    1725.9 mm^3
+    |                         Sxe(b)    3993.7 mm^3   Sye(r)     582.1 mm^3
+    |  
+    | Interaction Equations
+    | AISI Eq. C5.2.1-1 (P, Mx, My)  0.081 + 0.394 + 0.000 = 0.475 <= 1.0
+    | AISI Eq. C5.2.1-2 (P, Mx, My)  0.031 + 0.393 + 0.000 = 0.424 <= 1.0
+    | AISI Eq. C3.3.1-1    (Mx, Vy)          0.046 + 0.001 = 0.048 <= 1.0
+    | AISI Eq. C3.3.1-1    (My, Vx)          0.000 + 0.009 = 0.009 <= 1.0
+  `
+
+[end of calc]

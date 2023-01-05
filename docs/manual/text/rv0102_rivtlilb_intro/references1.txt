@@ -1,0 +1,70 @@
+[s] Design Standards and References
+
+
+**[1] IS SP 7 2005:** National Building Code of India
+Bureau of Indian Standard
+Manak Bhavan, 9 Bahadur Shar Zafar Marg
+New Delhi 110002
+
+**[2] IS 875 Part 1 2010:** Design Loads for Buildings and Structures - Code
+of Practice - Dead Loads
+Bureau of Indian Standard
+Manak Bhavan, 9 Bahadur Shar Zafar Marg
+New Delhi 110002
+
+**[3] IS 875 Part 3 1997:** Design Loads for Buildings and Structures - Code
+of Practice - Wind Loads
+Bureau of Indian Standard
+Manak Bhavan, 9 Bahadur Shar Zafar Marg
+New Delhi 110002
+
+**[4] IS 875 Part 3:** Wind Loads on Builings and Structures
+Document No. IITK-GSDMA-Wind02-V5.0 
+Document No. IITK-GSDMA-Wind04-V3.0 
+Dr. Prem Krishna, Dr. Krishen Kumar, Dr. N.M. Bhandari
+Department of Civil Engineering
+IIT Roorkee
+
+**[5] IS 456 2007:** Plain and Reinforced Concrete - Code of Practice
+Bureau of Indian Standard
+Manak Bhavan, 9 Bahadur Shar Zafar Marg
+New Delhi 110002
+
+**[6] IS 801 2010:** Use of Cold-Formed Light Gauge Steel Structural
+Members in General Building Construction - Design Loads
+Bureau of Indian Standard
+Manak Bhavan, 9 Bahadur Shar Zafar Marg
+New Delhi 110002
+
+**[7] Geotechnical Investigation May 2016** Proposed 350 MW PV Solar Power Plant
+Gani, Kurnool District
+Andhrapradesh, India
+
+**[8] RWDI Consulting Engineers and Scientists**
+*Alion Energy Single-Axis Solar Tracking System*  
+*Draft Report - Wind Loading Consultation #1700316, 10 March 2017*
+
+**[9] UL 2703** UL
+*Standard for Mounting Systems, Mounting Devices, Clamping/Retention Devices,*
+*and Ground Lugs for Use with Flat-Plate Photovoltaic Modules and Panels*
+
+**[10] IEC 61215**  IEC
+*Crystalline Silicon Terrestrial Photovoltaic (PV) Modules*
+*design qualification and type approval*
+
+**[11] AISI** American Iron and Steel Institute
+1140 Connecticut Avenue, 705
+Suite 705
+Washington, DC 20036
+*S100-07/SI10  North American Specification for the Design of Cold-formed Steel*
+*Structural Members, with Supplement 1, dated 2010*
+
+**[12] ACI** American Concrete Institute
+38800 Country Club Drive
+Farmington Hills, MI 48331
+318-11  *Building Code Requirements for Structural Concrete*
+
+**[13] Alion** Alion Energy
+870 Harbour Way S,
+Richmond, CA 94804
+*AST Structural Calculations - Reference Project*

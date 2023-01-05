@@ -1,0 +1,6 @@
+variable,value,unit,[unit],description
+ld1,5.5,PSF,KPA,"5/8"" sheet rock (2)"
+ld2,2,PSF,KPA,"2x4 studs at 16"" o.c."
+ld3,1.5,PSF,KPA,fixtures
+ , , , , 
+intwalldl1,9,PSF,KPA,Total interior wall unit load

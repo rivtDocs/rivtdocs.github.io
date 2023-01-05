@@ -1,0 +1,640 @@
+2017-04-01 01:50:45.051524      on-c-e version: 0.9.0
+ Calc Sections
+=============
+[1] Rotation Models and Tests
+[2] Rotation Design Values and Displacement Check
+[3] Static and Dynamic Gust Coefficients
+[4] Model Design Wind Pressures
+[5] Seismic Model and Loads
+
+
+ 
+============================================================================
+ation Models and Tests                                            [0202][1]
+============================================================================
+ 
+  The AST gear system provides rotational damping primarily by generating normal
+  forces at the gear and bushing interfaces. Other sources of rotational damping
+  include pinion teeth, coupler and pivot pin. Figure 1.1 illustrates the force
+  system generating the normal forces at the bushing which creates the primary
+  damping mechanism.
+ 
+ 
+ 
+  Tests are currently in progress to measure the system rotational damping for
+  different bushing materials. Work has been completed on high COF stainless
+  steel bushings (COF = 0.8) and testing is underway for ZA 27
+  bushings with a lower bound estimate of COF = 0.2. Preliminary results
+  indicate that the ZA 27 COF is higher than 0.2. For the purposes of damping
+  estimates the lower bound is currently used. Test data for high COF stainless
+  steel bushings is included in Appendix 2.
+ 
+  The drive system rotation twist depends on tolerances in the coupler and pinion
+  to tube fittings. Tests on the production tolerances at the coupler
+  connections are also underway. Calculations for the system frequency and
+  damping are provided below and are compared to test data where available. This
+  is followed by an equivalent static rotation analysis which is then compared
+  with the maximum :math:`\pm 5 \degree` rotation limit from the RWDI wind
+  report.
+ 
+  The following simplified SDOF dynamic rotation model compares well
+  with the test data developed to this point and provides a basis for damping
+  predictions for lower COF material that is preferred in the design. A lower
+  COF = 0.2 is used in the calculations to develop system loads.
+ 
+ 
+                            Drive system stiffness properties - 3 tables  [1.1]
+ 
+    constant                         | pi = 3.141
+ 
+    polar moment of inertia          | J1 = 14.318360662635277 cm4
+ 
+    steel shear modulus              | G1 = 79289.70964604133 MPa
+ 
+    mass distance from pivot pin     | cg = 50.799999664720005 cm
+ 
+    gear ratio                       | gratio = 0.0909
+ 
+    weight of modules for 3 tables   | modwt_3 = 5337.86592 N
+ 
+    location of SDOF mass for 3 tables | L_3 = 914.3999939649601 cm
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                        reduce rotation mass - 3 tables   [1.2]
+ 
+gratio⋅modwt₃
+─────────────
+      G      
+ 
+ 
+                                                            rotmass_3 = 49.5 kg
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                                 mass moment of inertia   [1.3]
+ 
+  2         
+cg ⋅rotmass₃
+ 
+ 
+                                                               I_3 = 12.8 kg.m2
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                                   rotational stiffness   [1.4]
+ 
+G₁⋅J₁
+─────
+  L₃ 
+ 
+ 
+                                                             Kt_3 = 1,241.6 N.m
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                        rotational frequency - 3 tables   [1.5]
+ 
+     0.5
+⎛Kt₃⎞   
+⎜───⎟   
+⎝ I₃⎠   
+────────
+  2⋅π   
+ 
+ 
+                                                                freq_3 = 1.6 Hz
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+                   Drive system stiffness properties - edge table loaded  [1.6]
+ 
+    location of SDOF mass at end of row | L_10 = 61.0 m
+ 
+    weight of modules for 1 table    | modwt_1 = 1779.3 N
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                      reduce rotation mass - edge table   [1.7]
+ 
+gratio⋅modwt₃
+─────────────
+      G      
+ 
+ 
+                                                            rotmass_1 = 49.5 kg
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                       mass moment of inertia - 1 table   [1.8]
+ 
+  2         
+cg ⋅rotmass₁
+ 
+ 
+                                                                        I_1=1.0
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                      rotational stiffness - edge table   [1.9]
+ 
+G₁⋅J₁
+─────
+ L₁₀ 
+ 
+ 
+                                                              Kt_10 = 186.2 N.m
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                     rotational frequency - edge table   [1.10]
+ 
+      0.5
+⎛Kt₁₀⎞   
+⎜────⎟   
+⎝ I₁ ⎠   
+─────────
+   2⋅π   
+ 
+ 
+                                                               freq_10 = 0.6 Hz
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                       Drive system damping properties (see Figure 1.1)  [1.11]
+ 
+    outside radius of pinion         | radius_b = 1.1 in
+ 
+    1 degree table rotation          | theta1 = 0.17543859649122806
+ 
+    friction coefficient for ss to ss | COFss = 0.9
+ 
+    friction coefficient for ss to ZA 27 | COF27 = 0.2
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                            rotation torque - 3 tables   [1.12]
+ 
+Kt₃⋅θ₁
+ 
+ 
+                                                           torque_3 = 217.8 N.m
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                            Pinion reaction - 3 tables   [1.13]
+ 
+ torque₃ 
+─────────
+cg⋅gratio
+ 
+ 
+                                                                 R3 = 4,717.1 N
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                              strain energy - 3 tables   [1.14]
+ 
+          2
+L₃⋅torque₃ 
+───────────
+  2⋅G₁⋅J₁  
+ 
+ 
+                                                                se_3 = 19.1 N.m
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                                  friction torque - ss   [1.15]
+ 
+COFss⋅R₃⋅radius_b
+ 
+ 
+                                                         frictorq3a = 124.0 N.m
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                                   damping energy - ss   [1.16]
+ 
+frictorq3a⋅θ₁
+ 
+ 
+                                                                 de3a = 4.8 N.m
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                                    damping ratio - ss   [1.17]
+ 
+ de3a
+─────
+π⋅se₃
+ 
+ 
+                                                             equivdamp3a = 0.4 
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                               friction torque - ZA 27   [1.18]
+ 
+COF₂₇⋅R₃⋅radius_b
+ 
+ 
+                                                          frictorq3b = 27.6 N.m
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                                damping energy - ZA 27   [1.19]
+ 
+frictorq3b⋅θ₁
+ 
+ 
+                                                                 de3a = 4.8 N.m
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                                 damping ratio - ZA 27   [1.20]
+ 
+ de3a
+─────
+π⋅se₃
+ 
+ 
+                                                             equivdamp3b = 0.1 
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+============================================================================
+ation Design Values and Displacement Check                        [0202][2]
+============================================================================
+ 
+  **RWDI Dynamic Coefficient Zones**
+ 
+ 
+ 
+ 
+ 
+  **Row Dynamic Effects and Rotation Along Row**
+ 
+  - coupler rotation gap is 2.5 :math:`\degree` in the model based on model
+    and test data
+  - damping is taken as 10% based on model and test data
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  **Table Dynamic Coefficients**
+ 
+ 
+ 
+ 
+============================================================================
+tic and Dynamic Gust Coefficients                                 [0202][3]
+============================================================================
+ 
+                                                    wind pressures terms  [3.1]
+ 
+    basic design 3 sec gust at 10 m  | Vd_b = 39.0 m/s
+ 
+    basic operation 3 sec gust at 10 m | Vo_b = 22.0 m/s
+ 
+    low hazard risk coefficient      | k_1 = 0.92
+ 
+    terrain Cat 2, structure Class A | k_2 = 1.0
+ 
+    topography                       | k_3 = 1.0
+ 
+    height factor structure < 10 m   | k_h = 0.8
+ 
+    direction factor                 | k_d = 0.9
+ 
+    wind pressure constant           | K_p = 0.6 kg/m3
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                         operation wind design pressure   [3.2]
+ 
+       2            
+Kₚ⋅Vo_b ⋅k₁⋅k₂⋅k₃⋅kₕ
+ 
+ 
+                                                                Vo_z = 213.7 Pa
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                            mapped wind design pressure   [3.3]
+ 
+       2            
+Kₚ⋅Vd_b ⋅k₁⋅k₂⋅k₃⋅kₕ
+ 
+ 
+                                                                Vd_z = 671.7 Pa
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+  | **Table 3.1: Half Table and Row Load Cases and Parameters**
+  | units: m/s, degrees    
+ 
+  ============ ==== ========================== === ===== ==== ==== ===== 
+  Wind Case    Tilt Design Application         V   GCP-  GCP+ GCM+ GCM-  
+  ============ ==== ========================== === ===== ==== ==== ===== 
+  Table_0      0    Edge Interior Table/Track  39  -0.40 0.28 0.16 -0.20 
+  End_Table_0  0    Edge End Table/Track       39  -0.68 0.30 0.34 -0.34 
+  Track_0      0    Interior Track (not edge)  39  -0.28 0.28 0.12 -0.14 
+  Table_20     20   Edge Interior Gear/Track   22  -0.84 0.16 0.32 -0.08 
+  Table_20     20   Dynamic                    22             0.24 -0.24 
+  End_Table_20 20   Edge End Gear/Track        22  -1.18 0.86 0.54 -0.06 
+  End_Table_20 20   Dynamic                    22             0.50 -0.50 
+  Table_60     60   Edge Interior Table/Track  22  -1.22 1.34 0.24 -0.20 
+  End_Table_60 60   Edge End Table/Track       22  -1.50 1.54 0.22 -0.20 
+  Track_60     60   Interior (not edge)        22  -0.72 0.80 0.18 -0.18 
+  Half_Row Sta      Interior Drive             22             0.13 -0.07 
+  Half_Row Dyn      Interior Drive             22             0.04 -0.03 
+  Quar_Row Sta      End Drive                  22             0.30 -0.26 
+  Quar_Row Dyn      End Drive                  22             0.10 -0.09 
+  ============ ==== ========================== === ===== ==== ==== ===== 
+ 
+  | **V** in m/s
+  | **Tilt** in degrees
+  | **qz** in Pa
+  | **Fn** in N
+  | **M** in N-m
+  | **P1** upper half pressure in kPa    
+  | **P2** lower half pressure in kPa
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  |    **Table 3.2  A-Frame and Row Loads**
+  |    units: m/s, N, PA, N-m    
+ 
+  =========== == === ===== ==== ==== ===== ===== ==== === ==== 
+  Case        V  pd  GCP-  GCP+ GCM+ GCM-  Fu-   Fu+  Mu+ Mu-  
+  =========== == === ===== ==== ==== ===== ===== ==== === ==== 
+  Table_0     39 672 -0.4  0.28 0.16 -0.2  -1606 1122 631 -788 
+  P1                 -450   420            -1671 1181 628 -773 
+  P2                 -60    -60                                  
+  ETable_0    39 672 -0.68 0.28 0.34 -0.34 -1820 750  893 -893 
+  P1                 -860   600            -1835 787  902 -902 
+  P2                 0     -240                                  
+  Track_0     39 672 -0.28 0.28 0.12 -0.14 -1122 1122 473 -552 
+  P1                 -330  360             -1181 1181 483 -580 
+  P2                 -30   0                                   
+  Table_20    22 214 -0.84 0.16 0.32 -0.06 -1068 205  404 -76  
+  dynamic                       0.2  -0.2                      
+  P1                 -325  75              -1202 214  316 -105 
+  P2                 -100    0                                   
+  dynamic p          -150  150                        306      
+  ETable_20   22 214 -1.18 0.86 0.54 -0.08 -1500 1095 681 -101 
+  dynamic                       0.6  -0.6                      
+  P1                 -750  350             -1411 1037 700 -140 
+  P2                  0    200                                   
+  dynamic p          -550  550                        680      
+  Table_60    22 214 -1.22 1.34 0.24 -0.2  -1464 1611 294 -245 
+  P1                 -375  375             -1482 1624 316 -245 
+  P2                 -150  200                                   
+  ETable_60   22 214 -1.5  1.54 0.22 -0.2  -1273 1304 185 -169 
+  P1                 -450  450             -1317 1366 186 -163 
+  P2                 -250  275                                 
+  Track_60    22 214 -0.72 0.8  0.18 -0.18 -917  1015 227 -227 
+  P1                 -250  275             -988  1130 209 -209 
+  P2                 -100  275                                 
+  1/2_Row     22 214            0.13 -0.1             252 -136 
+  P1                 -100  100                        299 -326 
+  P2                                                           
+  dynamic             50   50   0.04                  -95      
+  1/4_Row     22 214            0.3  -0.25            299 -258 
+  P1                 -300                             326 -272 
+  P2                                                           
+  dynamic p          -100  100   0.1                   95  -95  
+  Etable_0(t) 39 672 -0.68 0.28 0.34 -0.34 -1820 750  893 -893 
+  =========== == === ===== ==== ==== ===== ===== ==== === ==== 
+ 
+ 
+ 
+ 
+ 
+============================================================================
+el Design Wind Pressures                                          [0202][4]
+============================================================================
+ 
+  The complete table level AST structural system is represented
+  in RISA 3D models.  Governing loads and factored
+  demands are provided in the following figures.  Unit load
+  patterns are implemented in the model and the magnitudes
+  are scaled according to site-specific demands and load combinations.
+  Load combinations and demand-capacity ratios for table components are
+  calculated in subsequent divisions.  Stresses in gears are analyzed using
+  ALGOR. 
+ 
+  |    **Table 4.1: A-Frame and Slew Drive Overturning**
+  |    units:   N , N-m    
+ 
+  =========== ===== ==== ==== ===== ===== ==== === ==== ==== ===== 
+  Case        GCP-  GCP+ GCM+ GCM-  Fu-   Fu+  Mu+ Mu-  OT+  OT-   
+  =========== ===== ==== ==== ===== ===== ==== === ==== ==== ===== 
+  Table_0     -0.4  0.28 0.16 -0.2  -1606 1122 631 -788 1239 -1213 
+  P1          -450   420            -1671 1181 628 -773 1261 -1220 
+  P2          -60    -60                                           
+  ETable_0    -0.68 0.28 0.34 -0.34 -1820 750  893 -893 1582 -1177 
+  P1          -860   600            -1835 787  902 -902 1597 -1199 
+  P2          0     -240                                           
+  Track_0     -0.28 0.28 0.12 -0.14 -1122 1122 473 -552 898  -977  
+  P1          -330  360             -1181 1181 483 -580 930  -1027 
+  P2          -30   0                                              
+  Table_60    -1.22 1.34 0.24 -0.2  -1464 1611 294 -245 1782 -1880 
+  P1          -375  375             -1482 1624 316 -245 1820 -1893 
+  P2          -150  200                                            
+  ETable_60   -1.5  1.54 0.22 -0.2  -1273 1304 185 -169 1476 -1493 
+  P1          -450  450             -1317 1366 186 -163 1525 -1549 
+  P2          -250  275                                            
+  Track_60    -0.72 0.8  0.18 -0.18 -917  1015 227 -227 1156 -1259 
+  P1          -250  275             -988  1130 209 -209 1213 -1357 
+  P2          -100  275                                            
+  1/2_Row                0.13 -0.1             252 -136            
+  P1          -100  100                        299 -326            
+  P2                                                         680   
+  dynamic     50    50   0.04                  -95                 
+  1/4_Row                0.3  -0.25            299 -258            
+  P1          -300                             326 -272      748   
+  P2                                                               
+  dynamic p   -100  100  0.1                   95  -95             
+  =========== ===== ==== ==== ===== ===== ==== === ==== ==== =====   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+============================================================================
+smic Model and Loads                                              [0202][5]
+============================================================================
+ 
+  The AST is analyzed as a regular, nonbuilding structure using the equivalent
+  lateral force design procedure provided in the NBCI section 5.3 and 5.4.  
+  The site is located in a Zone II earthquake region. The system translation
+  frequencies are provided in section [0201][3].
+ 
+  Rotation modes of the table are not strongly excited by translational
+  earthquake motion and are not considered in the analysis. Seismic demands for
+  this site are low and only govern along row forces. 
+ 
+ 
+                                                           seismic terms  [5.1]
+ 
+    seismic weight of table          | W_1 = 2224.1 N
+ 
+    low seismicity zone              | Z_1 = 0.1
+ 
+    braced frame                     | R_1 = 4.0
+ 
+    damping factor                   | DF_1 = 1.4
+ 
+    spectral acceleration coefficient | Sa_g = 2.5
+ 
+    importance factor                | I_1 = 1.0
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                                         spectrum value   [5.2]
+ 
+I₁⋅Sa_g⋅Z₁
+──────────
+   2⋅R₁   
+ 
+ 
+                                                                      A1_b=0.03
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                                 minimum spectrum value   [5.3]
+ 
+0.5⋅Z₁
+ 
+ 
+                                                                      A2_b=0.05
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                                  design spectrum value   [5.4]
+ 
+max(A_1_b, A_2_b)
+ 
+ 
+                                                                       A_b=0.05
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                                 base shear per A-frame   [5.5]
+ 
+A_b⋅W₁
+──────
+  2   
+ 
+ 
+                                                                  V1_B = 55.6 N
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+[end of calc]

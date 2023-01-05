@@ -1,0 +1,594 @@
+2017-04-01 01:46:07.058939      on-c-e version: 0.9.0
+ Calc Sections
+=============
+[1] Z-Purlin Loads and Stabililty
+[2] Z-Purlin Properties and D/C Ratios
+[3] Z-Purlin Tests - S100 Chapter F
+[4] Drive Tube, Coupler, Arc-gear D/C Ratios
+[5] Panel Deflection and Clamp D/C Ratios
+[6] Fastener D/C Ratios
+
+
+ 
+============================================================================
+urlin Loads and Stabililty                                        [0402][1]
+============================================================================
+ 
+  Z-purlins transfer concentrated and uplift loads to the purlin
+  arms. Normal and in-plane loads are applied at the 7 discrete panel points
+  along the Z-purlin. Normal loads arise from wind and in-plane loads arise
+  from gravity loads.
+ 
+  **Bi-axial Moments**
+ 
+  Normal loads are resisted by the major axis stiffness of the section
+  and in-plane loads are resisted primarily by the minor axis bending of the top
+  flange and diaphragm action of the modules. The panel clamp plays a role in
+  both cases. They brace the top flange in compression and provide shear
+  transfer for in-plane loads.
+ 
+  **Asymmetry and Panel Clamps**
+ 
+  The purlin cross section is asymmetric with the larger bottom flange sized
+  for the longer unbraced cantilever length and the top flange sized additional
+  in-plane loads and panel clamp spacing. Because of asymmetry there
+  will be some elastic twisting of the flange at higher wind pressures. 
+ 
+  The details of the panel clamp connection and elastic distortion are
+  complex. The purlin was tested under design load combinations to demonstrate
+  the effectiveness of the section, panel clamps and modules and to confirm
+  calculation results. Tests and calculations show that the Z-purlin and module
+  assembly is effective in resisting the wind and gravity loads without yielding
+  or buckling. Details are provided below and in section [3] and Appendix 2.
+ 
+  **Governing Configuration**
+ 
+  Edge tables on interior rows govern the design because of the longer spans.
+  A-frame spacing is selected to minimize bending moments.  
+ 
+ 
+ 
+ 
+ 
+  **Major axis bending loads - edge table - down**
+ 
+ 
+ 
+ 
+ 
+  **Major axis bending loads - edge table - up**
+ 
+ 
+ 
+ 
+ 
+ 
+  **Major axis bending loads - end table - down**
+ 
+ 
+ 
+ 
+  **Major axis bending loads - end table - up**
+ 
+ 
+ 
+ 
+ 
+ 
+  **Minor + Major axis bending loads - edge table - in plane**
+ 
+  Panel clamps must provide effective shear transfer from the panel to the
+  purlin to provide diaphragm action between purlins that converts minor axis
+  dead loads to purlin axial loads. The top flange is analyzed for the two
+  bounding cases: 1) Isolated flange section under in-plane loading only, no
+  diapragm, equal load distribution between purlins; 2) Full section under major
+  and minor axis bending at centroid. The actual condition is between the two cases
+  and is confirmed by test.
+ 
+  The panel-panel clamp-purlin composite behavior was confirmed by test.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  **Flange Stability**
+ 
+  The bottom flange unbraced lengths are twice as long under down-force loads
+  as the top flange is under uplift loads.  The asymmetric purlin design
+  accounts for this by making the bottom flange wider. Local and
+  distortional buckling modes were calculated and checked for both cases. The
+  calculations were confirmed by test (see section [3] and Appendix 2).
+ 
+ 
+  **Stability bottom flange - major axis bending - stow**
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  **Stability top flange - major axis bending -stow**
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  **Stability top flange - combined major and minor bending**
+ 
+ 
+ 
+ 
+ 
+============================================================================
+urlin Properties and D/C Ratios                                   [0402][2]
+============================================================================
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  **Section Properties**
+ 
+  ::
+  `
+    | CFS Version 10.0.0
+    | Section: purlinasys_35.cfss
+    | Zee 3.5x1.5x0.5-18 Gage
+    | 
+    | Rev. Date: Friday, Feb, 03, 17 10:40:16 AM
+    | 
+    | Printed: Saturday, Apr, 01, 17 1:17:56 AM
+    | 
+    | Full Section Properties
+    | 
+    | Area      212.66 mm^2   Wt.     0.016356 kN/m   Width     185.64 mm
+    |  
+    | Ix        265920 mm^4   rx        35.362 mm     Ixy       112633 mm^4
+    | Sx(t)     5712.4 mm^3   y(t)      46.551 mm     a        -25.557 deg
+    | Sx(b)     6279.3 mm^3   y(b)      42.349 mm
+    |                        Height     88.900 mm
+    | Iy         84241 mm^4   ry        19.903 mm     xo        -0.960 mm
+    | Sy(l)     2030.7 mm^3   x(l)      41.485 mm     yo       -12.089 mm
+    | Sy(r)     2253.6 mm^3   x(r)      37.380 mm     jx        -6.496 mm
+    |                        Width      78.864 mm     jy        16.247 mm
+    | I1        319780 mm^4   r1        38.778 mm
+    | I2         30381 mm^4   r2        11.953 mm
+    | Ic        350161 mm^4   rc        40.578 mm     Cw     103915900 mm^6
+    | Io        381434 mm^4   ro        42.352 mm     J          93.02 mm^4
+    |  
+    | Net Section Properties
+    | 
+    | Ix        259249 mm^4   rx        39.507 mm     Area      166.10 mm^2
+    | Sx(t)     5499.5 mm^3   y(t)      47.140 mm     Ixy       112333 mm^4
+    | Sx(b)     6208.1 mm^3   y(b)      41.760 mm     a        -26.014 deg
+    |  
+    | Iy         83894 mm^4   ry        22.474 mm     xo        -0.144 mm
+    | Sy(l)     2055.5 mm^3   x(l)      40.814 mm     yo       -10.339 mm
+    | Sy(r)     2204.8 mm^3   x(r)      38.051 mm     jx        -4.948 mm
+    |                                                 jy        14.760 mm
+    | Ic        343144 mm^4   rc        45.452 mm     Cw      84532390 mm^6
+    | Io        360902 mm^4   ro        46.613 mm     J          72.66 mm^4
+    | 
+    |  
+    | Fully Braced Strength - 1999 AISI Specification (ASD)
+    | 
+    | Material Type: A653 SS Grade 50/1, Fy=344.74 MPa
+    | Compression             Positive Moment         Positive Moment
+    | Pao       26.237 kN     Maxo      1.0823 kN-m   Mayo      0.4824 kN-m
+    | Ae        136.99 mm^2   Ixe       253734 mm^4   Iye        83894 mm^4
+    |                         Sxe(t)    5242.9 mm^3   Sye(l)    2055.5 mm^3
+    | Tension                 Sxe(b)    6264.4 mm^3   Sye(r)    2204.8 mm^3
+    | Ta        37.220 kN
+    |                         Negative Moment         Negative Moment
+    |                         Maxo      1.0556 kN-m   Mayo      0.4824 kN-m
+    | Shear                   Ixe       235690 mm^4   Iye        83894 mm^4
+    | Vay        3.331 kN     Sxe(t)    5505.3 mm^3   Sye(l)    2055.5 mm^3
+    | Vax       10.772 kN     Sxe(b)    5113.8 mm^3   Sye(r)    2204.8 mm^3
+  `
+ 
+ 
+ 
+  **Isolated Top Flange Section Properties**  
+ 
+  ::
+  `
+    | CFS Version 10.0.0
+    | Section: top_flange2.cfss
+    | Channel 1.55x0.65-18 Gage
+    | 
+    | Rev. Date: Monday, Nov, 07, 16 4:02:08 PM
+    | 
+    | Printed: Saturday, Apr, 01, 17 1:20:58 AM
+    |  
+    | Full Section Properties
+    | 
+    | Area      111.42 mm^2   Wt.    0.0085694 kN/m   Width     97.265 mm
+    |  
+    | Ix         22551 mm^4   rx        14.227 mm     Ixy       -14070 mm^4
+    | Sx(t)      857.9 mm^3   y(t)      26.288 mm     a         50.543 deg
+    | Sx(b)     1909.2 mm^3   y(b)      11.812 mm
+    |                        Height     38.100 mm
+    | Iy         28064 mm^4   ry        15.871 mm     xo       -18.252 mm
+    | Sy(l)     1962.1 mm^3   x(l)      14.303 mm     yo        -9.541 mm
+    | Sy(r)      769.0 mm^3   x(r)      36.497 mm     jx        28.259 mm
+    |                        Width      50.800 mm     jy        18.366 mm
+    | I1         39645 mm^4   r1        18.863 mm
+    | I2         10971 mm^4   r2         9.923 mm
+    | Ic         50616 mm^4   rc        21.314 mm     Cw        495705 mm^6
+    | Io         97877 mm^4   ro        29.639 mm     J         48.738 mm^4
+    | 
+    |  
+    | Fully Braced Strength - 1999 AISI Specification (ASD)
+    | 
+    | Material Type: A653 SS Grade 50/1, Fy=344.74 MPa
+    | Compression             Positive Moment         Positive Moment
+    | Pao       14.344 kN     Maxo     0.20134 kN-m   Mayo     0.01100 kN-m
+    | Ae        74.897 mm^2   Ixe        22551 mm^4   Iye         2457 mm^4
+    |                         Sxe(t)     857.9 mm^3   Sye(l)     527.1 mm^3
+    | Tension                 Sxe(b)    1909.2 mm^3   Sye(r)      53.3 mm^3
+    | Ta        23.874 kN
+    |                         Negative Moment         Negative Moment
+    |                         Maxo     0.15815 kN-m   Mayo     0.15874 kN-m
+    | Shear                   Ixe        16346 mm^4   Iye        28064 mm^4
+    | Vay        5.085 kN     Sxe(t)     766.1 mm^3   Sye(l)    1962.1 mm^3
+    | Vax        9.097 kN     Sxe(b)     975.0 mm^3   Sye(r)     769.0 mm^3
+  `
+ 
+ 
+ 
+ 
+ 
+  **Major axis bending D/C - edge table - down and up**
+ 
+  Loads are 70% of the factored LRFD values
+ 
+  ::
+  `
+    | CFS Version 10.0.0
+    | Section: purlinasys_35.cfss
+    | Zee 3.5x1.5x0.5-18 Gage
+    | 
+    | Rev. Date: Friday, Feb, 03, 17 10:40:16 AM
+    | 
+    | Printed: Saturday, Apr, 01, 17 1:31:37 AM
+    | 
+    | Member Check - 1999 AISI Specification (ASD)
+    | 
+    | Material Type: A653 SS Grade 50/1, Fy=344.74 MPa
+    | Design Parameters:
+    | Lx        2.3000 m      Ly        2.3000 m      Lt        2.3000 m
+    | Kx        1.0000        Ky        1.0000        Kt        1.0000
+    | Cbx       1.0000        Cby       1.0000        ex        0.0000 mm
+    | Cmx       1.0000        Cmy       1.0000        ey        0.0000 mm
+    | Braced Flange: None     kf             0 kN     
+    | Red. Factor, R: 0       Lm        6.0960 m      
+    |  
+    | Loads:           P         Mx         Vy         My         Vx
+    |                (kN)     (kN-m)       (kN)     (kN-m)       (kN)
+    | Entered       0.000   -0.47000      0.900    0.00000      0.000
+    | Applied       0.000   -0.47000      0.900    0.00000      0.000
+    | Strength      4.171    0.63512      3.331    0.48243     10.772
+    |  
+    | Effective section properties at applied loads:
+    | Ae        212.66 mm^2   Ixe       265920 mm^4   Iye        84241 mm^4
+    |                         Sxe(t)    5712.4 mm^3   Sye(l)    2030.7 mm^3
+    |                         Sxe(b)    6279.3 mm^3   Sye(r)    2253.6 mm^3
+    |  
+    | Interaction Equations
+    | AISI Eq. C5.2.1-1 (P, Mx, My)  0.000 + 0.740 + 0.000 = 0.740 <= 1.0
+    | AISI Eq. C5.2.1-2 (P, Mx, My)  0.000 + 0.740 + 0.000 = 0.740 <= 1.0
+    | AISI Eq. C3.3.1-1    (Mx, Vy)          0.198 + 0.073 = 0.271 <= 1.0
+    | AISI Eq. C3.3.1-1    (My, Vx)          0.000 + 0.000 = 0.000 <= 1.0
+  `
+ 
+ 
+ 
+ 
+ 
+  **Isolated top flange analysis**
+ 
+   LRFD lower bound check for case of minimum diaphragm contribution
+ 
+  ::
+  `
+    |CFS Version 10.0.0
+    |Section: top_flange.cfss
+    |Channel 1.55x0.65-18 Gage
+    |
+    |Member Check - 2016 North American Specification - US (LRFD)
+    |
+    |Material Type: A653 SS Grade 50/1, Fy=50 ksi
+    |Design Parameters:
+    |Lx         3.000 ft     Ly         3.000 ft     Lt         3.000 ft
+    |Kx        1.0000        Ky        1.0000        Kt        1.0000
+    |Cbx       1.0000        Cby       1.0000        ex        0.0000 in
+    |Cmx       1.0000        Cmy       1.0000        ey        0.0000 in
+    |Braced Flange: None     kf             0 k      
+    |Red. Factor, R: 0       Lm        20.000 ft     
+    | 
+    |Loads:           P         Mx         Vy         My         Vx
+    |                (k)     (k-in)        (k)     (k-in)        (k)
+    |Entered      0.0000     0.9000     0.0500     0.0000     0.0000
+    |Applied      0.0000     0.9000     0.0500     0.0000     0.0000
+    |Strength     0.8199     1.0067     1.6291     0.4504     2.9144
+    | 
+    |Effective section properties at applied loads:
+    |Ae       0.17270 in^2   Ixe     0.054180 in^4   Iye     0.067425 in^4
+    |                        Sxe(t)   0.05235 in^3   Sye(l)   0.11973 in^3
+    |                        Sxe(b)   0.11650 in^3   Sye(r)   0.04692 in^3
+    | 
+    |Interaction Equations
+    |NAS Eq. H1.2-1    (P, Mx, My)  0.000 + 0.894 + 0.000 = 0.894 <= 1.0
+    |NAS Eq. H2-1         (Mx, Vy)     Sqrt(0.113 + 0.001)= 0.337 <= 1.0
+    |NAS Eq. H2-1         (My, Vx)     Sqrt(0.000 + 0.000)= 0.000 <= 1.0
+  `
+ 
+  **Centroid based top flange analysis**
+ 
+  LRFD Upper bound check on contribution of bottom flange in minor axis bending
+ 
+  ::
+  `
+    |CFS Version 10.0.0
+    |Section: purlinasys_35.cfss
+    |Zee 3.5x1.5x0.5-18 Gage
+    |
+    |Member Check - 2016 North American Specification - US (LRFD)
+    |
+    |Material Type: A653 SS Grade 50/1, Fy=50 ksi
+    |Design Parameters:
+    |Lx         3.000 ft     Ly         3.000 ft     Lt         3.000 ft
+    |Kx        1.0000        Ky        1.0000        Kt        1.0000
+    |Cbx       1.0000        Cby       1.0000        ex        0.0000 in
+    |Cmx       1.0000        Cmy       1.0000        ey        0.0000 in
+    |Braced Flange: None     kf             0 k      
+    |Red. Factor, R: 0       Lm        20.000 ft     
+    | 
+    |Loads:           P         Mx         Vy         My         Vx
+    |                (k)     (k-in)        (k)     (k-in)        (k)
+    |Entered      0.0000      3.500     0.1500      0.900     0.0400
+    |Applied      0.0000      3.500     0.1500      0.900     0.0400
+    |Strength     6.4231     14.210     1.1142      6.418     3.4509
+    | 
+    |Effective section properties at applied loads:
+    |Ae       0.32962 in^2   Ixe      0.63887 in^4   Iye      0.20239 in^4
+    |                        Sxe(t)   0.34859 in^3   Sye(l)   0.12392 in^3
+    |                        Sxe(b)   0.38319 in^3   Sye(r)   0.13753 in^3
+    | 
+    |Interaction Equations
+    |NAS Eq. H1.2-1    (P, Mx, My)  0.000 + 0.246 + 0.140 = 0.387 <= 1.0
+    |NAS Eq. H2-1         (Mx, Vy)     Sqrt(0.057 + 0.018)= 0.273 <= 1.0
+    |NAS Eq. H2-1         (My, Vx)     Sqrt(0.020 + 0.000)= 0.141 <= 1.0
+  `
+ 
+============================================================================
+urlin Tests - S100 Chapter F                                      [0402][3]
+============================================================================
+ 
+  Load tests were conducted on Z-purlins in their design configuration (see Fig
+  3.1 and 3.2 and Appendix 2). The same Z-purlin set was used for all tests. After testing
+ they
+  did not show visible signs of permanent deformation. The tests loaded the Z-purlins to 1
+.15x the design load for the
+  following cases:
+ 
+  - 60 degree uplift and down-force; governs top flange biaxial bending
+  - 0 degree stow; governs bottom flange buckling and distortion.
+ 
+ 
+ 
+ 
+ 
+ 
+============================================================================
+ve Tube, Coupler, Arc-gear D/C Ratios                             [0402][4]
+============================================================================
+ 
+  **Drive tube and coupler stresses - first order analysis**
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  Figure 4.1 through 4.3 illustrate the coupler configuration and demands. The
+  design criteria is elastic behavior under design loads.
+ 
+                                       Shear force on coupling fasteners  [4.1]
+ 
+    maximum tube torque              | torq_u = 86.77234826362603 N.m
+ 
+    tube diameter                    | tube_d = 50.799999664720005 mm
+ 
+    bolt yield strength              | f_y_1 = 206.84272081576 MPa
+ 
+    bolt shear strength              | g_u_1 = 68.94757360525334 MPa
+ 
+    bolt cross section               | area1_b = 129.03199829677766 mm2
+ 
+    bolt section modulus             | S1_b1 = 7.7419198978066595 mm2
+ 
+    tube thickness                   | tube_t = 1.1429999924562002 mm
+ 
+    slider width                     | slider_w = 25.399999832360002 mm
+ 
+    COF between slider and bolt      | COF1 = 1
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                                       bolt shear force   [4.2]
+ 
+torqᵤ 
+──────
+tube_d
+ 
+ 
+                                                             shear1_u = 1.71 KN
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                                second order axial load   [4.3]
+ 
+COF₁⋅shear₁ ᵤ
+ 
+ 
+                                                             axial1_u = 1.71 KN
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                                 axial stress D/C ratio   [4.4]
+ 
+   axial₁ ᵤ   
+──────────────
+area_1_b⋅f_y_1
+ 
+ 
+                                                                   dc_7 = 0.06 
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                                 shear stress D/C ratio   [4.5]
+ 
+   shear₁ ᵤ  
+─────────────
+area_1_b⋅gᵤ ₁
+ 
+ 
+                                                                   dc_8 = 0.19 
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                            stress interaction equation   [4.6]
+ 
+dc₇ + dc₈
+ 
+ 
+                                                                   dc_9 = 0.26 
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+ 
+ 
+ 
+┌------------------------------------------------------------------------------┐
+                                               bearing stress at slider   [4.7]
+ 
+   shear₁ ᵤ   
+──────────────
+slider_w⋅tubeₜ
+ 
+ 
+                                                           bstress1 = 58.84 MPa
+└------------------------------------------------------------------------------┘
+ 
+ 
+ 
+  **Arc-gear**
+ 
+  The governing demands for tooth loads on the Arc-gear are operation loads. The
+  tooth load capacity has been determined by test (see report section [0401][2]
+  and Appendix 2).
+ 
+  The governing demand on the Arc-gear side walls are stow
+  loads. Their capacity has also been determined by test and analysis. The
+  overall Arc-gear D/C ratio from test is 0.96 and is controlled by the side
+  wall capacity at stow (see report section [0401][2]).
+ 
+  In the side wall analysis torques are taken as distributed in 2 to 1
+  proportion between the two locking plates at each gear. The force vector is at
+  approximately 45 degrees and the magnitude is determined by the horizontal
+  component resisting torque. Second order effects not considered in the
+  analysis include deformation compression from second order sliding
+  of the lock plate over the tube and redistribution of loads between locking
+  plates.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+============================================================================
+el Deflection and Clamp D/C Ratios                                [0402][5]
+============================================================================
+ 
+  The clearance provided between the bottom of the module and pivot arm is 1
+  inch. The calculated panel deflection over the pivot arm, under
+  the maximum local design wind pressures of 1500 Pa, is approximately 12 mm.
+ 
+ 
+ 
+ 
+ 
+  Panel clamps were tested by the manufacturer to an IEC and UL
+  specified load of 2400 Pa in the positive and negative direction.  Maximum
+  wind pressures are less than 1500 Pa and the resulting maximum D/C ratio
+  for the clamp strength is 0.6.  Refer to Appendix 1 for details.
+ 
+  |
+ 
+ 
+ 
+ 
+ 
+============================================================================
+tener D/C Ratios                                                  [0402][6]
+============================================================================
+ 
+  Fasteners are 8 mm bolts torqued or clamped to a minimum compression
+  force of 8 kN. The minimum COF in a joint is taken as 0.28 and the slip
+  resistant shear capacity is then 2.2 kN. Table 6.1 provides the D/C ratios
+  for each joint type based on factored demands.  For ASD loads, decrease
+  the D/C ratio by 1/4.
+ 
+  ========== ========== ======== ========= ======= ====== ============ 
+   Compnt.    Compnt.    Fasten.  Capacity  Demand  D/C    Notes       
+  ========== ========== ======== ========= ======= ====== ============ 
+   No. 1      No. 2      Count    N          N     Ratio               
+  ========== ========== ======== ========= ======= ====== ============
+ 
+  ========== ========== ======== ========= ======= ====== ============ 
+  Leg        Foot       3        6.7       3.1      0.5                
+  Leg        Tie        2        4.5       1.3      0.3               
+  Pivot Arm  Bracket    4        9         2.7      0.3      
+  Purlin     Bracket    5        4.5       2.7      0.6   incld. tabs 
+  Arc-Gear   Bracket    2        4.5       2.7      0.6            
+  Arc-Gear   Lock Plate 2        4.5       2.7      0.6            
+  ========== ========== ======== ========= ======= ====== ============ 
+ 
+
+[end of calc]

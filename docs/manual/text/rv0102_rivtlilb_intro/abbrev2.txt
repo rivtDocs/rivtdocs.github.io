@@ -1,0 +1,125 @@
+
+\indent\bf{assm.}         \>  {assembly}\\  
+
+ASD	Allowable Stress Design
+ACI	American Concrete Institute
+AISC	American Institute of Steel Construction
+AISI	American Iron and Steel Institute
+ASTM	American Society for Testing and Materials
+AWS	American Welding Society
+AB	Anchor Bolt
+B	Bottom
+BM	Beam
+BRG	Bearing
+BLK	Block
+BOF	Bottom of Foundation
+BOT	Bottom
+BRKT	Bracket
+CIP	Cast-In-Place
+CLR	Clear
+COL	Column
+CONC	Concrete
+CMU	Concrete Masonry Unit
+CRSI	Concrete Reinforcing Steel Institute
+CONST JT	Construction Joint
+CONT	Continuous
+CJ	Control Joint
+DEPR	Depression
+DET	Detail
+DL	Development Length
+DIA	Diameter
+DIM	Dimension
+DIR	Direction
+DWLS	Dowels
+EA	Each
+EE	Each End
+EF	Each Face
+EJ	Expansion Joint
+ES	Each Side
+EQ	Equal
+EW	Each Way
+EXP Bolt	Expansion Bolt
+EXP JT	Expansion Joint
+FF	Far Face
+FT	Foot or Feet
+FIN	Finish
+FL	Floor
+FTG	Footing
+FND	Foundation
+GALV	Galvanized
+GA	Gauge
+GR	Grade
+GB	Grade Beam
+GP	Gusset Plate
+HT	Height
+HP	High Point
+HS	High Strength
+HEF	Horizontal Each Face
+HIF	Horizontal Inside Face
+HOF	Horizontal Outside Face
+HOR	Horizontal
+IN	Inch
+ID	Inside Diameter
+ICBO	International Conference of Building Officials
+INV	Invert
+JT	Joint
+JST	Joist
+K	Kip (1000 Pounds)
+LW	Light Weight
+LWC	Light Weight Concrete
+LRFD	Load and Resistance Factor Design
+LLV	Long Leg Vertical
+LP	Low Point
+MAS	Masonry
+MTL	Metal
+NF	Near Face
+NWC	Normal Weight Concrete
+NIC	Not in Contract
+OC	On Center
+OD	Outside Diameter
+OPNG	Opening
+PC	Pile Cap
+PL	Plate
+PT	Point
+PVC	Polyvinyl Chloride
+PSF	Pounds per Square Foot
+PSI	Pounds per Square Inch
+R	Radius
+REINF	Reinforced
+RETG	Retaining
+RET	Return
+RE	Right End
+SECT	Section
+SC	Shear Connector
+SHT	Sheet
+SLV	Short Leg Vertical
+SIM	Similar
+SOG	Slab on Grade
+SL	Splice Length
+SQ	Square
+STD	Standard
+STL	Steel
+SDI	Steel Deck Institute
+SF	Step Footing or Square Foot
+STIFF	Stiffener
+STR	Structural
+SUP	Support
+SYM	Symmetrical
+THK	Thick or Thickness
+THRD	Threaded
+T&B	Top and Bottom
+T	Top
+TO	Top of
+TOC	Top of Concrete
+TOF	Top of Foundation
+TOS	Top of Steel
+TOW	Top of Wall
+TYP	Typical
+UNO	Unless Noted Otherwise
+US	Underside
+VEF	Vertical Each Face
+VIF	Vertical Inside Face or Verify in Field
+VOF	Vertical Outside Face
+WWF	Welded Wire Fabric
+W/	With
+WP	Working Point

@@ -1,0 +1,293 @@
+  \bm{}  &= \textrm{}\\
+  \bm{}  &= \textrm{}\\
+  \bm{}  &= \textrm{}\\
+  \bm{}  &= \textrm{}\\
+  \bm{}  &= \textrm{}\\
+  \bm{}  &= \textrm{}\\
+  \bm{}  &= \textrm{}\\
+  \bm{}  &= \textrm{}\\
+  \bm{}  &= \textrm{}\\
+  \bm{}  &= \textrm{}\\
+  \bm{}  &= \textrm{}\\
+
+
+  \bm{f'_c}  &= \textrm{specified compressive strength of concrete}\\
+  \bm{fc_t}  &= \textrm{average splitting tensile strength of lightweight aggregate}\\
+  \bm{f'_m}  &= \textrm{specified compressive strength of masonry}\\
+
+
+  \bm{f_1}   &= \textrm{live load reduction factor; snow}\\
+  \bm{f_2}   &= \textrm{load reduction factor}\\
+
+
+
+.. raw:: latex
+`
+
+  \bm{H}--   \\
+
+  \end{align*}
+`
+H load due to lateral pressure of soil and water in soil
+average roof height of structure relative to the base elevation
+overall dimensions of member in direction of action considered
+h
+h
+h, (concrete) cross-sectional dimension of column core, or shear wall
+boundary zone, measured center-to-center of confining reinforcement
+height in feet above the base to Level i, n or x, respectively h h 12
+i, „ , ,
+height in feet of the roof above the base
+h,, the story height below Level x
+h„ height of entire wall or of the segment of wall considered
+
+  \bm{}  &= \textrm{}\\
+  \bm{}  &= \textrm{}\\
+  \bm{}  &= \textrm{}\\
+  \bm{}  &= \textrm{}\\
+  \bm{}  &= \textrm{}\\
+  \bm{}  &= \textrm{}\\
+  \bm{}  &= \textrm{}\\
+  \bm{}  &= \textrm{}\\
+  \bm{}  &= \textrm{}\\
+  \bm{}  &= \textrm{}\\
+  \bm{}  &= \textrm{}\\
+
+  \bm{I}--   \\
+
+I the seismic occupancy importance factor importance factor
+determined in §11.5.1
+I moment of inertia of section resisting externally applied factored loads
+I importance factor determined in §11.5.1
+moment of inertia of cracked section transformed to concrete
+Ig
+(concrete, neglecting reinforcement) moment of inertia of gross
+concrete section about centroidal axis neglecting reinforcement
+se
+moment of inertia of reinforcement about centroidal axis of member
+cross section.
+IP
+component importance factor that is either 1.00 or 1.5, as determined in
+§13.3.1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+K (steel) effective length factor for prismatic member
+k a distribution exponent — §12.8.3
+L live load, except roof live load, including any permitted live load
+reduction (i.e. reduced design live load). Live load related internal
+moments or forces. Concentrated impact loads
+L„ unreduced design live load
+roof live load including any permitted live load reduction
+XiV 2006 IBC Structural/Seismic Design Manual, Vol. 2
+io unsupported length of compression member
+u,
+length of entire wall, or of segment of wall considered, in direction of
+shear force
+Level i level of the structure referred to by the subscript i. "i
+= 1" designates the first level above the base
+Level n that level that is uppermost in the main portion of the structure
+Level x that level that is under design consideration.
+"x = 1" designates the first level above the base
+M (steel) maximum factored moment
+MET moment at which flexural cracking occurs in response to externally
+applied loads
+Mt, (steel) nominal moment strength at section
+Mot (wood) overturning moment
+Mpa nominal plastic flexural strength modified by axial load
+M, torsional moment
+Mr a accidental torsional moment
+Ma (concrete) factored moment at section
+Ma (steel) required flexural strength on a member or joint
+MY moment corresponding to onset of yielding at the extreme fiber from an
+elastic stress distribution
+N number of stories
+P (wind) design wind pressure
+P
+D1.9
+P
+P seis
+unfactored axial load in frame member
+Pb nominal axial load strength at balanced strain conditions
+(concrete) critical load
+(concrete anchorage) design tensile strength
+Pa nominal axial load strength at given eccentricity, or nominal axial
+strength of a column
+Po nominal axial load strength at zero eccentricity
+2006 IBC Structural/Seismic Design Manual, Vol. 2
+XV
+P.
+(concrete) factored axial load, or factored axial load at given
+eccentricity
+Pll
+(steel) nominal axial strength of a column, or required axial strength of
+a column or a link
+P.
+(concrete anchorage) required tensile strength from loads
+PY nominal axial yield strength of a member, which is equal to F A
+Y g
+Px
+total unfactored vertical design load at and above Level x
+PE
+axial load on member due to earthquake
+PLL
+axial live load
+QE
+the effect of horizontal seismic forces
+R the response modification factor from Table 12.2-1 or 15.4-1
+or 15.4-2
+R„ nominal strength
+RP
+component response modification factor that varies from 1.00 to
+3.50 as set forth in Table 13.5-1 or Table 13.6-1
+R, R1 R2 live load reduction in percent — IBC §1607.9.2/1607.11.2
+r rate of reduction equal to 0.08 percent for floors
+r
+(steel) radius of gyration of cross section of a compression member
+radius of gyration about y axis
+snow load
+ry
+S
+SDS
+design, 5% damped, spectral response acceleration parameter at
+short period (0.2 second) as determined in §11.4.4
+Ss, Ss
+the mapped MCE, 5% damped, spectral response acceleration
+parameter at short period (0.2 second) as determined in §11.4.1
+SDI design, 5% damped, spectral response acceleration parameter at
+long design (1-second period) as determined in §11.4.4
+S,
+the mapped MCE, 5% damped, spectral response acceleration
+parameter at long period (1-second period) as determined in
+§11.4.1
+SMS
+adjusted MCE, 5% damped, spectral response acceleration
+parameter at short period (0.2 second), adjusted for site class
+effects as determined in §11.4.3
+XVI
+2006 IBC Structural/Seismic Design Manual, Vol. 2
+SMI adjusted MCE, 5% damped, spectral response acceleration parameter
+at long period (1-second period), adjusted for site class effects as
+determined in §11.4.3
+s spacing of shear or torsion reinforcement in direction parallel to
+longitudinal reinforcement, or spacing of transverse reinforcement
+measured along the longitudinal axis
+T elastic fundamental period of vibration, in seconds, of the structure in
+the direction under consideration, see §1617.4.2 for limitations
+TQ approximate fundamental period as determined in accordance with
+§12.8.2.1
+To 0.2 (SD, / Sps)
+Ts (SDI / Sas)
+U required strength to resist factored loads or related internal moments
+and forces
+?nthe total design seismic lateral force or shear at the base of the
+building or structure
+(concrete) nominal shear strength provided by
+concrete (concrete anchorage) design shear
+strength (concrete) nominal shear strength at
+section (steel) nominal shear strength of a member
+V.
+V„
+V„
+V, , the portion of the seismic shear force at the level of the diaphragm,
+required to be transferred to the components of the vertical seismic-lateral-
+force-resisting system because of the offsets or changes in
+stiffness of the components above or below the diaphragm
+VS
+(concrete) nominal shear strength provided by shear
+reinforcement (concrete anchorage) required shear
+strength from factored loads (concrete) factored shear
+force at section (loads) factored horizontal shear in a story
+(steel) required shear strength on a member
+V,
+V„
+VX the seismic design story shear (force) in story x, (i.e., between Level x
+and x-1)
+W the total effective seismic dead load (weight) defined in §12.7.2 and
+§12.14.8.1
+2006 IBC Structural/Seismic Design Manual, Vol. 2
+XVii
+W (wind) load due to wind pressure
+Wp component operating weight
+weights of concrete, in pcf
+w , w, that portion of W located at or assigned to Level i or x, respectively
+wp the weight of the smaller portion of the structure
+w1,
+the weight of the diaphragm and other elements of the structure
+tributary to the diaphragm
+W px
+the weight of the diaphragm and elements tributary thereto at
+Level x, including applicable portions of other loads defined in
+§12.7.2
+14". weight of the wall tributary to the anchor
+column panel zone width
+X height of upper support attachment at Level x as measured from the
+base
+Y height of lower support attachment at Level Y as measured from the
+base
+Z (steel) plastic section modulus
+height in structure at point of attachment of component, §13.3.1
+(concrete) capacity-reduction or strength-reduction factor (steel)
+resistance factor for flexure
+(steel) resistance factor for compression
+z
+On
+Ov
+resistance factor for shear strength of panel-zone of beam-to-column
+connections
+P
+a redundancy factor obtained in accordance with §12.3.4
+(concrete) ratio of nonprestressed tension reinforcement (Ajbd)
+reinforcement ratio producing balanced strain conditions
+P
+Pb
+k lightweight aggregate concrete factor; 1.0 for normal-weight
+concrete, 0.75 for "all lightweight" concrete, and 0.85 for "sand-
+lightweight" concrete
+limiting slenderness parameter for compact element
+xviii
+2006 IBC Structural/Seismic Design Manual, Vol. 2
+en
+clear span measured face-to-face of supports
+ea
+unsupported length of compression member
+f,„ length of entire wall or of segment of wall considered in direction of
+shear force
+coefficient of friction
+A design story drift, shall be computed as the differences of the
+deflections at the center of mass at the top and bottom of the story
+under consideration. Note: Where ASD is used, A shall be computed
+using earthquake forces without dividing by 1.4, see §12.8.6
+Aa
+allowable story drift, as obtained from Table 12.12-1
+system overstrength factor as given in Table 12.2-1
+inelastic deflections of Level x — §12.8.6
+S20
+8x
+Save
+the average of the displacements at the extreme points of the
+structure at Level x
+8 the maximum displacement at Level x
+8xa
+deflection at Level x of structure A
+8xe the deflections determined by an elastic analysis of the seismic-force-
+resisting system
+8yA deflection at Level y of structure A
+SyB deflection at Level y of structure B
+0 stability coefficient — §12.8.7
+2006 IBC Structural/Seismic Design Manual, Vol. 2 XIX

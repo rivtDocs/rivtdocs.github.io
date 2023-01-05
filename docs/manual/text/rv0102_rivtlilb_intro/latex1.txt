@@ -1,0 +1,3 @@
+latex
+\frac {\left(\rho + z - \rho \right ) \ d \theta} {\rho \ d \theta} = \frac {z} {\rho}
+A_{smin}=\frac{3 \sqrt{f_{c}^{\prime}}}{f_{y}} b_{w} d

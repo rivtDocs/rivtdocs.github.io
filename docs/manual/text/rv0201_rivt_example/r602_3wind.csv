@@ -1,0 +1,11 @@
+"R602.3(3) WOOD WALL SHEATHING WIND PRESSURE REQUIREMENTS[a,b,c]",,, 
+"Minimum Nail Size","6d common\n(2.0 x 0.113)","8d Common\n(2.5 x 0.131)","8d Common\n(2.5 x 0.131)"
+"Minimum Nail Penetration (in)",1.5,1.75,1.75
+"Minimum Panel Span Rating",24/0,24/16,24/16
+"Minimum Nominal Thickness (in)",3/8,7/16,7/16
+"Minimum Stud Spacing (in)",16,16,24
+"Edge Nail Spacing (in)",6,6,6
+"Field Nail Spacing (in)",12,12,12
+Exposure B Vult (mph),140,170,140
+Exposure C Vult (mph),115,140,115
+Exposure D Vult (mph),110,135,110
