@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<p style="text-align:center; font-weight:bold"> share docs and calcs anywhere anytime </p>
+<p style="text-align:center; font-weight:bold"> share docs and calcs anywhere, anytime </p>
 <table>
 <colgroup>
   <col width="20%" />
@@ -11,9 +11,9 @@ layout: default
 </colgroup>
 <thead>
 <tr class="header">
-  <th style="text-align: center">rivtDocs (framework)</th>
-  <th style="text-align: center">rivt (source code)</th>
-  <th style="text-align: center">rivtSearch (Github search)</th>
+  <th style="text-align: center"><b>rivtDocs</b><BR>An IDE framework for editing and sharing rivtText documents</th>
+  <th style="text-align: center"><b>rivt</b> source code</th>
+  <th style="text-align: center"><b>rivtSearch</b><BR> Page for searching rivt README.  In upper left hand search box add new search terms, separated by spaces (no brackets) "rivt [new search terms] in:readme" </th>
 </tr>
 </thead>
 <tbody>
@@ -32,14 +32,14 @@ layout: default
 Recent developments in open source software tools can be applied to writing and
 sharing engineering documents.
 
-After rapid improvements in the 20th century, many engineering technologies in
-the 21st century are evolving slowly. Design procedures are often fixed in
-standard codes for decades. The foundation of good engineering work now lies in
-understanding a range of established technologies and then skillfully and
-efficiently combining them to fit project requirements. Calculation documents
-are the first draft in the process of making these combinations work. Being
-able to easily cut, paste and share from previous projects lets an engineer
-explore more options, focus on key issues and improve solutions.
+Many engineering technologies in the 21st century are evolving slowly. Design
+procedures are often fixed in standard codes for decades. The foundation of
+good engineering work now lies in understanding a range of established
+technologies and then skillfully and efficiently combining them to fit project
+requirements. Calculation documents are the first draft in the process of
+making these combinations work. Being able to easily cut, paste and share from
+previous projects lets an engineer explore more options, focus on key issues
+and improve solutions.
 
 Engineering professions have an opportunity to produce large, general
 calculation libraries that can be reused and recombined as needed. The model of
