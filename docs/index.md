@@ -8,16 +8,16 @@ layout: default
   <col width="20%" />
   <col width="20%" />
   <col width="20%" />
-  <col width="20%" />
-  <col width="20%" />
+  <!<col width="20%" />>
+  <!<col width="20%" />>
 </colgroup>
 <thead>
 <tr class="header">
   <th style="text-align: center">rivtDocs</th>
   <th style="text-align: center">rivt</th>
   <th style="text-align: center">rivtSearch</th>
-  <th style="text-align: center">rivtDocs Install</th>
-  <th style="text-align: center">rivtDocs Manual</th>
+  <!<th style="text-align: center">rivtDocs Install</th>>
+  <!<th style="text-align: center">rivtDocs Manual</th>>
 </tr>
 </thead>
 <tbody>
@@ -25,8 +25,8 @@ layout: default
   <td style="text-align:center;background-color:#999290"><a href="https://rivtdocs.net"> <img src="./assets/img/rivtdocs.png" width="75" height="55" /></a></td>
   <td style="text-align: center"><a href="https://rivtcode.net"> <img src="./assets/img/rivt01.png" width="75" height="55" /></a></td>
   <td style="text-align: center"><a href="https://github.com/search?q=rivt+in%3Areadme"> <img src="./assets/img/search01.png" width="70" height="60" /></a></td>
-  <td style="text-align: center"><a href="https://rivtinstall.net"> <img src="./assets/img/rivtdocs.png" width="75" height="55" /></a></td>
-  <td style="text-align: center"><a href="https://rivtmanual.net"> <img src="./assets/img/rivtmanual.png" width="80" height="60" /></a></td>
+  <!<td style="text-align: center"><a href="https://rivtinstall.net"> <img src="./assets/img/rivtdocs.png" width="75" height="55" /></a></td>>
+  <!<td style="text-align: center"><a href="https://rivtmanual.net"> <img src="./assets/img/rivtmanual.png" width="80" height="60" /></a></td>>
 </tr>
 </tbody>
 </table>
@@ -73,10 +73,11 @@ promote sharing.
 ## **rivt** Overview
 
 **rivtDoc** is an integration of four open source programs and technologies
-(listed below). It implements **rivtText**, a plain text, human readable,
-calculation markup language derived from restructuredText. **rivt** is the
-Python library that processes **rivtText**. **Github** repositories are the
-primary platform used to search and distribute **rivt** calcs.
+(listed below) that process **rivtText**, a plain text, human readable,
+calculation markup language derived from restructuredText. **rivt** and other
+Python libraries process **rivtText**. **VSCode** is the primary interface.
+**LaTeX** provides document formatting. **Github** repositories are the primary
+platform for version control, search and distribution or *rivt* documents. 
 
 **rivt** can be installed on the desktop or run in the cloud.  The absolute
 minimum software needed is a Python installation with 8 additional libraries and
