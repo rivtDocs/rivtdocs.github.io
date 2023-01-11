@@ -24,7 +24,7 @@ layout: default
 </tr>
 <tr>
   <td style="text-align: center">An IDE framework for <BR> editing and sharing <BR> rivtText docs and calcs</td>
-  <td style="text-align: center"><b>source code</td>
+  <td style="text-align: center">source code</td>
   <td style="text-align: center">Search rivt READMEs.  In upper left hand search box add new search terms, separated by spaces (no brackets) "rivt [new search terms] in:readme" </td>
 </tr>
 </tbody>
