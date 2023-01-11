@@ -23,9 +23,9 @@ layout: default
   <td style="text-align: center"><a href="https://github.com/search?q=rivt+in%3Areadme"> <img src="./assets/img/search01.png" width="70" height="60" /></a></td>
 </tr>
 <tr>
-  <th style="text-align: center">An IDE framework for <BR> editing and sharing <BR> rivtText docs and calcs</th>
-  <th style="text-align: center"><b>source code</th>
-  <th style="text-align: center">Search rivt READMEs.  In upper left hand search box add new search terms, separated by spaces (no brackets) "rivt [new search terms] in:readme" </th>
+  <td style="text-align: center">An IDE framework for <BR> editing and sharing <BR> rivtText docs and calcs</td>
+  <td style="text-align: center"><b>source code</td>
+  <td style="text-align: center">Search rivt READMEs.  In upper left hand search box add new search terms, separated by spaces (no brackets) "rivt [new search terms] in:readme" </td>
 </tr>
 </tbody>
 </table>
