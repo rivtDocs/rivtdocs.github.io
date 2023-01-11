@@ -4,16 +4,11 @@ layout: default
 
 <p style="text-align:center; font-weight:bold"> share docs and calcs anywhere, anytime </p>
 <table>
-<colgroup>
-  <col width="20%" />
-  <col width="20%" />
-  <col width="20%" />
-</colgroup>
 <thead>
 <tr class="header">
-  <th style="text-align: center"><b>rivtDocs</b><BR>An IDE framework for editing and sharing rivtText documents</th>
-  <th style="text-align: center"><b>rivt</b> source code</th>
-  <th style="text-align: center"><b>rivtSearch</b><BR> Page for searching rivt README.  In upper left hand search box add new search terms, separated by spaces (no brackets) "rivt [new search terms] in:readme" </th>
+  <th style="text-align: center"><b><rivtDocs</b></th>
+  <th style="text-align: center"><b>rivt</b> <BR> source code</th>
+  <th style="text-align: center"><b><u>rivtSearch</u></b></th>
 </tr>
 </thead>
 <tbody>
@@ -21,6 +16,11 @@ layout: default
   <td style="text-align:center;background-color:#999290"><a href="https://rivtdocs.net"> <img src="./assets/img/rivtdocs.png" width="75" height="55" /></a></td>
   <td style="text-align: center"><a href="https://rivtcode.net"> <img src="./assets/img/rivt01.png" width="75" height="55" /></a></td>
   <td style="text-align: center"><a href="https://github.com/search?q=rivt+in%3Areadme"> <img src="./assets/img/search01.png" width="70" height="60" /></a></td>
+</tr>
+<tr >
+  <th style="text-align: center">An IDE framework for <BR> editing and sharing <BR> rivtText docs and calcs</th>
+  <th style="text-align: center"><b>source code</th>
+  <th style="text-align: center">Search rivt READMEs.  In upper left hand search box add new search terms, separated by spaces (no brackets) "rivt [new search terms] in:readme" </th>
 </tr>
 </tbody>
 </table>
