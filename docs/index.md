@@ -4,16 +4,11 @@ layout: default
 
 <p style="text-align:center; font-weight:bold"> share docs and calcs anywhere, anytime </p>
 <table>
-<colgroup>
-  <col width="30%" />
-  <col width="30%" />
-  <col width="30%" />
-</colgroup>
 <thead>
 <tr class="header">
-  <th style="text-align: center"><b><rivtDocs</b></th>
-  <th style="text-align: center"><b>rivt</b> <BR> source code</th>
-  <th style="text-align: center"><b><u>rivtSearch</u></b></th>
+  <th style="text-align: center"><b>rivtDocs</b></th>
+  <th style="text-align: center"><b>rivt</b></th>
+  <th style="text-align: center"><b>rivtSearch</b></th>
 </tr>
 </thead>
 <tbody>
@@ -25,7 +20,7 @@ layout: default
 <tr>
   <td style="text-align: center">An IDE framework for <BR> editing and sharing <BR> rivtText docs and calcs</td>
   <td style="text-align: center">source code</td>
-  <td style="text-align: center">Search rivt READMEs.  In upper left hand search box add new search terms, separated by spaces (no brackets) "rivt [new search terms] in:readme" </td>
+  <td style="text-align: center">Search rivt READMEs on Github page. <BR> In upper left hand search box add <BR> new search terms separated by spaces (no brackets) <BR> "rivt [new search terms] in:readme" </td>
 </tr>
 </tbody>
 </table>
