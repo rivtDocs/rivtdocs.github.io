@@ -106,14 +106,14 @@ $border-color: $grey-dk-300;
 
 // Grid system
 
-$gutter-spacing: $sp-6 !default;
-$gutter-spacing-sm: $sp-4 !default;
-$nav-width: 100px;
-$nav-width-md: 100px;
+$gutter-spacing: $sp-3 !default;
+$gutter-spacing-sm: $sp-2 !default;
+$nav-width: 20%;
+$nav-width-md: 20%;
 $nav-list-item-height: $sp-8;
 $nav-list-item-height-sm: $sp-9;
 $nav-list-expander-right: true;
-$content-width: 1100px;
+$content-width: 80%;
 $header-height: 90px !default;
 $search-results-width: $content-width - $nav-width !default;
 $transition-duration: 400ms;
