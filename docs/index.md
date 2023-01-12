@@ -23,9 +23,9 @@ layout: default
   <td style="text-align: center;border-top:0px none #FFFFFF;border-bottom:0px none #FFFFFF"><a href="https://github.com/search?q=rivt+in%3Areadme"> <img src="./assets/img/search01.png" width="70" height="60" /></a></td>
 </tr>
 <tr>
-  <td style="text-align: center;border-top:0px none;border-bottom:0px none">An IDE framework for <BR> editing and sharing <BR> rivtText docs and calcs</td>
-  <td style="text-align: center;border-top:0px none;border-bottom:0px none">source code for rivt API</td>
-  <td style="text-align: center;border-top:0px none;border-bottom:0px none">Search rivt READMEs on Github page. <BR> In upper left search box add new  <BR>  space-separated search terms (no brackets). <BR> "rivt [new search terms] in:readme" </td>
+  <td style="text-align: center;border-top:0px none #FFFFFF;border-bottom:0px none #FFFFFF">An IDE framework for <BR> editing and sharing <BR> rivtText docs and calcs</td>
+  <td style="text-align: center;border-top:0px none #FFFFFF;border-bottom:0px none #FFFFFF">source code for rivt API</td>
+  <td style="text-align: center;border-top:0px none #FFFFFF;border-bottom:0px none #FFFFFF">Search rivt READMEs on Github page. <BR> In upper left search box add new  <BR>  space-separated search terms (no brackets). <BR> "rivt [new search terms] in:readme" </td>
 </tr>
 </tbody>
 </table>
