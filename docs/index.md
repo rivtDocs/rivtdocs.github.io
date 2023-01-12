@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<p style="text-align:center; font-weight:bold"> Share Docs and Calcs Anywhere, Anytime </p>
+<p style="text-align:center; font-weight:bold"> Share Documents and Calcs Anywhere, Anytime </p>
 <table>
 <colgroup>
   <col width="30%" />
@@ -34,8 +34,9 @@ layout: default
 
 ## Introduction
 
-Recent developments in open source software tools can be applied to writing and
-sharing engineering documents.
+Engineering documents and calcs include text, tables, figures and calculations organized in .
+Recent developments in open source software tools can dramatically increase the
+ease with which be applied to writing and sharing engineering documents.
 
 Many engineering technologies in the 21st century are evolving slowly. Design
 procedures are often fixed in standard codes for decades. The foundation of
