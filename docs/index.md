@@ -11,9 +11,9 @@ layout: default
 </colgroup>
 <thead>
 <tr class="header">
-  <th style="text-align: center;background-color:#999290;border-top:0px none #FFFFFF;border-bottom:0px none #FFFFFF"><a href="https://rivtdocs.net"><b>rivtDocs</b></a></th>
-  <th style="text-align: center;background-color:#999290;border-top:0px none #FFFFFF;border-bottom:0px none #FFFFFF"><a href="https://rivtcode.net"><b>rivt</b></a></th>
-  <th style="text-align: center;background-color:#999290;border-top:0px none #FFFFFF;border-bottom:0px none #FFFFFF"><a href="https://github.com/search?q=rivt+in%3Areadme"><b>rivtSearch</b></a></th>
+  <th style="text-align: center;border-top:0px none #FFFFFF;border-bottom:0px none #FFFFFF"><a href="https://rivtdocs.net"><b>rivtDocs</b></a></th>
+  <th style="text-align: center;border-top:0px none #FFFFFF;border-bottom:0px none #FFFFFF"><a href="https://rivtcode.net"><b>rivt</b></a></th>
+  <th style="text-align: center;border-top:0px none #FFFFFF;border-bottom:0px none #FFFFFF"><a href="https://github.com/search?q=rivt+in%3Areadme"><b>rivtSearch</b></a></th>
 </tr>
 </thead>
 <tbody>
@@ -25,7 +25,7 @@ layout: default
 <tr>
   <td style="text-align: center;border-top:0px none #FFFFFF;border-bottom:0px none #FFFFFF">An IDE framework for <BR> editing and sharing <BR> rivtText docs and calcs</td>
   <td style="text-align: center;border-top:0px none #FFFFFF;border-bottom:0px none #FFFFFF">source code for rivt API</td>
-  <td style="text-align: center;border-top:0px none #FFFFFF;border-bottom:0px none #FFFFFF">Search rivt READMEs on Github page. <BR> In upper left search box add new  <BR>  space-separated search terms (no brackets). <BR> "rivt [new search terms] in:readme" </td>
+  <td style="text-align: center;border-top:0px none #FFFFFF;border-bottom:0px none #FFFFFF">Search rivt READMEs on Github page. <BR> Add new search terms in box  <BR>  in upper left box (no brackets). <BR> "rivt [new search terms] in:readme" </td>
 </tr>
 </tbody>
 </table>
