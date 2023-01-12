@@ -25,7 +25,7 @@ layout: default
 <tr>
   <td style="text-align: center;border-top:0px none #FFFFFF;border-bottom:0px none #FFFFFF">An IDE framework for <BR> editing and sharing <BR> rivtText docs and calcs</td>
   <td style="text-align: center;border-top:0px none #FFFFFF;border-bottom:0px none #FFFFFF">source code for rivt API</td>
-  <td style="text-align: center;border-top:0px none #FFFFFF;border-bottom:0px none #FFFFFF">Search rivt READMEs on Github page. <BR> Add new search terms in box  <BR>  in upper left box (no brackets). <BR> "rivt [new search terms] in:readme" </td>
+  <td style="text-align: center;border-top:0px none #FFFFFF;border-bottom:0px none #FFFFFF">Search rivt READMEs on Github page. <BR> Add new space separated terms <BR> in upper left search box - no brackets. <BR> "rivt [new search terms] in:readme" </td>
 </tr>
 </tbody>
 </table>
@@ -34,18 +34,21 @@ layout: default
 
 ## Introduction
 
-Engineering documents and calcs include text, tables, figures and calculations organized in .
-Recent developments in open source software tools can dramatically increase the
-ease with which be applied to writing and sharing engineering documents.
+Engineering documents and calcs include text, tables, figures and calculations
+organized in letter and report formats. Recent developments in open source
+software tools dramatically improve the ease with which these documents can be
+compiled and shared. This has important implications for engineering design
+quality and productivity.
 
 Many engineering technologies in the 21st century are evolving slowly. Design
-procedures are often fixed in standard codes for decades. The foundation of
-good engineering work now lies in understanding a range of established
-technologies and then skillfully and efficiently combining them to fit project
-requirements. Calculation documents are the first draft in the process of
-making these combinations work. Being able to easily cut, paste and share from
-previous projects lets an engineer explore more options, focus on key issues
-and improve solutions.
+procedures are often fixed for decades in standard codes, with little or no
+change. Good engineering work now lies, not so much in technological
+innovation, but in understanding a range of established technologies well
+enough to efficiently and cost-effectively combine them to fit project
+requirements. Calculation documents are the working papers that make these
+combinations work. Being able to easily cut, paste and share from previous
+projects lets an engineer explore more options, focus on key issues, respond to
+market changes and improve solutions.
 
 Engineering professions have an opportunity to produce large, general
 calculation libraries that can be reused and recombined as needed. The model of
@@ -54,16 +57,16 @@ effective in programming. The extension of this approach to engineering
 calculations is promising.
 
 A number of powerful calculation programs exist, but they include barriers to
-widespread sharing. These include high initial and recurring software costs.
-Costs are further increased by changing file formats that require program
-upgrades or subscriptions. File incompatibility between different programs
-requires multiple software purchases. And current software does not produce
-collated reports, or allow for version control or inclusion of information from
-arbitrary sources often needed for clarity. 
+widespread sharing. These include both high initial, and substantial recurring,
+software costs. Costs are further increased by the constantly changing file
+formats that require program upgrades or subscriptions to maintain file
+compatibility. In addition, file incompatibility between different programs requires
+multiple software purchases. And current software does not easily generate
+reports, version control or integrate work from multiple sources.
 
-Taken together these barriers prevent widespread sharing. Instead they lead to
-nearly identical calculations being rewritten many times. **rivt** was
-written as an an open source software stack to minimize these barriers and
+Taken together these barriers prevent widespread sharing and lead to
+nearly identical calculations being rewritten many times. **rivtDocs** was
+conceived as an an open source software stack to minimize these barriers and
 promote sharing.
 
 **Program Comparison**

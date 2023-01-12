@@ -106,8 +106,8 @@ $border-color: $grey-dk-300;
 
 // Grid system
 
-$gutter-spacing: $sp-6 ;
-$gutter-spacing-sm: $sp-4 ;
+$gutter-spacing: $sp-6 !default;
+$gutter-spacing-sm: $sp-4 !default;
 $nav-width: 250px;
 $nav-width-md: 250px;
 $nav-list-item-height: $sp-8;
