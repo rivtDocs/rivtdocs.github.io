@@ -11,9 +11,9 @@ layout: default
 </colgroup>
 <thead>
 <tr class="header">
-  <th style="text-align: center"><a href="https://rivtdocs.net">rivtDocs></a></th>
-  <th style="text-align: center"><b>rivt</b></th>
-  <th style="text-align: center"><b>rivtSearch</b></th>
+  <th style="text-align: center"><a href="https://rivtdocs.net"><b>rivtDocs</b></a></th>
+  <th style="text-align: center"><a href="https://rivtcode.net"><b>rivt</b></a></th>
+  <th style="text-align: center"><a href="https://github.com/search?q=rivt+in%3Areadme"><b>rivtSearch</b></a></th>
 </tr>
 </thead>
 <tbody>
