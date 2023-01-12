@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<p style="text-align:center; font-weight:bold"> share docs and calcs anywhere, anytime </p>
+<p style="text-align:center; font-weight:bold"> Share Docs and Calcs Anywhere, Anytime </p>
 <table>
 <colgroup>
   <col width="30%" />
@@ -18,14 +18,14 @@ layout: default
 </thead>
 <tbody>
 <tr>
-  <td style="text-align:center;background-color:#999290;border-top: 0px;border-bottom: 0px"><a href="https://rivtdocs.net"> <img src="./assets/img/rivtdocs.png" width="75" height="55" /></a></td>
-  <td style="text-align: center"><a href="https://rivtcode.net"> <img src="./assets/img/rivt01.png" width="75" height="55" /></a></td>
-  <td style="text-align: center"><a href="https://github.com/search?q=rivt+in%3Areadme"> <img src="./assets/img/search01.png" width="70" height="60" /></a></td>
+  <td style="text-align:center;background-color:#999290;border-top:0px;border-bottom:0px"><a href="https://rivtdocs.net"> <img src="./assets/img/rivtdocs.png" width="75" height="55" /></a></td>
+  <td style="text-align: center;border-top:0px;border-bottom:0px"><a href="https://rivtcode.net"> <img src="./assets/img/rivt01.png" width="75" height="55" /></a></td>
+  <td style="text-align: center;border-top:0px;border-bottom:0px"><a href="https://github.com/search?q=rivt+in%3Areadme"> <img src="./assets/img/search01.png" width="70" height="60" /></a></td>
 </tr>
 <tr>
-  <td style="text-align: center">An IDE framework for <BR> editing and sharing <BR> rivtText docs and calcs</td>
-  <td style="text-align: center">source code for rivt API</td>
-  <td style="text-align: center">Search rivt READMEs on Github page. <BR> In upper left hand search box <BR> add new search terms <BR> separated by spaces (no brackets) <BR> "rivt [new search terms] in:readme" </td>
+  <td style="text-align: center;border-top:0px;border-bottom:0px">An IDE framework for <BR> editing and sharing <BR> rivtText docs and calcs</td>
+  <td style="text-align: center;border-top:0px;border-bottom:0px">source code for rivt API</td>
+  <td style="text-align: center;border-top:0px;border-bottom:0px">Search rivt READMEs on Github page. <BR> In upper left search box add new  <BR>  space-separated search terms (no brackets) <BR> "rivt [new search terms] in:readme" </td>
 </tr>
 </tbody>
 </table>
