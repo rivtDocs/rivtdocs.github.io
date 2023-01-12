@@ -52,22 +52,23 @@ market changes and improve solutions.
 
 Engineering professions have an opportunity to produce large, general
 calculation libraries that can be reused and recombined as needed. The model of
-shared incremental improvement in text documents e.g.software code, has proven
-effective in programming. The extension of this approach to engineering
-calculations is promising.
+shared, incremental improvement in open source software code has proven
+effective in programming. Although code is only text, the extension of this
+approach to more general engineering calculation documents is promising.
 
 A number of powerful calculation programs exist, but they include barriers to
-widespread sharing. These include both high initial, and substantial recurring,
-software costs. Costs are further increased by the constantly changing file
-formats that require program upgrades or subscriptions to maintain file
-compatibility. In addition, file incompatibility between different programs requires
-multiple software purchases. And current software does not easily generate
-reports, version control or integrate work from multiple sources.
+widespread sharing. These include high initial and substantial recurring
+software costs. Costs are further increased by constantly changing file formats
+that require program upgrades or subscriptions to maintain file compatibility.
+In addition, file incompatibility between different programs requires multiple
+software purchases and programs to learn. Furthermore current software does not
+easily generate reports, version control or integrate output from external
+programs.
 
-Taken together these barriers prevent widespread sharing and lead to
-nearly identical calculations being rewritten many times. **rivtDocs** was
-conceived as an an open source software stack to minimize these barriers and
-promote sharing.
+Taken together these barriers prevent widespread sharing and result in nearly
+identical calculations being rewritten many times. **rivtDocs** and **rivt**
+were conceived as an an open source software stack to minimize these barriers
+and promote sharing.
 
 **Program Comparison**
 
