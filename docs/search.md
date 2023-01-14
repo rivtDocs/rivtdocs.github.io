@@ -17,7 +17,7 @@
 </style>
 </head>
 
-<script> function searchRivt(){strng = document.getElementById("terms").value;URL = `https://github.com/search?q=rivt+${strng}+in%3Areadme`;window.open(URL,'_blank')};document.getElementById('output').innerHTML = strng</script>
+<script> function searchRivt(){strng = document.getElementById("terms").value;document.getElementById('output').innerHTML = strng;URL = `https://github.com/search?q=rivt+${strng}+in%3Areadme`;window.open(URL,'_blank')}</script>
 
 ### Enter search terms separated by a + sign
 ### Example: concrete+beam+bridge
