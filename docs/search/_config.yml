@@ -1,6 +1,7 @@
-theme: jekyll-theme-minimal
-title: rivtSearch
-logo: images/repl1_logo.jpg
-description: search rivt GitHub files
-show_downloads: false
-search_enabled: false
+title: rivtDocs
+logo: /assets/img/docs_home.png
+description: rivt Manual and Installers
+show_downloads: true
+full_width: true
+google_analytics:
+remote_theme: just-the-docs/just-the-docs
