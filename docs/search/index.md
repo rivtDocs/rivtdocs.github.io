@@ -8,7 +8,9 @@ Some description
 
 ## Search
 
+<button id="bgnBtn" onclick="searchRivt()">Enter Search Terms</button>
 
+recent search terms
 <p id="output"></p>
 
 
@@ -28,5 +30,4 @@ Example list
 
 The [documentation](https://docs.github.com/categories/github-pages-basics/) provides instructions for use and [contact support](oncexchange@gmail.com) can answer questions. 
 
-<script> var name = prompt("Enter search terms separated by spaces");var lengthOfName = name.length;document.getElementById('output').innerHTML = lengthOfName;
-</script>
+<script> function searchRivt(){var name = prompt("Enter search terms separated by spaces");document.getElementById('output').innerHTML = name;}</script>
