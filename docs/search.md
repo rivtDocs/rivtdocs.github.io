@@ -17,6 +17,8 @@
 </style>
 </head>
 
+<script> function searchRivt(){strng = document.getElementById("terms").value;URL = `https://github.com/search?q=rivt+${strng}+in%3Areadme`;window.open(URL,'_blank')};document.getElementById('output').innerHTML = strng</script>
+
 ### Enter search terms separated by a + sign
 ### Example: concrete+beam+bridge
 ### Search will be a full text search over all GitHub rivt README files
@@ -30,7 +32,6 @@
 
 ## Most Recent Search
 
-<p style="font-weight: bold" id="terms"></p>
+<p style="font-weight: bold" id="output"></p>
 
 
-<script> function searchRivt(){strng = document.getElementById("terms").value;URL = `https://github.com/search?q=rivt+${strng}+in%3Areadme`;window.open(URL,'_blank')}</script>
