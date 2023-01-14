@@ -8,6 +8,10 @@ Some description
 
 ## Search
 
+Enter search terms separated by a + sign
+
+Example: concrete+beam+bridge
+
 <button id="bgnBtn" onclick="searchRivt()">Enter Search Terms</button>
 
 recent search terms
@@ -30,4 +34,4 @@ Example list
 
 The [documentation](https://docs.github.com/categories/github-pages-basics/) provides instructions for use and [contact support](oncexchange@gmail.com) can answer questions. 
 
-<script> function searchRivt(){var name = prompt("Enter search terms separated by spaces");document.getElementById('output').innerHTML = name;}</script>
+<script> function searchRivt(){var terms = prompt("search terms");document.getElementById('output').innerHTML = name;URL = `https://github.com/search?q=rivt+${terms}+in%3Areadme`;window.open(URL,'_blank')}</script>

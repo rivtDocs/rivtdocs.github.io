@@ -3,3 +3,4 @@ title: rivtSearch
 logo: images/repl1_logo.jpg
 description: search rivt GitHub files
 show_downloads: false
+search_enabled: false
