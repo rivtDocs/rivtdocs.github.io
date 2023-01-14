@@ -26,7 +26,7 @@
 ## Example: concrete+beam+bridge
 ## Search will be a full text search over rivt README files
 
-<input type="text" id="terms" name="terms"><br><br>
+<input type="text" id="terms" name="terms" size=100 style="height:100px;font-size:14ptp"><br><br>
 <button class="button" id="bgnBtn" onclick="searchRivt()">Search</button>
 
 <br>
@@ -38,4 +38,4 @@
 <p id="terms"></p>
 
 
-<script> function searchRivt(){URL = `https://github.com/search?q=rivt+${terms}+in%3Areadme`;window.open(URL,'_blank')}</script>
+<script> function searchRivt(){strng = document.getElementById("terms").value;URL = `https://github.com/search?q=rivt+${strng}+in%3Areadme`;window.open(URL,'_blank')}</script>
