@@ -14,17 +14,13 @@
   margin: 4px 2px;
   cursor: pointer;
 }
-.button2 {background-color: #008CBA;} /* Blue */
-.button3 {background-color: #f44336;} /* Red */ 
-.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
-.button5 {background-color: #555555;} /* Black */
 </style>
 </head>
 
 
 ## Enter search terms separated by a + sign
 ## Example: concrete+beam+bridge
-## Search will be a full text search over rivt README files
+## Search will be a full text search over all GitHub rivt README files
 
 <input type="text" id="terms" name="terms" size=100 style="height:100px;font-size:14ptp"><br><br>
 <button class="button" id="bgnBtn" onclick="searchRivt()">Search</button>
@@ -36,6 +32,5 @@
 ## Most Recent Search
 
 <p id="terms"></p>
-
 
 <script> function searchRivt(){strng = document.getElementById("terms").value;URL = `https://github.com/search?q=rivt+${strng}+in%3Areadme`;window.open(URL,'_blank')}</script>
