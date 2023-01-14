@@ -28,11 +28,8 @@ Example list
 
 The [documentation](https://docs.github.com/categories/github-pages-basics/) provides instructions for use and [contact support](oncexchange@gmail.com) can answer questions. 
 
-<script>
-window.onload = function(){
-    var name = prompt("Enter search terms separated by spaces");
-    var lengthOfName = name.length
-
-    document.getElementById('output').innerHTML = lengthOfName;
+<script> var name = prompt("Enter search terms separated by spaces");
+var lengthOfName = name.length;
+document.getElementById('output').innerHTML = lengthOfName;
 };
 </script>
