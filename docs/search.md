@@ -19,19 +19,21 @@
 
 <script> function searchRivt(){strng = document.getElementById("terms").value;document.getElementById('output').innerHTML = strng;URL = `https://github.com/search?q=rivt+${strng}+in%3Areadme`;window.open(URL,'_blank')}</script>
 
+<br>
+
 ### Enter search terms separated by a + sign
 ### Example: concrete+beam+bridge
-### Search will be a full text search over all GitHub rivt README files
+### Full text search over all GitHub rivt README files
+
+<br>
 
 <input type="text" id="terms" name="terms" size=100 style="height:50px;font-size:14pt; font-weight: bold"><br><br>
 <button class="button" id="bgnBtn" onclick="searchRivt()">Search</button>
 
 <br>
-<br>
-<br>
 
 ## Most Recent Search
 
-<p style="font-weight: bold" id="output"></p>
+<p style="height:50px;font-size:14pt; font-weight: bold" id="output"></p>
 
 
