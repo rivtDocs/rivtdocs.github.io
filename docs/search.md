@@ -48,6 +48,6 @@ Executes full text search across GitHub rivt README files
 <br>
 Example: concrete+beam+bridge
 
-<button class="button" id="searchBtn" onclick="searchRivt()">Search</button>
+<button class="button" id="searchBtn" onclick="searchRivt()">Search [ctrl+enter]</button>
 
 
