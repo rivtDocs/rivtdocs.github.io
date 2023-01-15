@@ -16,9 +16,7 @@
 }
 </style>
 
-<script> function searchRivt(){strng = document.getElementById("terms").value;URL = `https://github.com/search?q=rivt+${strng}+in%3Areadme`;window.open(URL,'_self')}</script>
-
-<script> input.addEventListener("keydown", function(e) {if (e.key === "Enter"){searchRivt()}});</script>
+<script> function searchRivt(){strng = document.getElementById("terms").value;URL = `https://github.com/search?q=rivt+${strng}+in%3Areadme`;window.open(URL,'_self')};input.addEventListener("keypress", function(e) {if (e.key === "Enter"){searchRivt()}})</script>
 
 </head>
 
@@ -42,7 +40,6 @@
 </tr>
 </tbody>
 </table>
-<p style="text-align:center; font-weight:bold"> Share Docs and Calcs Anywhere, Anytime </p>
 
 ### Enter search terms separated by a + sign
 Executes full text search across GitHub rivt README files
