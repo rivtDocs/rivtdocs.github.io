@@ -37,8 +37,6 @@ Example: concrete+beam+bridge
 
 ## Most Recent Search
 
-<br>
-
 <p style="height:50px;font-size:14pt; font-weight: bold" id="output"></p>
 
 
