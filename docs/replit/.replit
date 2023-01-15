@@ -1,3 +1,0 @@
-run="python rc_example1.py"
-language="python3"
-onBoot="RivtCalc is starting"
