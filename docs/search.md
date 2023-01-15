@@ -16,7 +16,7 @@
 }
 </style>
 
-<script> function searchRivt(){strng = document.getElementById("terms").value;URL = `https://github.com/search?q=rivt+${strng}+in%3Areadme`;window.open(URL,'_self')};input.addEventListener("keypress", function(e) {if (e.key === "Enter"){searchRivt()}})</script>
+<script> function searchRivt(){strng = document.getElementById("terms").value;URL = `https://github.com/search?q=rivt+${strng}+in%3Areadme`;window.open(URL,'_self')};input.addEventListener("keypress", function(e) {if (e.key === "Enter"){searchBtn.click();}})</script>
 
 </head>
 
