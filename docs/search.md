@@ -16,7 +16,7 @@
 }
 </style>
 
-<script> function searchRivt(){strng1 = document.getElementById("terms");strng2 = document.getElementById("terms").value;URL = `https://github.com/search?q=rivt+${strng2}+in%3Areadme`;window.open(URL,'_self')};strng1.addEventListener("keypress", function(e) {if (e.key === 13){e.preventDefault();document.getElementById("searchBtn").click();}})</script>
+<script> function searchRivt(){strng1 = document.getElementById("terms");strng2 = document.getElementById("terms").value;URL = `https://github.com/search?q=rivt+${strng2}+in%3Areadme`;window.open(URL,'_self')};strng1.addEventListener("keypress", function(e) {if (e.key === "Enter"){e.preventDefault();document.getElementById("searchBtn").click();}})</script>
 
 </head>
 
