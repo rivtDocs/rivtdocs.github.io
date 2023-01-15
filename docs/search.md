@@ -18,8 +18,7 @@
 </head>
 
 <script> function searchRivt(){strng = document.getElementById("terms").value;document.getElementById('output').innerHTML = strng;URL = `https://github.com/search?q=rivt+${strng}+in%3Areadme`;window.open(URL,'_self')}</script>
-<script> input.addEventListener("keypress", function(event) {if (event.key === "Enter") {event.preventDefault();document.getElementById("searchBtn").click()}});
-</script>
+
 <table>
 <colgroup>
   <col width="30%" />
@@ -51,5 +50,6 @@ Example: concrete+beam+bridge
 
 <button class="button" id="searchBtn" onclick="searchRivt()">Search</button>
 
-
+<script> input.addEventListener("keypress", function(event) {if (event.key === "Enter"){event.preventDefault();document.getElementById("searchBtn").click()}});
+</script>
 
