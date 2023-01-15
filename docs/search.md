@@ -19,8 +19,29 @@
 
 <script> function searchRivt(){strng = document.getElementById("terms").value;document.getElementById('output').innerHTML = strng;URL = `https://github.com/search?q=rivt+${strng}+in%3Areadme`;window.open(URL,'_self')}</script>
 
-## rivtSearch
-<img src="./assets/img/search01.png" width="75" height="55" />
+
+<table>
+<colgroup>
+  <col width="30%" />
+  <col width="30%" />
+</colgroup>
+<thead>
+<tr class="header">
+  <th style="text-align: center;border:none"><a href="https://rivtdocs.net"><b>rivtDocs (installers)</b></a></th>
+  <th style="text-align: center;border:none"><a href="https://rivtcode.net"><b>rivt (source code)</b></a></th>
+  <th style="text-align: center;border:none;background-color:grey-lt-200"><a href="https://rivtsearch.net"><b>rivtSearch (GitHub)</b></a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="text-align:center;border:none"><a href="https://rivtdocs.net"><img src="./assets/img/rivtdocs.png" width="85" height="60" style="border:2px solid #grey-dk-200"/></a></td>
+  <td style="text-align: center;border:none"><a href="https://rivtcode.net"><img src="./assets/img/rivt01.png" width="75" height="55" /></a></td>
+  <td style="text-align: center;border:none"><a href="https://rivtsearch.net"><img src="./assets/img/search01.png" width="85" height="65" /></a></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align:center; font-weight:bold"> Share Docs and Calcs Anywhere, Anytime </p>
+
 
 ### Enter search terms separated by a + sign
 Executes full text search across GitHub rivt README files
