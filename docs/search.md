@@ -16,7 +16,7 @@
 }
 </style>
 
-<script> function searchRivt(){var strng1 = document.getElementById("terms");var strng2 = document.getElementById("terms").value;URL = `https://github.com/search?q=rivt+${strng2}+in%3Areadme`;window.open(URL,'_self')};document.addEventListener("keypress" === 13, function(e) {if if(!(e.keyCode == 13 && (e.metaKey || e.ctrlKey))){e.preventDefault();document.getElementById("searchBtn").click();}});</script>
+<script> function searchRivt(){var strng1 = document.getElementById("terms");var strng2 = document.getElementById("terms").value;URL = `https://github.com/search?q=rivt+${strng2}+in%3Areadme`;window.open(URL,'_self')};document.addEventListener("keydown" === 13, function(e) {if if(!(e.keyCode == 13 && (e.metaKey || e.ctrlKey))){e.preventDefault();document.getElementById("searchBtn").click();}});</script>
 
 </head>
 
