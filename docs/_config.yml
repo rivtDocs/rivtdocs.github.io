@@ -6,7 +6,6 @@ full_width: true
 google_analytics:
 remote_theme: just-the-docs/just-the-docs
 # Enable or disable the site search
-# Supports true (default) or false
 search_enabled: true
 search:
   # Split pages into sections that can be searched individually
@@ -30,7 +29,7 @@ search:
   rel_url: true
   # Enable or disable the search button that appears in the bottom right corner of every page
   # Supports true or false (default)
-  button: true
+  button: false
   mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/

@@ -112,7 +112,7 @@ brackets. Fixed folder and file names and prefixes are shown italicized.
 
 **rivt Folder Structure**
 
-- **[*rivt*_user_project_name]** (user project_name)
+- **[*rivt*_project_name]** (user project_name)
     - **[text]**
         - **[*rv00_config*]** (calc configuration data)
             - units.py
