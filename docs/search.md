@@ -15,9 +15,12 @@
   cursor: pointer;
 }
 </style>
-</head>
 
 <script> function searchRivt(){strng = document.getElementById("terms").value;URL = `https://github.com/search?q=rivt+${strng}+in%3Areadme`;window.open(URL,'_self')}</script>
+
+<script> input.addEventListener("keydown", function(e) {if (e.key === "Enter"){searchRivt()}});</script>
+
+</head>
 
 <table>
 <colgroup>
@@ -41,15 +44,13 @@
 </table>
 <p style="text-align:center; font-weight:bold"> Share Docs and Calcs Anywhere, Anytime </p>
 
-
 ### Enter search terms separated by a + sign
 Executes full text search across GitHub rivt README files
 
-<input type="text" id="terms" name="terms" size=100 style="height:50px;font-size:14pt; font-weight: bold"><br><br>
+<input type="text" id="terms" name="terms" size=100 style="height:50px;font-size:14pt; font-weight: bold">
+<br>
 Example: concrete+beam+bridge
 
 <button class="button" id="searchBtn" onclick="searchRivt()">Search</button>
 
-<script> input.addEventListener("keydown", function(e) {if (e.key === "Enter"){searchRivt()}});
-</script>
 
