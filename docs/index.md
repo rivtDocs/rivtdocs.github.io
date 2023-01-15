@@ -192,9 +192,9 @@ summarized as :
 <pre> 
                     ---------------------------------
                     |     Edit and run rivt file    |
-                    |     or interactive cells.     |
+                    |     or run interactively.     |
                     |                               |
-                    |    cell or function types:    |
+                    |         string types:         |
                     |       R(), I(), V(), T()      |
                     ----------------+----------------
                                    ||
