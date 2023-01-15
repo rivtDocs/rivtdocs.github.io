@@ -16,9 +16,9 @@ layout: default
 </thead>
 <tbody>
 <tr>
-  <td style="text-align:center;border:none"><a href="https://rivtdocs.net"><img src="./assets/img/rivtdocs.png" width="100" height="100" style="border:2px solid #5c5962"/></a></td>
-  <td style="text-align: center;border:none"><a href="https://rivtcode.net"><img src="./assets/img/rivt02.png" width="100" height="100" style="border:2px solid #5c5962"/></a></td>
-  <td style="text-align: center;border:none"><a href="https://rivtdocs.net/search"><img src="./assets/img/search02.png" width="100" height="100" style="border:2px solid #5c5962"/></a></td>
+  <td style="text-align:center;border:none"><a href="https://rivtdocs.net"><img src="./assets/img/rivtdocs03.png" width="100" height="75" style="border:2px solid #5c5962"/></a></td>
+  <td style="text-align: center;border:none"><a href="https://rivtcode.net"><img src="./assets/img/rivt03.png" width="100" height="75" style="border:2px solid #5c5962"/></a></td>
+  <td style="text-align: center;border:none"><a href="https://rivtdocs.net/search"><img src="./assets/img/search03.png" width="75" height="100" style="border:2px solid #5c5962"/></a></td>
 </tr>
 </tbody>
 </table>
