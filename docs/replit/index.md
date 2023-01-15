@@ -1,10 +1,12 @@
-## Run example on repli.it
+## Run Examples on Replit
 
-### [RivtCalc Example 01 on repl.it](https://repl.it/@rivtcalc/tryrivt01#main.py)
+<img src="./assets/img/repl1_logo.jpg" width="100" height="100" />
+
+### [rivt example 01](https://repl.it/@rivtcalc/tryrivt01#main.py)
 
 Some description
 
-### [RivtCalc Example 02 on repl.it](https://repl.it/@rivtcalc/tryrivt02#main.py)
+### [rivt example 02](https://repl.it/@rivtcalc/tryrivt02#main.py)
 
 Some description
 
