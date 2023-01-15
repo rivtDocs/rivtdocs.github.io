@@ -1,6 +1,6 @@
-## Run Examples on Replit
+## rivt Examples on Replit
 
-<img src="./assets/img/repl1_logo.jpg" width="100" height="100" />
+<img src=".images/repl1_logo.jpg" width="100" height="100" />
 
 ### [rivt example 01](https://repl.it/@rivtcalc/tryrivt01#main.py)
 
