@@ -2,7 +2,6 @@
 layout: default
 ---
 
-<p style="text-align:center; font-weight:bold"> Share Docs and Calcs Anywhere, Anytime </p>
 <table>
 <colgroup>
   <col width="30%" />
@@ -10,20 +9,20 @@ layout: default
 </colgroup>
 <thead>
 <tr class="header">
-  <th style="text-align: center;background-color:#959396;border: none"><a href="https://rivtdocs.net"><b>rivtDocs (installers)</b></a></th>
-  <th style="text-align: center;border: none"><a href="https://rivtcode.net"><b>rivt (source code)</b></a></th>
-  <th style="text-align: center;border: none"><a href="https://rivtsearch.net"><b>rivtSearch (GitHub)</b></a></th>
+  <th style="text-align: center;background-color:grey-lt-200;border:none"><a href="https://rivtdocs.net"><b>rivtDocs (installers)</b></a></th>
+  <th style="text-align: center;border:none"><a href="https://rivtcode.net"><b>rivt (source code)</b></a></th>
+  <th style="text-align: center;border:none"><a href="https://rivtsearch.net"><b>rivtSearch (GitHub)</b></a></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-  <td style="text-align:center;border none"><a href="https://rivtdocs.net"><img src="./assets/img/rivtdocs.png" width="85" height="60" style="border:2px solid #959396"/></a></td>
-  <td style="text-align: center;border none"><a href="https://rivtcode.net"><img src="./assets/img/rivt01.png" width="75" height="55" /></a></td>
-  <td style="text-align: center;border none"><a href="https://rivtsearch.net"><img src="./assets/img/search01.png" width="85" height="65" /></a></td>
+  <td style="text-align:center;border:none"><a href="https://rivtdocs.net"><img src="./assets/img/rivtdocs.png" width="85" height="60" style="border:2px solid #grey-dk-200"/></a></td>
+  <td style="text-align: center;border:none"><a href="https://rivtcode.net"><img src="./assets/img/rivt01.png" width="75" height="55" /></a></td>
+  <td style="text-align: center;border:none"><a href="https://rivtsearch.net"><img src="./assets/img/search01.png" width="85" height="65" /></a></td>
 </tr>
 </tbody>
 </table>
-
+<p style="text-align:center; font-weight:bold"> Share Docs and Calcs Anywhere, Anytime </p>
 -----------------------------------------
 
 ## Introduction
