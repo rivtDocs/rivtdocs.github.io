@@ -39,10 +39,10 @@ procedures are often fixed for decades in standard codes, with little or no
 change. Good engineering work now lies, not so much in technological
 innovation, but in understanding a range of established technologies well
 enough to efficiently and cost-effectively combine them to fit project
-requirements. Calculation documents are the working papers that make these
-combinations work. Being able to easily cut, paste and share from previous
-projects lets an engineer explore more options, focus on key issues, respond to
-market changes and improve solutions.
+requirements. Calculation documents are the working papers that describe
+precisely how the combinations fit. Being able to easily cut, paste and share
+from previous projects lets an engineer explore more options, focus on key
+issues, respond to market changes and improve solutions.
 
 Engineering professions have an opportunity to produce large, general
 calculation libraries that can be reused and recombined as needed. The model of
@@ -68,9 +68,9 @@ and promote sharing.
 
 <img src="./assets/img/table1.png" width="900" height="300" />
 
-## **rivt** Overview
+## **rivtDocs** Overview
 
-**rivtDoc** is an integration of four open source programs and technologies
+**rivtDocs** is an integration of four open source programs and technologies
 (listed below) that process **rivtText**, a plain text, human readable,
 calculation markup language derived from restructuredText. **rivt** and other
 Python libraries process **rivtText**. **VSCode** is the primary interface.
@@ -94,95 +94,101 @@ Installation details are provided in the user manual ___here ____.
 
 ## **rivt** Overview
 
-**rivt** is a Python package that provides a calculation API for **rivtText**.
-The API is file and folder based with a specified folder and naming convention.
-The file, folder and prefix naming (italic shows optional) divide the
-calculation report into modular, easily edited and shareable components. The
-naming structure is also used to assemble calcs into a collated report. Folders
-are shown bracketed and notes are in parenthesis.
+**rivt** is a Python package providing an API for **rivtText**, a simple,
+readable document markup language designed for calculations. **rivtText** wraps
+and extends [reStructuredText(reST).](https://docutils.sourceforge.io/rst.html). 
+Ouptut documents include UTF8, HTML and PDF from the same **rivtText** file.
+
+The program design follows three principles:
+
+- **Maximize Cut and Paste** - Calculations are text
+- **Integrate easily** - Python libraries connect with external programs and data
+- **Respect your time** - Only two dozen intuitive syntax terms in the language
+
+The **rivt** API uses fixed file and folder conventions for input and output to
+simplify formatting, navigation, and report assembly. Folder names are shown in
+brackets. Fixed folder and file names and prefixes are shown italicized.
+
 
 **rivt Folder Structure**
 
- - **[rivt*_user_project_name*]** (user project_name)
+- **[*rivt*_user_project_name]** (user project_name)
     - **[text]**
-      - **[rv00*_user_config_name*]** (calc configuration data)
-          - units.py
-          - config.py
-      - **[rv0101*_user_division_name*]**  (folder division name)
-          - *r0101*_calc_name.py (rivt file name) 
-          - README.txt (text output file)
-          - chart.csv (text resource file)
-          - functions.py (function resource file)
-      - **[rv0102*_user_division_name*]** 
-          - *r0102*_calc_name.py
-          - README.txt
-          - chart1.csv 
-          - functions1.py 
-        - **[rv0201*_user_division_name*]**
-          - *r0201*_calc_name.py
-          - README.txt
-          - paragraph.txt
-    - **[bin]**
-      - **[b00]** (report configuration data)
-          - pdf_style.sty
-          - project_data.syk
-      - **[b01]**
-          - image1.jpg
-      - **[b02]**
-          - image2.jpg
-          - attachment.pdf    
+        - **[*rv00_config*]** (calc configuration data)
+            - units.py
+            - config.py
+        - **[*rv0101*_division_name]**  (folder report division name)
+            - *rv0101*_doc_name.py (file name) 
+            - README.txt (doc output file)
+            - chart.csv (doc source file)
+            - functions.py (doc function file)
+        - **[*rv0102*_division_name]** 
+            - *rv0102*_doc_name.py
+            - README.txt
+            - chart1.csv 
+            - functions1.py 
+         - **[*rv0201*_division_name]**
+            - r0201_doc_name.py
+            - README.txt
+            - paragraph.txt
+   - **[resource]**
+        - **[r00]** (report configuration data)
+            - pdf_style.sty
+            - project_data.syk
+            - *report.txt*
+        - **[r01]**
+            - image1.jpg
+        - **[r02]**
+            - image2.jpg
+            - attachment.pdf    
+   - **[reference]**
+        - **[user_folders]** (files not used in docs)
+            - file1
+            - file2
     - **[report]** (pdf output files)
-      - r0101_gravity.pdf
-      - r0102_wind.pdf
-      - r0201_floor.pdf
-      - r0202_roof.pdf
-      - report.pdf
-    - **[site]** (html calc output files)
-      - **[resources]**
-          - image1.png
-          - image2.png
-      - index.html
-      - s0101_gravity.html
-      - s0102_wind.html
-      - s0201_gravity.html
-      - s0202_wind.html
+        - r0101_loads.pdf
+        - r0102_foundation.pdf
+        - r0201_floor.pdf
+        - r0202_roof.pdf
+        - report.pdf
+    - **[site]** (html output files)
+        - **[resources]**
+            - image1.png
+            - image2.png
+        - index.html
+        - s0101_loads.html
+        - s0102_foundation.html
+        - s0201_floor.html
+        - s0202_roof.html
 
-The four top-level folder names (text, binary, report and site) are required.
+The four top-level folder names (text, resource, report and site) are required.
 Other file names are user determined using the specified prefixes. Underscores
-that separate words in file and folder names are stripped out when used as calc
-and division names in the report. The API is designed so that only files in the
-text folder are uploaded for version control and sharing. They constitute the
-essential core of the calculation - the text, equations, functions and tables.
-Files in the docs folder are not shared and are typically binary files such as
-images, pdf attachments and proprietary data (e.g. client contact information
-and costs).
+that separate words in file and folder names are stripped out when used as
+document and division names in the report. The API is designed so that only
+files in the text folder are uploaded for version control and sharing. They are
+the essential core of the calculation - text, equations, functions, tables and
+image references. Files in the resource folder are not shared and are typically
+binary files such as images, pdf attachments and proprietary data (e.g. client
+contact information and costs). This folder and file structure makes it easy to
+share and assert version control on the primary calculation inputs. 
 
-A rivt file is a Python file that imports rivtlib and calls functions on
-rivt-strings. Rivt-strings are free-form plain text strings enclosed in triple
-quotes that may include commands and tags defining the calculation.
- 
-rddnn_filename.py where dd is the division and folder number and ddnn is the
-calc number.  The two subfolders under the project folder are calcs and docs.
-The calcs folder includes all of the plain text input files and output calc
-files (.txt and .tex). The docs folder includes all of the binary inputs (i.e.
-images) and  calc documents (.pdf and .html).  The calcs folder contains only
-plain text files.  This division of file types makes it easy to share and impose
-version control on the primary calculation inputs. rivtlib includes functions
-that automate sharing to GitHub.
+A rivt file is a Python file that imports rivtapi and calls one of four
+functions on rivt-strings. Rivt-strings are free-form plain text strings
+enclosed in triple quotes that include commands and tags defining the
+calculation and formatting. rvddnn_docname.py is the file name where dd is the
+division number, nn is the subdivision number and ddnn is the document number.
+The text folder includes all of the plain text input files and output doc
+files.
 
-A rivt project is started by copying the folder structure from a similar
-existing project. The calcs folder will always be available. The docs folder
-can be copied and derived from the calcs folder.. In summary, rivt reads string
-functions in a .py file as input and outputs a plain text calculation to the
-calcs folder. Options are available to write pdf or html files and reports to
-the report or site folder. Functions are available to assemble complete project
-reports from pdf files.
-
-If a LaTeX distribution is installed, formatted PDF documents and reports can
-be generated. Document writing speed is dramatically improved if a
-full-featured IDE (i.e. VSCode) is used. Each method can be executed
-interactively and in stages using the standard cell tag (# %%). Execution steps
-include:
+A rivt project is typically started by copying from a similar existing project.
+The text folder will be available. The resource folder may have to be
+recreated. In summary, rivt reads string functions in a .py file as input and
+outputs a plain text document to the text folder. Fully formatted pdf or html
+files are output to the report or site folders respectively. A simple text
+editor may be used, but writing speed is dramatically improved if a
+full-featured IDE (i.e. VSCode) is used. rivt_strings may be executed
+interactively using the standard cell tag (# %%). Execution steps are
+summarized as :
 
 <pre> 
                     ---------------------------------
@@ -219,223 +225,13 @@ include:
                    ==================================
 </pre>
 
-RivtCalc may be installed by:
+rivtDocs can be installed in several ways:
 
 - Locally installing and configuring the individual open source components.
 
-- Download and unzipping a pre-configured folder (Windows only).
+- Download and unzipping a portable pre-configured folder (Windows only).
 
 - Remotely installing as a cloud service in a container.
 
-- RivtDocs may also be installed on a remote server and run in a broswer.
-
-RivtTeams is the remote server framework available as a paid service
-
-Refer to the RivtDocs User Manual for details.
 
 [Rivt User Manual](http://www.rivtmanual.net>)
-
-Efficient IDE's By far the most efficient way to write rivt files is with a
-full featured code editor or IDE like Microsoft VSCode. Use of VSCode is
-documented in the Rivt User Manual. When working in VSCode the rivt functions
-can be written and evaluated step by step and graphics can be output inline.
-Other effective editors include Pyzo and Spyder.
-
-  - Interactive Development Environments (IDE)
-  - Python and its scientific libraries
-  - LaTex distributions
-  - Local and cloud database and file systems
-
-Because calc input is written in text they are easily stored and searched in a
-database. Because it generates formal LaTeX output, calcs can be used for
-reports and building permit documentation. on-c-e was started as part of a
-research and development effort to address factors contributing to the
-decades-long slide in construction productivity. Calc inputs generate two
-searchable output formats; UTF-8 and PDF. A UTF-8 calc is instantly generated
-and is intended for rapid design checks and iteration. It can be edited,
-annotated and inserted in other documents. The same calc input can also produce
-PDF calcs formal reports and construction documents. They include graphics and
-LaTeX math and. on-c-e writes formatted UTF-8 and PDF calcs. Sections 2 and 3
-show example calc inputs and outputs. Additional examples are provided in
-Appendix J and they can be browsed in the online database at on-c-e.org.
-Compared to Mathematica ™, Mathcad ™ or MATLAB ™, on-c-e reduces the effort
-needed to publish and share calculations and insure that older models always
-run. Compared to Excel ™ and hand calculations it improves legibility, search,
-review, navigation, organization and re-use. Calcs may also be interactively
-processed within Python interactive shells and notebooks including IEP, Komodo
-Edit and IPython. Multiple related PDF calcs may be organized in a project calc
-with title blocks, page numbers, table of contents and links.
-
-rivt is software for systematically writing engineering calculations and other
-documents. It includes an open source markup language and API written in
-Python. The rivt calculation input file is designed to be easily shared through
-version control ssytems e.g. GitHub.
-    
-The rivtlib API has five methods: R(rs), I(rs), V(rs), T(rs), X(rs); where rs
-represents a RivtText string. In interactive mode in an IDE (e.g. VSCode), each
-API method can made into a standard cell by adding a preceding #%%. Cells can
-be evaluated one at a time and the output is displayed interactively (utf8). In
-file or write mode the entire formatted calculation is written to disk as a
-calc (utf8) or doc (PDF). rivt files and calcs are text files and are usually
-develoeped under version contol. Doc files are PDF files that also include
-project specific information and images, which are typically not shared in
-their generic, executable form.
-
-RivtText may include commands, tags, reStructuredText (reST) and native Python
-code. Commands begin the line with || and process data files. Tags terminate a
-line with [tag]_ and format output. Tags also format blocks of text starting
-with [tag]__ (double underscore) and terminale with a blank line.
-
-The fundamental on-c-e component is a calc input file ffcc.name.txt, where ffcc
-is the calc designation, ff is the two digit folder number, cc is the two digit
-calc number and name is a user-created calc name. The calc designation is used
-for calc and project organization and must be unique in a project. Calcs are
-stored in folders which in turn are stored in a project folder (Table 4).
-Standalone calcs do not require a folder structure but do require a leading
-calc designation. When a calc is run it produces the following output files in
-its folder (Figure 3, Table 2): - ¬¬UTF-8 calc ffcc.name.calc.txt - Optional
-PDF calc ffccc.name.calc.pdf and temporary files (removed by default) - IPython
-input file _equations.py for interactive analysis and database summaries -
-Execution log file _calclog.txt, also (partially) echoed to the terminal during
-execution - Optional .rst, .tex, .log, .out, fls, fdb_latexmk – see Appendix F
-- Optional project calc project.pdf assembled from a specified set of division
-folders
-  
-Related calcs may be grouped in division folders. Calcs may incorporate other
-calcs in the project, external functions, data, and batch or script control
-files. Externally referenced files (i.e. figures) must be located in the calc
-folder, and external calcs must be located in a project division folder.
-External files are identified by file name only. The program recreates the full
-path name internally, which allows division folders to be moved to new projects
-without changing the calc. The exceptions include those files processed by the
-file operation options r (read) and e (edit). These two operations typically
-use files produced by other programs with their own preferred file structure.
-To work with these files in their natural location a full path name is required
-(see file operations, Appendix B).
-
-A calc folder has the name ff.foldername where ff is the unique folder number.
-Each project folder may contain up to 100 calc folders each with 100 models
-using unique numbers 00 to 99. The project folder contains an optional project
-definition file that defines the structure of the project calculation
-documents. It may contain the project wide unit and PDF style definition files
-(unitc.py, once.sty) that override program defaults. If unit and style
-definition files are also included in a calc folder they will override both the
-project folder and built-in defaults for those calcs.
-
- 
- ## **OnceX** Overview
- 
- **OnceX** Google Groups are the distribution platform for all other
- calculation formats with binary inputs.
-
-
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-This is a normal paragraph following a header. GitHub is a code hosting
-platform for version control and collaboration. It lets you and others work
-together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header. > > When something is important
-enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-``` Long, single-line code blocks should not wrap. They should horizontally
-scroll if they are too long. This line should be long enough to demonstrate
-this. ```
-
-```
-The final element.
-```

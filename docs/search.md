@@ -21,9 +21,15 @@
 
 <br>
 
+<img src="./assets/img/search01.png" width="75" height="55" />
+
+## rivtSearch
+
+<br>
+
 ### Enter search terms separated by a + sign
 ### Example: concrete+beam+bridge
-### Full text search over all GitHub rivt README files
+### Executes full text search over GitHub rivt README files
 
 <br>
 
