@@ -17,7 +17,7 @@
 </style>
 </head>
 
-<script> function searchRivt(){strng = document.getElementById("terms").value;document.getElementById('output').innerHTML = strng;URL = `https://github.com/search?q=rivt+${strng}+in%3Areadme`;input.addEventListener("keypress", function(event) {if (event.key === "Enter") {event.preventDefault();document.getElementById("myBtn").click();}window.open(URL,'_self')}</script>
+<script> function searchRivt(){strng = document.getElementById("terms").value;document.getElementById('output').innerHTML = strng;URL = `https://github.com/search?q=rivt+${strng}+in%3Areadme`;input.addEventListener("keypress", function(event) {if (event.key === "Enter") {event.preventDefault();document.getElementById("myBtn").click()}});window.open(URL,'_self')}</script>
 
 <table>
 <colgroup>
