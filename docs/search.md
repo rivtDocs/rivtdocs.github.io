@@ -42,7 +42,7 @@
 </table>
 
 ### Enter search terms separated by a + sign
-Executes full text search across GitHub rivt README files
+Executes full text search across **rivt** README files on GitHub
 
 <input type="text" id="terms" name="terms" size=100 style="height:50px;font-size:14pt; font-weight: bold">
 <br>
