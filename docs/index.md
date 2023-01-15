@@ -9,7 +9,7 @@ layout: default
 </colgroup>
 <thead>
 <tr class="header">
-  <th style="text-align: center;border:none;background-color:#5c5962"><a href="https://rivtdocs.net"><b>rivtDocs (installers)</b></a></th>
+  <th style="text-align: center;border:none;background-color:#959396"><a href="https://rivtdocs.net"><b>rivtDocs (installers)</b></a></th>
   <th style="text-align: center;border:none"><a href="https://rivtcode.net"><b>rivt (source code)</b></a></th>
   <th style="text-align: center;border:none"><a href="https://rivtsearch.net"><b>rivtSearch (GitHub)</b></a></th>
 </tr>
@@ -17,7 +17,7 @@ layout: default
 <tbody>
 <tr>
   <td style="text-align:center;border:none"><a href="https://rivtdocs.net"><img src="./assets/img/rivtdocs.png" width="85" height="60" style="border:2px solid #5c5962"/></a></td>
-  <td style="text-align: center;border:none"><a href="https://rivtcode.net"><img src="./assets/img/rivt01.png" width="75" height="55" style="border:2px solid #5c5962"/></a></td>
+  <td style="text-align: center;border:none"><a href="https://rivtcode.net"><img src="./assets/img/rivt01.png" width="80" height="60" style="border:2px solid #5c5962"/></a></td>
   <td style="text-align: center;border:none"><a href="https://rivtsearch.net"><img src="./assets/img/search01.png" width="85" height="65" style="border:2px solid #5c5962"/></a></td>
 </tr>
 </tbody>
