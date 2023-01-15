@@ -29,7 +29,7 @@
 <tr class="header">
   <th style="text-align: center;border:none"><a href="https://rivtdocs.net"><b>rivtDocs (installers)</b></a></th>
   <th style="text-align: center;border:none"><a href="https://rivtcode.net"><b>rivt (source code)</b></a></th>
-  <th style="text-align: center;border:none;background-color:#5c5962"><a href="https://rivtsearch.net"><b>rivtSearch (GitHub)</b></a></th>
+  <th style="text-align: center;border:none;background-color:#959396"><a href="https://rivtsearch.net"><b>rivtSearch (GitHub)</b></a></th>
 </tr>
 </thead>
 <tbody>
