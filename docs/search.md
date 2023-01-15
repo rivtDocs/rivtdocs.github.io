@@ -4,7 +4,7 @@
 <style>
 .button {
   background-color: #4CAF50; /* Green */
-  border: none;
+  border: 2 px solid black;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -17,7 +17,7 @@
 </style>
 </head>
 
-<script> function searchRivt(){strng = document.getElementById("terms").value;document.getElementById('output').innerHTML = strng;URL = `https://github.com/search?q=rivt+${strng}+in%3Areadme`;input.addEventListener("keypress", function(event) {if (event.key === "Enter") {event.preventDefault();document.getElementById("myBtn").click()}});window.open(URL,'_self')}</script>
+<script> function searchRivt(){strng = document.getElementById("terms").value;document.getElementById('output').innerHTML = strng;URL = `https://github.com/search?q=rivt+${strng}+in%3Areadme`;input.addEventListener("keypress", function(event) {if (event.key === "Enter") {event.preventDefault();document.getElementById("searchBtn").click()}});window.open(URL,'_self')}</script>
 
 <table>
 <colgroup>
@@ -48,7 +48,7 @@ Executes full text search across GitHub rivt README files
 <input type="text" id="terms" name="terms" size=100 style="height:50px;font-size:14pt; font-weight: bold"><br><br>
 Example: concrete+beam+bridge
 
-<button class="button" id="bgnBtn" onclick="searchRivt()">Search</button>
+<button class="button" id="searchBtn" onclick="searchRivt()">Search</button>
 
 
 
