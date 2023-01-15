@@ -227,11 +227,11 @@ summarized as :
 
 rivtDocs can be installed in several ways:
 
-- Locally installing and configuring the individual open source components.
+- Local install with configuration of individual components.
 
-- Download and unzipping a portable pre-configured folder (Windows only).
+- Portable install through pre-configured zip file (Windows only).
 
-- Remotely installing as a cloud service in a container.
+- Installation on a remote server.
 
 
 [Rivt User Manual](http://www.rivtmanual.net>)

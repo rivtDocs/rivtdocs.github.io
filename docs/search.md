@@ -30,10 +30,5 @@ Example: concrete+beam+bridge
 
 <button class="button" id="bgnBtn" onclick="searchRivt()">Search</button>
 
-<br>
-
-## Most Recent Search
-
-<p style="height:50px;font-size:14pt; font-weight: bold" id="output"></p>
 
 
