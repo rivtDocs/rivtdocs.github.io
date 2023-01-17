@@ -1,5 +1,3 @@
-## Search GitHub
-
 <head>
 <style>
 .button {
@@ -41,6 +39,8 @@
 </tbody>
 </table>
 
+# Search GitHub
+
 ### Enter search terms separated by a + sign
 Executes full text search across **rivt** README files on GitHub
 
@@ -48,6 +48,6 @@ Executes full text search across **rivt** README files on GitHub
 <br>
 Example: concrete+beam+bridge
 
-<button class="button" id="searchBtn" onclick="searchRivt()">Search [ctrl+enter]</button>
+<button class="button" id="searchBtn" onclick="searchRivt()">Search [ ctrl+enter ]</button>
 
 
