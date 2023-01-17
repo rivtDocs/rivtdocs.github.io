@@ -22,8 +22,12 @@ layout: default
 </tr>
 </tbody>
 </table>
-<p style="text-align:center; font-weight:bold"> Share Docs and Calcs Anywhere, Anytime </p>
------------------------------------------
+
+---------------------------
+
+# Share Docs and Calcs Anywhere, Anytime 
+
+--------------------------
 
 ## Introduction
 

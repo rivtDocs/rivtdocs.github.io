@@ -39,7 +39,11 @@
 </tbody>
 </table>
 
+------------------
+
 # Search GitHub
+
+------------------
 
 ### Enter search terms separated by a + sign
 Executes full text search across **rivt** README files on GitHub
