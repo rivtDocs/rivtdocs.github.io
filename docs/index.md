@@ -195,17 +195,17 @@ summarized as :
 
 <pre> 
                   --------------------------
-                  |   Run rivt file or     |
-                  |   parts interactively: |
-                  |                        |
+                  |  Run entire rivt file  |
+                  |      or run parts      |
+                  |     interactively:     |
                   |    R(), I(), V(), T()  |
                   ------------  ------------
                               ||
- ===============  ------------\/------------   ===========
- |   Write     |  |   Working through       |  | Write   |
- |   utf8 to   |  |   interactive IDE?      |  | utf8 to |
- |   terminal  <== YES                    NO ==> file    |
- ===============  ---------------------------  ====  =====
+ ===============  ------------\/------------   =========
+ |   Write     |  |   Working through       |  | Write |
+ |   utf8 to   |  |   interactive IDE?      |  | utf8  |
+ |   terminal  <== YES                    NO ==> file  |
+ ===============  ---------------------------  ====  ===
                                                    ||
                                +===================+
                               ||
