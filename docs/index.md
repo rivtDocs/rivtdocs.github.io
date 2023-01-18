@@ -121,17 +121,17 @@ brackets. Fixed folder and file names and prefixes are shown italicized.
             - units.py
             - config.py
         - **[*rv0101*_division_name]**  (folder report division name)
-            - *rv0101*_doc_name.py (file name) 
+            - *r0101*_doc_name.py (file name) 
             - README.txt (doc output file)
             - chart.csv (doc source file)
             - functions.py (doc function file)
         - **[*rv0102*_division_name]** 
-            - *rv0102*_doc_name.py
+            - *r0102*_doc_name.py
             - README.txt
             - chart1.csv 
             - functions1.py 
          - **[*rv0201*_division_name]**
-            - r0201_doc_name.py
+            - *r0201*_doc_name.py
             - README.txt
             - paragraph.txt
    - **[resource]**
@@ -178,10 +178,10 @@ share and assert version control on the primary calculation inputs.
 A rivt file is a Python file that imports rivtapi and calls one of four
 functions on rivt-strings. Rivt-strings are free-form plain text strings
 enclosed in triple quotes that include commands and tags defining the
-calculation and formatting. rvddnn_docname.py is the file name where dd is the
-division number, nn is the subdivision number and ddnn is the document number.
-The text folder includes all of the plain text input files and output doc
-files.
+calculation and formatting. rvddss_docname.py is the file name where dd is the
+division number, ss is the subdivision number and ddss is the document or file
+number. The text folder includes the plain text input and output files. PDF and
+HTML files are written to the report and site folders respectively.
 
 A rivt project is typically started by copying from a similar existing project.
 The text folder will be available. The resource folder may have to be
@@ -194,45 +194,41 @@ interactively using the standard cell tag (# %%). Execution steps are
 summarized as :
 
 <pre> 
-                  --------------------------
-                  |  Run entire rivt file  |
-                  |      or run parts      |
-                  |     interactively:     |
-                  |    R(), I(), V(), T()  |
-                  ------------  ------------
-                              ||
- ===============  ------------\/------------   =========
- |   Write     |  |   Working through       |  | Write |
- |   utf8 to   |  |   interactive IDE?      |  | utf8  |
- |   terminal  <== YES                    NO ==> file  |
- ===============  ---------------------------  ====  ===
-                                                   ||
-                               +===================+
-                              ||
- ===============  ------------\/------------  ---------
- |  Write HTML |  |      Write report?     |  |  End  |
- | or PDF file <== YES                   NO ===>      |
- ======  =======  --------------------------  ---------
-       ||
-       ||         ---------------------------  --------
-       ||         |     Collate reports?    |  | End  |
-       +==========>                       NO ==>      |
-                  |          YES            |  --------
-                  ------------  ------------- 
-                              ||
-                   ===========\/=============
-                   | Write PDF report file  |
-                   |  or HTML site          |
-                   ==========================
+                 --------------------------
+                 |  Run entire rivt file  |
+                 |      or run parts      |
+                 |     interactively:     |
+                 |    R(), I(), V(), T()  |
+                 ------------  ------------
+                             ||
+===============  ------------\/------------   =========
+|   Write     |  |   Working through       |  | Write |
+|   utf8 to   |  |   interactive IDE?      |  | utf8  |
+|   terminal  <== YES                    NO ==> file  |
+===============  ---------------------------  ====  ===
+                                                  ||
+                              +===================+
+                             ||
+===============  ------------\/------------  ---------
+|  Write HTML |  |      Write report?     |  |  End  |
+| or PDF file <== YES                   NO ===>      |
+======  =======  --------------------------  ---------
+      ||
+      ||         ---------------------------  --------
+      ||         |     Collate reports?    |  | End  |
+      +==========>                       NO ==>      |
+                 |          YES            |  --------
+                 ------------  ------------- 
+                             ||
+                  ===========\/=============
+                  | Write PDF report file  |
+                  |  or HTML site          |
+                  ==========================
+
 </pre>
-
-rivtDocs can be installed:
-
-- as programs to the local system 
-
-- in a single, portable folder (Windows only).
-
-- on a remote server
-
+rivtDocs may be installed:
+ - as programs to the local system 
+ - in a single, portable folder (Windows only).
+ - on a remote server
 
 [rivtDocs User Manual](http://www.rivtmanual.net>)
