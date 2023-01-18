@@ -45,8 +45,9 @@
 ------------------
 
 ### Enter search terms separated by a + sign
-Executes full text search across **rivt** README files on GitHub
 
+Executes full text search across **rivt** README files on GitHub
+<br>
 Refresh page to clear search
 
 <input type="text" id="terms" name="terms" size=80 style="height:50px;font-size:14pt; font-weight: bold">

@@ -92,7 +92,7 @@ workflow and formal document production includes:
 **rivtDoc** installs as a system level program or a portable self contained
 folder, and is available for every OS platforms. It can also be run in the
 cloud using GitHub CodeSpaces or other cloud service providers. Installation
-details are provided in the user manual.
+details are provided in the [rivtDocs User Manual](http://www.rivtmanual.net>)
 
 
 ## **rivt** Overview
@@ -194,47 +194,45 @@ interactively using the standard cell tag (# %%). Execution steps are
 summarized as :
 
 <pre> 
-                    ---------------------------------
-                    |     Edit and run rivt file    |
-                    |     or run interactively.     |
-                    |                               |
-                    |         string types:         |
-                    |       R(), I(), V(), T()      |
-                    ----------------+----------------
-                                   ||
- -----------------  ----------------------------------  ---------------
- |   Process     |  |   Working in interactive IDE?  |  |  Process    |
- |   cell to     |  |   (e.g. VSCode, Spyder, Pyzo)  |  |  file       |
- |   terminal    <--+ YES                         NO +-->             |
- -------+---------  ----------------------------------  -------+-------
-       ||           ==================================         ||
-       ||           |    Write utf-8, reST, TeX      |         ||
-        +===========>    calc to file                <=========+
-                    |================+===============|
-                                    ||
- =================  +--------------------------------+
- | Write HTML    |  |                                |  -----------
- | or PDF doc    |  |         Write docs?            |  |   End   |
- | files         <==+ YES                         NO +==>         |
- =====+===========  ----------------------------------  -----------
-     ||
-     ||            +--------------------------------+  -----------
-     ||            |         Write report?          |  |   End   |
-      +============>               YES           NO +==>         |
-                   +----------------+---------------+  -----------
-                                   ||
-                   ==================================
-                   |    Write PDF report file       |
-                   ==================================
+                  --------------------------
+                  |   Run rivt file or     |
+                  |   parts interactively: |
+                  |                        |
+                  |    R(), I(), V(), T()  |
+                  ------------  ------------
+                              ||
+ ===============  ------------\/------------   ===========
+ |   Write     |  |   Working through       |  | Write   |
+ |   utf8 to   |  |   interactive IDE?      |  | utf8 to |
+ |   terminal  <== YES                    NO ==> file    |
+ ===============  ---------------------------  ====  =====
+                                                   ||
+                               +===================+
+                              ||
+ ===============  ------------\/------------  ---------
+ |  Write HTML |  |      Write report?     |  |  End  |
+ | or PDF file <== YES                   NO ===>      |
+ ======  =======  --------------------------  ---------
+       ||
+       ||         ---------------------------  --------
+       ||         |     Collate reports?    |  | End  |
+       +==========>                       NO ==>      |
+                  |          YES            |  --------
+                  ------------  ------------- 
+                              ||
+                   ===========\/=============
+                   | Write PDF report file  |
+                   |  or HTML site          |
+                   ==========================
 </pre>
 
-rivtDocs can be installed in several ways:
+rivtDocs can be installed:
 
-- Local install with configuration of individual components.
+- to the local system 
 
-- Portable install through pre-configured zip file (Windows only).
+- as a local portable, single folder (Windows only).
 
-- Installation on a remote server.
+- on a remote server
 
 
-[Rivt User Manual](http://www.rivtmanual.net>)
+[rivtDocs User Manual](http://www.rivtmanual.net>)
