@@ -24,9 +24,9 @@ layout: default
 </tbody>
 </table>
 
----------------------------
-### Share Calcs and Docs Anyone Can Edit
---------------------------
+----------------------------
+### Reuse Docs and Calcs Anywhere
+----------------------------
 
 ## Introduction
 
@@ -42,56 +42,57 @@ change. Good engineering work now lies, not so much in technological
 innovation, but in understanding a range of established technologies well
 enough to efficiently and cost-effectively combine them to fit project
 requirements. Calculation documents are the working papers that describe
-precisely how the combinations fit. Being able to easily cut, paste and share
-from previous projects lets an engineer explore more options, focus on key
-issues, respond to market changes and improve solutions.
+precisely how the combinations fit. Being able to easily cut and paste common
+ideas from previous projects lets an engineer explore more options when
+improving performance, reducing cost or responding to market changes.
 
 Engineering professions have an opportunity to produce large, general
 calculation libraries that can be reused and recombined as needed. The model of
-shared, incremental improvement in open source software code has proven
-effective in programming. Although code is only text, the extension of this
-approach to more general engineering calculation documents is promising.
+shared, incremental improvement has proven very effective in software
+programming where large chunks of code are repurposed and recombined. Although
+software code is only text, the extension of aspects of this approach to more
+general engineering documents seems equally promising.
 
-A number of powerful calculation programs exist, but they include barriers to
-widespread sharing. These include high initial and substantial recurring
-software costs. Costs are further increased by constantly changing file formats
-that require program upgrades or subscriptions to maintain file compatibility.
-In addition, file incompatibility between different programs requires multiple
-software purchases and programs to learn. Furthermore current software does not
-easily generate reports, version control or integrate output from external
-programs.
-
-Taken together these barriers prevent widespread sharing and result in nearly
-identical calculations being rewritten many times. **rivtDocs** and **rivt**
-were conceived as an an open source software stack to minimize these barriers
-and promote sharing.
+A number of powerful engineering calculation programs exist, but they
+incorporate barriers to widespread sharing. The first is high initial and
+recurring software costs, required by constantly changing file formats that
+require program upgrades or subscriptions to maintain file compatibility. In
+addition, because files and interfaces are incompatible between different
+programs, multiple software purchases are required along with the requisite
+learning curves. Furthermore, current software does not easily generate reports,
+version control or integrate output from external programs.
 
 **Program Comparison**
 
 <img src="./assets/img/table1.png" width="900" height="300" />
 
+Taken together these barriers prevent widespread sharing and result in nearly
+identical calculations being rewritten many times. **rivt** and **rivtDocs** 
+were developed as an an open source markup language and software stack that
+minimizes these barriers and promotes reuse.
+
+
 ## **rivtDocs** Overview
 
 **rivtDocs** is an integration of four open source programs and technologies
-(listed below) that process **rivtText**, a plain text, human readable,
-calculation markup language derived from restructuredText. **rivt** and other
-Python libraries process **rivtText**. **VSCode** is the primary interface.
-**LaTeX** provides document formatting. **Github** repositories are the primary
-platform for version control, search and distribution or *rivt* documents. 
+(listed below) that process **rivtText** through the **rivt** package. **rivt**
+is a plain text, human readable, calculation markup language derived from
+restructuredText. 
 
-**rivt** can be installed on the desktop or run in the cloud.  The absolute
-minimum software needed is a Python installation with 8 additional libraries and
-a plain text processor. The basic installation required for efficient workflow
-and formal document production includes: 
+**rivt** can be installed on the desktop or run in the cloud. The minimum
+software needed to run **rivt** is a Python installation with 8 additional
+libraries and a plain text processor. The installation required for efficient
+workflow and formal document production includes:
 
-1. Python 3.8 or above + libraries
+1. Python 3.8 or higher + **rivt** + other libraries
 2. VSCode + extensions
 3. LaTeX
 4. Github
 
-**rivtDoc** installers are available for every OS platforms. It can also be run
-in the cloud using GitHub CodeSpaces (or other cloud service providers).
-Installation details are provided in the user manual ___here ____.
+**rivtDoc** installs as a system level program or a portable self contained
+folder, and is available for every OS platforms. It can also be run in the
+cloud using GitHub CodeSpaces or other cloud service providers. Installation
+details are provided in the user manual.
 
 
 ## **rivt** Overview
@@ -99,13 +100,13 @@ Installation details are provided in the user manual ___here ____.
 **rivt** is a Python package providing an API for **rivtText**, a simple,
 readable document markup language designed for calculations. **rivtText** wraps
 and extends [reStructuredText(reST).](https://docutils.sourceforge.io/rst.html). 
-Ouptut documents include UTF8, HTML and PDF from the same **rivtText** file.
+Formatted output documents can be UTF8, HTML and PDF from the same **rivtText** file.
 
 The program design prioritizes three principles:
 
-- **Cut and Paste** - docs are plain text
-- **Integration** - Python libraries connect broadly with numerous data sources
-- **Legibility** - rivtText syntax is defined by less than 30 intuitive terms
+- *Cut and Paste Anything* - **rivt docs** are plain text
+- *Integration* - **rivt** is built on Python which connects almost everywhere
+- *Legibility* - **rivtText** uses less than 30 intuitive terms and commands
 
 The **rivt** API uses fixed file and folder conventions for input and output to
 simplify formatting, navigation, and report assembly. Folder names are shown in
