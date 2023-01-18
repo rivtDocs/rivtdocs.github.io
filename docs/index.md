@@ -228,9 +228,9 @@ summarized as :
 
 rivtDocs can be installed:
 
-- to the local system 
+- as programs to the local system 
 
-- as a local portable, single folder (Windows only).
+- in a single, portable folder (Windows only).
 
 - on a remote server
 
