@@ -1,4 +1,4 @@
-## rivt Examples on Replit
+## rivt Examples at Replit
 
 <img src="./assets/img/repl1_logo.jpg" width="100" height="100" />
 

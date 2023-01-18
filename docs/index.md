@@ -25,18 +25,16 @@ layout: default
 </table>
 
 ---------------------------
-
-## Share Docs and Calcs Anyone Can Edit and Check
-
+### Share Calcs and Docs Anyone Can Edit
 --------------------------
 
 ## Introduction
 
-Engineering documents and calcs include text, tables, figures and calculations
-organized in letter and report formats. Recent developments in open source
-software tools dramatically improve the ease with which these documents can be
-compiled and shared. This has important implications for engineering design
-quality and productivity.
+Engineering documents and calculations include tables, figures and calculations
+in addition to text. They are often presented in letter or report formats.
+Recent developments in open source software tools dramatically improve the ease
+with which these documents can be compiled and shared. This has important
+implications for engineering design quality and productivity.
 
 Many engineering technologies in the 21st century are evolving slowly. Design
 procedures are often fixed for decades in standard codes, with little or no
