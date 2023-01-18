@@ -41,9 +41,7 @@
 </table>
 
 ------------------
-
-## Search GitHub
-
+### Search GitHub
 ------------------
 
 ### Enter search terms separated by a + sign
