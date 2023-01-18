@@ -26,8 +26,8 @@
 </colgroup>
 <thead>
 <tr class="header">
-  <th style="text-align: center;border:none"><a href="https://rivtdocs.net"><b>rivtDocs (installers)</b></a></th>
-  <th style="text-align: center;border:none"><a href="https://rivtcode.net"><b>rivt (source code)</b></a></th>
+  <th style="text-align: center;border:none"><a href="https://rivtdocs.net"><b>rivtDocs (stack)</b></a></th>
+  <th style="text-align: center;border:none"><a href="https://rivtcode.net"><b>rivt (code)</b></a></th>
   <th style="text-align: center;border:none;background-color:#959396"><a href="https://rivtdocs.net/search"><b>rivtSearch (GitHub)</b></a></th>
 </tr>
 </thead>
