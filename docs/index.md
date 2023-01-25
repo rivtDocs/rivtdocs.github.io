@@ -25,42 +25,42 @@ layout: default
 </table>
 
 ----------------------------
-### Reuse Docs and Calcs Anywhere
+### Reuse Calculation Documents Anywhere
 ----------------------------
 
-## Introduction
+## Introduction and Motivation
 
-Engineering documents and calculations include tables, figures and calculations
-in addition to text. They are often presented in letter or report formats.
-Recent developments in open source software tools dramatically improve the ease
-with which these documents can be compiled and shared. This has important
-implications for engineering design quality and productivity.
+In addition to text, engineering documents generally require tables, figures
+and many different types of calculations, . Frequently they need to be
+presented in formal letters or reports. Recent developments in open source
+software tools dramatically improve the ease with which these documents can be
+compiled and universally shared.
+
+Engineering professions have an opportunity to produce reusable calculation
+libraries that can grow and improve through open source contributions over
+time. This model of shared, incremental improvement is effective in software
+programming where large chunks of code are repurposed and recombined. Although
+software code is purely text, the application of this approach to general
+engineering documents must be explored.
 
 Many engineering technologies in the 21st century are evolving slowly. Design
 procedures are often fixed for decades in standard codes, with little or no
-change. Good engineering work now lies, not so much in technological
-innovation, but in understanding a range of established technologies well
-enough to efficiently and cost-effectively combine them to fit project
-requirements. Calculation documents are the working papers that describe
-precisely how the combinations fit. Being able to easily cut and paste common
-ideas from previous projects lets an engineer explore more options when
-improving performance, reducing cost or responding to market changes.
+change. Productive engineering work now lies, not so much in technological
+innovation, but in understanding a range of established technologies enough to
+cost-effectively combine them into a realized project. Engineering documents
+are the working papers that describe precisely how the combinations will fit.
+Being able to easily cut and paste common ideas from previous projects enables
+an engineer to explore more options in order to improve performance, reduce
+cost and respond to market changes.
 
-Engineering professions have an opportunity to produce large, general
-calculation libraries that can be reused and recombined as needed. The model of
-shared, incremental improvement has proven very effective in software
-programming where large chunks of code are repurposed and recombined. Although
-software code is only text, the extension of aspects of this approach to more
-general engineering documents seems equally promising.
-
-A number of powerful engineering calculation programs exist, but they
+A number of powerful engineering calculation programs are available, but they
 incorporate barriers to widespread sharing. The first is high initial and
-recurring software costs, required by constantly changing file formats that
+recurring software costs incurred by constantly changing file formats that
 require program upgrades or subscriptions to maintain file compatibility. In
 addition, because files and interfaces are incompatible between different
-programs, multiple software purchases are required along with the requisite
-learning curves. Furthermore, current software does not easily generate reports,
-version control or integrate output from external programs.
+programs, multiple software purchases and learning curves are required.
+Furthermore, current software does not typically produce formatted reports,
+provide version control or easily integrate output from external programs.
 
 **Program Comparison**
 
@@ -74,41 +74,42 @@ minimizes these barriers and promotes reuse.
 
 ## **rivtDocs** Overview
 
-**rivtDocs** is an integration of four open source programs and technologies
-(listed below) that process **rivtText** through the **rivt** package. **rivt**
-is a plain text, human readable, calculation markup language derived from
-restructuredText. 
+**rivtDocs** is an integration of five open source programs and technologies:
 
-**rivt** can be installed on the desktop or run in the cloud. The minimum
-software needed to run **rivt** is a Python installation with 8 additional
-libraries and a plain text processor. The installation required for efficient
-workflow and formal document production includes:
+1. Python 3.8 or higher  
+2. **rivt** + other Python libraries
+3. VSCode + extensions
+4. LaTeX
+5. Github
 
-1. Python 3.8 or higher + **rivt** + other libraries
-2. VSCode + extensions
-3. LaTeX
-4. Github
+(note: the minimum software needed to run **rivt** with text output is a Python
+installation with 8 additional libraries and a plain text processor.)
 
-**rivtDoc** installs as a system level program or a portable self contained
+**rivt** is a Python package with an API of four functions (R(), I(), V(),
+T()). It processes **rivtText**; a plain text, readable, calculation markup
+language derived from **restructuredText**. As a Python package, **rivt** can
+be tightly integrated with Python engineering and scientific libraries. 
+
+**rivtDocs** installs as a system level program or a portable self contained
 folder, and is available for every OS platforms. It can also be run in the
 cloud using GitHub CodeSpaces or other cloud service providers. Installation
 details are provided in the [rivtDocs User Manual](http://www.rivtmanual.net>)
 
-
 ## **rivt** Overview
 
 **rivt** is a Python package providing an API for **rivtText**, a simple,
-readable document markup language designed for calculations. **rivtText** wraps
-and extends [reStructuredText(reST).](https://docutils.sourceforge.io/rst.html). 
-Formatted output documents can be UTF8, HTML and PDF from the same **rivtText** file.
+readable document markup language designed for calculations. **rivtText**
+extends [reStructuredText(reST).](https://docutils.sourceforge.io/rst.html).
+Formatted output documents can be UTF8, HTML and PDF from the same **rivtText**
+file.
 
-The program design prioritizes three principles:
+The program prioritizes three principles:
 
 - *Cut and Paste Anything* - **rivt docs** are plain text
 - *Integration* - **rivt** is built on Python which connects almost everywhere
 - *Legibility* - **rivtText** uses less than 30 intuitive terms and commands
 
-The **rivt** API uses fixed file and folder conventions for input and output to
+The **rivt** API also uses fixed file and folder conventions for input and output to
 simplify formatting, navigation, and report assembly. Folder names are shown in
 brackets. Fixed folder and file names and prefixes are shown italicized.
 
@@ -226,9 +227,6 @@ summarized as :
                   ==========================
 
 </pre>
-rivtDocs may be installed:
- - as programs to the local system 
- - in a single, portable folder (Windows only).
- - on a remote server
+
 
 [rivtDocs User Manual](http://www.rivtmanual.net>)
