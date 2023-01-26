@@ -30,16 +30,16 @@ layout: default
 
 ## Introduction and Motivation
 
-In addition to text, engineering documents generally require tables, figures
-and many different types of calculations, . Frequently they need to be
-presented in formal letters or reports. Recent developments in open source
-software tools dramatically improve the ease with which these documents can be
-compiled and universally shared.
+Engineering documents generally require tables, figures and many types of
+calculations (in addition to text). Frequently they need to be presented as
+formal letters or reports. Recent developments in open source software tools
+dramatically improve the ease with which these documents can be compiled and
+universally shared.
 
 Engineering professions have an opportunity to produce reusable calculation
 libraries that can grow and improve through open source contributions over
 time. This model of shared, incremental improvement is effective in software
-programming where large chunks of code are repurposed and recombined. Although
+programming where chunks of code are repurposed and recombined. Although
 software code is purely text, the application of this approach to general
 engineering documents must be explored.
 
@@ -87,8 +87,9 @@ installation with 8 additional libraries and a plain text processor.)
 
 **rivt** is a Python package with an API of four functions (R(), I(), V(),
 T()). It processes **rivtText**; a plain text, readable, calculation markup
-language derived from **restructuredText**. As a Python package, **rivt** can
-be tightly integrated with Python engineering and scientific libraries. 
+language that wraps and extends **restructuredText**. As a Python package,
+**rivt** can be tightly integrated with Python engineering and scientific
+libraries.
 
 **rivtDocs** installs as a system level program or a portable self contained
 folder, and is available for every OS platforms. It can also be run in the
