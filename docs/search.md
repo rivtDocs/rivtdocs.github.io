@@ -48,7 +48,7 @@
 
 Executes full text search across **rivt** related README files on GitHub
 <br>
-Refresh page to clear search
+Refresh page to clear search [ctrl+R or F5]
 
 <input type="text" id="terms" name="terms" size=80 style="height:50px;font-size:14pt; font-weight: bold">
 <br>
