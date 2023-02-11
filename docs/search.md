@@ -41,12 +41,12 @@
 </table>
 
 ------------------
-### Search GitHub
+## Search rivt files across GitHub
 ------------------
 
 ### Enter search terms separated by a + sign
 
-Executes full text search across **rivt** README files on GitHub
+Executes full text search across **rivt** related README files on GitHub
 <br>
 Refresh page to clear search
 

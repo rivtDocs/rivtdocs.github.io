@@ -109,7 +109,7 @@ The program prioritizes three principles:
 - *Cut and Paste Anything* - **rivt docs** are plain text
 - *Integration* - **rivt** is built on Python which connects almost everywhere
 - *Legibility* - **rivtText** uses less than 30 intuitive terms and commands
-
+f
 The **rivt** API also uses fixed file and folder conventions for input and output to
 simplify formatting, navigation, and report assembly. Folder names are shown in
 brackets. Fixed folder and file names and prefixes are shown italicized.
@@ -117,54 +117,52 @@ brackets. Fixed folder and file names and prefixes are shown italicized.
 
 **rivt Folder Structure**
 
-- **[*rivt*_project_name]** (user project_name)
+- **[*rivt*_Design_Project]** (user project and report name)
     - **[text]**
         - **[*rv00_config*]** (calc configuration data)
             - units.py
             - config.py
-        - **[*rv0101*_division_name]**  (folder report division name)
-            - *r0101*_doc_name.py (file name) 
-            - README.txt (doc output file)
-            - chart.csv (doc source file)
-            - functions.py (doc function file)
-        - **[*rv0102*_division_name]** 
-            - *r0102*_doc_name.py
+        - **[*rv0101*_Overview_and_Loads]**  (division name)
+            - *r0101*_Gravity_Loads.py (file name) 
+            - README.txt (output file)
+            - data1.csv (source file)
+            - functions1.py (function file)
+        - **[*rv0102*]** 
+            - *r0102*_Seismic_Loads.py
             - README.txt
-            - chart1.csv 
-            - functions1.py 
-         - **[*rv0201*_division_name]**
-            - *r0201*_doc_name.py
+            - data2.csv 
+            - functions2.py 
+         - **[*rv0201*_Foundations]**
+            - *r0201*_Pile_Design.py
             - README.txt
-            - paragraph.txt
+            - paragraph1.txt
    - **[resource]**
         - **[r00]** (report configuration data)
             - pdf_style.sty
             - project_data.syk
-            - *report.txt*
-        - **[r01]**
+            - report.txt
+        - **[r01]** (division resources)
             - image1.jpg
         - **[r02]**
             - image2.jpg
             - attachment.pdf    
    - **[reference]**
-        - **[user_folders]** (files not used in docs)
+        - **[user_folders]** (files not directly used in docs)
             - file1
             - file2
     - **[report]** (pdf output files)
-        - r0101_loads.pdf
-        - r0102_foundation.pdf
-        - r0201_floor.pdf
-        - r0202_roof.pdf
-        - report.pdf
+        - r0101_Gravity_Loads.pdf
+        - r0102_Seismic_Loads.pdf
+        - r0201_Pile_Design.pdf
+        - Design_Project.pdf  (collated report)
     - **[site]** (html output files)
         - **[resources]**
             - image1.png
             - image2.png
-        - index.html
-        - s0101_loads.html
-        - s0102_foundation.html
-        - s0201_floor.html
-        - s0202_roof.html
+        - index.html  (table of contents)
+        - s0101_Gravity_Loads.html
+        - s0102_Seismic_Loads.html
+        - s0201_Pile_Design.html
 
 The four top-level folder names (text, resource, report and site) are required.
 Other file names are user determined using the specified prefixes. Underscores
