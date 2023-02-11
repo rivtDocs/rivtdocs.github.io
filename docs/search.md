@@ -46,7 +46,7 @@
 
 ### Enter search terms separated by a + sign
 
-Executes full text search across **rivt** related README files on GitHub
+Executes full text search across README files on GitHub that contain the term **rivt**
 <br>
 Refresh page to clear search [ctrl+R or F5]
 
