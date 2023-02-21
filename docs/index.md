@@ -117,10 +117,9 @@ reports. The **rivt** report folder structure shown below is designed to
 support both. Folder names are shown in brackets. Folder and file name prefixes
 that are fixed are shown italicized. The four top-level folder names (text,
 resource, report and site) are required verbatim. Other file names are
-combinations of specified prefixes and user titles. Folder and file names and
-prefixes that are fixed are shown italicized. Underscores and hyphens that
-separate words in file and folder names are stripped out when used as document
-and division names in the document.
+combinations of specified prefixes and user titles. Underscores and hyphens
+that separate words in file and folder names are stripped out when used as
+document and division names in the document.
 
 Document input files are separated into folders labeled text and resource.
 Files in the text folder are shareable rivtText files that contain the primary
