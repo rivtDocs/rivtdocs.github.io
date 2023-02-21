@@ -55,15 +55,15 @@ paste common ideas from previous projects enables an engineer to explore more
 options in order to improve performance, reduce cost and respond to market
 changes.
 
-About a dozen well developed engineering calculation programs are available,
-but they include restrictions to widespread sharing. A few of the most well
-known are listed in the table below. The first is high initial software costs
-that increase over time because of constantly changing file formats requiring
-program upgrades. In addition, because files and interfaces are incompatible
-between the different programs, multiple software purchases and learning curves
-are required. Other limitations include software that does not easily produce
-formatted reports, provide version control or easily integrate with external
-programs.
+About a dozen well developed and effective engineering calculation programs are
+available, but they include restrictions to widespread sharing (a few of the
+most well known are listed in the table below). The first restriction is high
+initial software costs that increase over time because of constantly changing
+file formats requiring program upgrades. In addition, because files and
+interfaces are incompatible between the different programs, multiple software
+purchases and learning curves are required. Other limitations include software
+that does not easily produce formatted reports, provide version control or
+easily integrate with external programs.
 
 **Program Comparison**
 
