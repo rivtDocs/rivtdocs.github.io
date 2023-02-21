@@ -24,9 +24,7 @@ layout: default
 </tbody>
 </table>
 
-----------------------------
 ### Universally Shared Calculation Documents
-----------------------------
 
 ## Introduction and Motivation
 
