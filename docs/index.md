@@ -30,8 +30,8 @@ layout: default
 
 ## Introduction and Motivation
 
-Engineering documents include calculated tables, extensive calculations from
-standard formula sources, and images and figures, all in addition to text.
+Engineering documents include calculated tables, formulas and calculations from
+standard sources, and images and figures, all in addition to explanatory text.
 They often need to be presented as formal letters or reports for review. Recent
 developments in open source software tools dramatically improve the ease with
 which these documents can be compiled and universally shared.
@@ -154,6 +154,7 @@ are shown italicized.
             - image2.jpg
             - attachment.pdf    
     - **[report]** (PDF output files)
+        - report_gen.py (report generation file)
         - r0101_Gravity-Loads.pdf
         - r0102_Seismic-Loads.pdf
         - r0201_Pile-Design.pdf
@@ -163,6 +164,7 @@ are shown italicized.
             - image1.png
             - image2.png
             - html_style.css (HTML style override)
+        - site_gen.py (site generation file)
         - index.html  (table of contents)
         - s0101_Gravity-Loads.html
         - s0102_Seismic-Loads.html
