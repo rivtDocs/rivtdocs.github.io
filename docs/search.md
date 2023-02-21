@@ -40,16 +40,20 @@
 </tbody>
 </table>
 
+### Universally Shared Calculation Documents
+
 ------------------
 ## Search rivt files across GitHub
 ------------------
 
 ### Enter search terms separated by a + sign
 
-Executes full text search across README files on GitHub that contain the term **rivt**
+Execute full text search across README files on GitHub that contain search terms plus the term **rivt**
 <br>
-Refresh page to clear search [ctrl+R or F5]
-
+[ctrl+enter] to execute search
+<br>
+[ctrl+R or F5] to clear search terms
+<br>
 <input type="text" id="terms" name="terms" size=80 style="height:50px;font-size:14pt; font-weight: bold">
 <br>
 Example: concrete+beam+bridge
