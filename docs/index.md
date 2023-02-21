@@ -107,21 +107,38 @@ file.
 
 The program prioritizes four design principles:
 
-- *Text Cut and Paste* - **rivtText** content is plain text
-- *Simplicity* - **rivtText** uses less than 30 intuitive terms
+- *Cut and Paste Everything* - **rivtText** content is plain text
+- *Short Learning Curve* - **rivtText** uses less than 30 intuitive terms
 - *Integration* - **rivt** is built on the highly integrated Python language
 - *Standardization* - **rivt** uses a standard folder structure for input and output
 
-**rivt** is designed for single simple calculations, as well as large and
-extensive reports. The **rivt** report folder structure is shown below. Folder
-names are shown in brackets. Folder and file names and prefixes that are fixed
-are shown italicized.
+**rivt** is designed for single simple calculations as well as large, extensive
+reports. The **rivt** report folder structure shown below is designed to
+support both. Folder names are shown in brackets. Folder and file name prefixes
+that are fixed are shown italicized. The four top-level folder names (text,
+resource, report and site) are required verbatim. Other file names are
+combinations of specified prefixes and user titles. Folder and file names and
+prefixes that are fixed are shown italicized. Underscores and hyphens that
+separate words in file and folder names are stripped out when used as document
+and division names in the document.
+
+Document input files are separated into folders labeled text and resource.
+Files in the text folder are shareable rivtText files that contain the primary
+calculation information. The resource folder includes supporting files (images,
+pdf etc.) and other files that may include confidential project information or
+copyrighted material. The resource folder often contains binary information and
+is not designed to share.
+
+Output files are written to three folders, depending on the output type. The
+UTF8 output is written to a README.txt file within the text folder. It is
+displayed and searchable on version control platforms like GitHub. PDF output
+is written to the report folder, and HTML output to the website folder.
 
 **Folder Structure Example**
 
 - **[*rivt*_Design-Project]** (user project / report name)
     - **[*text*]**
-        - **[*rv00*_config]** (calc configuration data)
+        - **[*rv00*_config]** (document configuration data)
             - units.py
             - config.py
         - **[*rv01*_Overview-and-Loads]**  (division name)
@@ -145,6 +162,8 @@ are shown italicized.
                  - functions3.py 
     - **[resource]**
         - **[rv00]** (report configuration data)
+            - report_gen.py (report generation file)
+            - site_gen.py (site generation file)
             - pdf_style.sty (LaTeX style override)
             - project_data.syk
             - report.txt
@@ -154,7 +173,6 @@ are shown italicized.
             - image2.jpg
             - attachment.pdf    
     - **[report]** (PDF output files)
-        - report_gen.py (report generation file)
         - r0101_Gravity-Loads.pdf
         - r0102_Seismic-Loads.pdf
         - r0201_Pile-Design.pdf
@@ -164,25 +182,20 @@ are shown italicized.
             - image1.png
             - image2.png
             - html_style.css (HTML style override)
-        - site_gen.py (site generation file)
         - index.html  (table of contents)
         - s0101_Gravity-Loads.html
         - s0102_Seismic-Loads.html
         - s0201_Pile-Design.html
 
-The four top-level folder names (text, resource, report and site) are required.
-Other file names are combinations of specified prefixes and user titles.
-Underscores and hyphens that separate words in file and folder names are
-stripped out when used as document and division names in the report. The API is
-designed so that only files in the text folder are uploaded for version control
-and sharing. They are the essential core of the calculation - the text,
-equations, functions, tables and image references. Files in the resource folder
-are not shared and are typically binary and proprietary files such as images,
-pdf attachments and proprietary data (e.g. client contact information and
-costs). This folder and file structure makes it easy to share and apply
-version control on the primary calculation inputs.
+The API is designed so that only files in the text folder are uploaded for
+version control and sharing. They are the essential core of the calculation -
+the text, equations, functions, tables and image references. Files in the
+resource folder are not shared and are typically binary and proprietary files
+such as images, pdf attachments and proprietary data (e.g. client contact
+information and costs). This folder and file structure makes it easy to share
+and apply version control on the primary calculation inputs.
 
-A rivt file is a Python file that imports rivtapi and calls one of four
+A rivt file is a Python file that imports the rivt api and calls one of four
 functions on rivt-strings. Rivt-strings are free-form plain text strings
 enclosed in triple quotes that include commands and tags defining the
 calculation and formatting. rvddss_docname.py is the file name where dd is the
