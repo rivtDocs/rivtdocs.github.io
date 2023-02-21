@@ -28,8 +28,8 @@ layout: default
 
 ## Introduction and Motivation
 
-Engineering documents include calculated tables, formulas and calculations from
-standard sources, and images and figures, all in addition to explanatory text.
+Engineering documents include formulas and calculations from standard sources,
+calculated tables, figures and footnotes - all in addition to explanatory text.
 They often need to be presented as formal letters or reports for review. Recent
 developments in open source software tools dramatically improve the ease with
 which these documents can be compiled and universally shared.
