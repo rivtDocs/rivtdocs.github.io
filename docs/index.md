@@ -46,49 +46,48 @@ Many engineering technologies in the 21st century are evolving slowly. Design
 procedures are often fixed for decades in standard codes, with little or no
 change. Productive engineering work now lies, not so much in technological
 innovation, but in understanding a range of established technologies. With
-adequate understanding they can then be effectively combined them into a
-buildable project. Engineering calculations and drawings are the working papers
-that describe how various combinations might fit. Being able to easily cut and
-paste common ideas from previous projects enables an engineer to explore more
-options in order to improve performance, reduce cost and respond to market
-changes.
+adequate understanding they can then be effectively combined into an efficient
+project. Engineering calculations and drawings are the working papers that
+describe how various combinations fit. Enabling cut and paste of common ideas
+from previous projects, including calculations, enables an engineer to explore
+more options to improve performance, reduce cost and respond to industry changes.
 
 About a dozen well developed and effective engineering calculation programs are
 available, but they include restrictions to widespread sharing (a few of the
-most well known are listed in the table below). The first restriction is high
-initial software costs that increase over time because of constantly changing
-file formats requiring program upgrades. In addition, because files and
-interfaces are incompatible between the different programs, multiple software
-purchases and learning curves are required. Other limitations include software
-that does not easily produce formatted reports, provide version control or
-easily integrate with external programs.
+most well known programs are listed in the table below). The first restriction
+is high initial software costs that increase over time because of constantly
+changing file formats requiring program upgrades. In addition, because files
+and interfaces are incompatible between the different programs, multiple
+software purchases and learning curves are required when sharing. Other
+limitations include software that does not easily produce formatted reports,
+provide version control or easily integrate with external programs.
 
 **Program Comparison**
 
 <img src="./assets/img/table1.png" width="900" height="300" />
 
 Taken together these barriers have prevented widespread sharing of editable
-calculation documents and have resulted in nearly identical calculations being
+calculation documents and resulted in nearly identical calculations being
 rewritten many times. **rivtText**, along with a parser (**rivt**) and software
-stack (**rivtDocs**), was developed as an an open source calculation document
-language, that minimizes these barriers and promotes reuse.
+stack installer (**rivtDocs**), was developed to eliminate these barriers and
+promote calculation document reuse.
 
 
 ## **rivtDocs** Overview
 
 The minimum software needed to run **rivt** with plain text output is a Python
-installation and a plain text processor. **rivtDocs** is an installer that
-integrates five open source programs to provide a complete document production
-system:
+installation and a plain text processor. The minimum version runs on mobile
+platforms. **rivtDocs** is an installer that integrates five open source
+programs to provide a complete document production system:
 
 - Python 3.8 or higher (required)  
-- **rivt** + other Python libraries (required)
+- Python libraries + **rivt** (required)
 - VSCode + extensions (recommended for efficiency)
 - LaTeX (recommended for output quality)
 - Github (recommended for collaboration and version control)
 
-**rivtDocs** installs as a system level program or portable folder, and is
-available for every OS platforms. It alos runs in the cloud using GitHub
+**rivtDocs** installs as a system level program or portable folder and is
+available for Windows, Mac, and Linux. It also runs in the cloud using GitHub
 CodeSpaces or other cloud service providers. Installation details are provided
 in the [rivtDocs User Manual](http://www.rivtmanual.net>)
 
