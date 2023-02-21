@@ -68,9 +68,9 @@ provide version control or easily integrate with external programs.
 
 Taken together these barriers have prevented widespread sharing of editable
 calculation documents and resulted in nearly identical calculations being
-rewritten many times. **rivtText**, along with a parser (**rivt**) and software
-stack installer (**rivtDocs**), was developed to eliminate these barriers and
-promote calculation document reuse.
+rewritten many times. **rivtText**, along with the parser (**rivt**) and
+software stack installer (**rivtDocs**), were developed to eliminate these
+barriers and promote calculation document reuse.
 
 
 ## **rivtDocs** Overview
