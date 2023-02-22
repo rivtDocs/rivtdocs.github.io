@@ -152,11 +152,11 @@ is written to the report folder, and HTML output to the website folder.
             - paragraph1.txt
             - functions3.py 
     - **[*resource*]**
-            - report_gen.txt                (report generation style)
-            - site_gen.txt                  (website generation style)
-            - pdf_style.sty                 (LaTeX style override)
-            - utf_style.txt                 (utf style override)
-            - project_data.xls              (project data)
+        - report_gen.txt                (report generation style)
+        - site_gen.txt                  (website generation style)
+        - pdf_style.sty                 (LaTeX style override)
+        - utf_style.txt                 (utf style override)
+        - project_data.xls              (project data)
         - **[*rv01_*Overview-and-Loads]**   (division title)
             - image1.jpg
         - **[*rv02_*Foundations]**   
