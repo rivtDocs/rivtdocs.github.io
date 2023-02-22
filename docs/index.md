@@ -52,15 +52,15 @@ describe how various combinations fit. Enabling cut and paste of common ideas
 from previous projects, including calculations, enables an engineer to explore
 more options to improve performance, reduce cost and respond to industry changes.
 
-About a dozen well developed and effective engineering calculation programs are
-available, but they include restrictions to widespread sharing (a few of the
-most well known programs are listed in the table below). The first restriction
-is high initial software costs that increase over time because of constantly
-changing file formats requiring program upgrades. In addition, because files
-and interfaces are incompatible between the different programs, multiple
-software purchases and learning curves are required when sharing. Other
-limitations include software that does not easily produce formatted reports,
-provide version control or easily integrate with external programs.
+Many effective engineering calculation programs are available, but they include
+barriers to widespread sharing (a few of the most well known programs are
+listed in the table below). The first is high initial software costs that
+continue because of constantly changing file formats requiring program
+upgrades. In addition, because files and interfaces are incompatible between
+the different programs, multiple software purchases and learning curves are
+required when sharing. Other limitations include software that does not easily
+produce formatted reports, provide version control or easily integrate with
+external programs.
 
 **Program Comparison**
 
@@ -132,53 +132,47 @@ is written to the report folder, and HTML output to the website folder.
 
 **Folder Structure Example**
 
-- **[*rivt*_Design-Project]** (user project / report name)
+- **[*rivt_*Design-Project]** (user project and report name)
     - **[*text*]**
-        - **[*rv00*_config]** (document configuration data)
-            - units.py
-            - config.py
-        - **[*rv01*_Overview-and-Loads]**  (division name)
-            - README.txt (output file)
-            - **[*r0101*_Gravity-Loads]**  (document name)
-                - *r0101.py* (document file) 
-                - README.txt (utf output file)
-                - data1.csv (source file)
-                - functions1.py (function file)
-            - **[*r0102_Seismic-Loads*]** (document name)
-                - *r0102.py*  
-                - README.txt
-                - data2.csv 
-                - functions2.py 
-         - **[*rv02*_Foundations]** (division name)
-             - README.txt
-             - **[*r0201*_Pile-Design]** (document name)
-                 - *r0201.py*
-                 - README.txt
-                 - paragraph1.txt
-                 - functions3.py 
-    - **[resource]**
-        - **[rv00]** (report configuration data)
-            - report_gen.py (report generation file)
-            - site_gen.py (site generation file)
-            - pdf_style.sty (LaTeX style override)
-            - project_data.syk
-            - report.txt
-        - **[rv01]**    (division resources)
+        - README.txt                        (project abstract)
+        - units.py
+        - **[*r0101_*Gravity-Loads]**       (rivt document title)
+            - *r0101.py*                    (file name) 
+            - README.txt                    (utf document output file)
+            - data1.csv                     (source file)
+            - functions1.py                 (function file)
+        - **[*r0102_*Seismic-Loads]** 
+            - *r0102.py*
+            - README.txt
+            - data2.csv 
+            - functions2.py 
+        - **[*r0201_*Pile-Design]** 
+            - *r0201.py*
+            - README.txt
+            - paragraph1.txt
+            - functions3.py 
+    - **[*resource*]**
+            - report_gen.txt                (report generation style)
+            - site_gen.txt                  (website generation style)
+            - pdf_style.sty                 (LaTeX style override)
+            - utf_style.txt                 (utf style override)
+            - project_data.xls              (project data)
+        - **[*rv01_*Overview-and-Loads]**   (division title)
             - image1.jpg
-        - **[rv02]**    (division resources)
+        - **[*rv02_*Foundations]**   
             - image2.jpg
             - attachment.pdf    
-    - **[report]** (PDF output files)
+    - **[*report*]**                        (PDF dcoument output files)
         - r0101_Gravity-Loads.pdf
         - r0102_Seismic-Loads.pdf
         - r0201_Pile-Design.pdf
-        - Design-Project.pdf  (collated report)
-    - **[site]** (HTML output files)
-        - **[resources]** (HTML resource files)
+        - Design-Project.pdf                (PDF collated report)
+    - **[*site*]**                          (HTML site)
+        - **[*resources*]**             
             - image1.png
             - image2.png
-            - html_style.css (HTML style override)
-        - index.html  (table of contents)
+            - html_style.css                (HTML style override)
+        - index.html                        (table of contents)
         - s0101_Gravity-Loads.html
         - s0102_Seismic-Loads.html
         - s0201_Pile-Design.html
