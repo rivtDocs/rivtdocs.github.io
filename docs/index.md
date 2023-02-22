@@ -68,14 +68,14 @@ external programs.
 
 Taken together these barriers have prevented widespread sharing of editable
 calculation documents and resulted in nearly identical calculations being
-rewritten many times. **rivtText**, along with the parser (**rivt**) and
-software stack installer (**rivtDocs**), were developed to eliminate these
-barriers and promote calculation document reuse.
+rewritten many times. **rivtText**, along with the program, **rivt**, and open
+source software stack installer, **rivtDocs**, were developed to eliminate
+these barriers and promote calculation document reuse.
 
 
 ## **rivtDocs** Overview
 
-The minimum software needed to run **rivt** with plain text output is a Python
+The minimum software needed to run **rivt** with utf8 text output is a Python
 installation and a plain text processor. The minimum version runs on mobile
 platforms. **rivtDocs** is an installer that integrates five open source
 programs to provide a complete document production system:
