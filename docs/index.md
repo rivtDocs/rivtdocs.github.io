@@ -67,9 +67,9 @@ reports, provide version control or easily integrate with external programs.
 
 Taken together these limitations prevent widespread sharing of editable
 calculation documents and result in nearly identical calculations being
-rewritten in different ways countless times. **rivtText**, along with the
-program, **rivt**, and open source stack installer, **rivtDocs**, were
-developed to eliminate these barriers and promote calculation document reuse.
+rewritten in different forms countless times. **rivtText**, along with the
+program **rivt**, and open source stack installer **rivtDocs**, were developed
+to eliminate these barriers and promote calculation document reuse.
 
 
 ## **rivtDocs** Overview
