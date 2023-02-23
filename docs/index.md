@@ -53,24 +53,23 @@ from previous projects, including calculations, enables an engineer to explore
 more options to improve performance, reduce cost and respond to industry changes.
 
 Many effective engineering calculation programs are available, but they include
-barriers to widespread sharing (a few of the most well known programs are
-listed in the table below). The first is high initial software costs that
-continue because of constantly changing file formats requiring program
-upgrades. In addition, because files and interfaces are incompatible between
-the different programs, multiple software purchases and learning curves are
-required when sharing. Other limitations include software that does not easily
-produce formatted reports, provide version control or easily integrate with
-external programs.
+barriers to widespread sharing. A few well known programs are listed in the
+table below. The first is high initial software costs that continue because of
+constantly changing file formats requiring program upgrades. In addition,
+because files and interfaces are incompatible between the different programs,
+multiple software purchases and learning curves are required when sharing.
+Other limitations include software that does not easily produce formatted
+reports, provide version control or easily integrate with external programs.
 
 **Program Comparison**
 
 <img src="./assets/img/table1.png" width="900" height="300" />
 
-Taken together these barriers have prevented widespread sharing of editable
-calculation documents and resulted in nearly identical calculations being
-rewritten many times. **rivtText**, along with the program, **rivt**, and open
-source software stack installer, **rivtDocs**, were developed to eliminate
-these barriers and promote calculation document reuse.
+Taken together these limitations prevent widespread sharing of editable
+calculation documents and result in nearly identical calculations being
+rewritten in different ways countless times. **rivtText**, along with the
+program, **rivt**, and open source stack installer, **rivtDocs**, were
+developed to eliminate these barriers and promote calculation document reuse.
 
 
 ## **rivtDocs** Overview
