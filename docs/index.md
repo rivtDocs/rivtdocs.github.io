@@ -93,14 +93,14 @@ in the [rivtDocs User Manual](http://www.rivtmanual.net>)
 
 ## **rivt** Overview
 
-**rivt** is a Python package with four API functions: (R(), I(), V(),
-T()). It processes **rivtText** - a plain text, readable, calculation markup
-language that wraps and
-extends[reStructuredText(reST).](https://docutils.sourceforge.io/rst.html).
-Written as a pure Python package, **rivt** can be tightly integrated with the
-large library of Python engineering and scientific libraries. Formatted output
-documents can be in UTF8, HTML and PDF formats, all from the same **rivtText**
-file.
+**rivt** is a Python package with four API functions: (R(), I(), V(), T()). It
+processes **rivtText** - a plain text, readable, calculation markup language
+that wraps and extends
+[reStructuredText(reST)](https://docutils.sourceforge.io/rst.html). Formatted
+output documents can be in UTF8, HTML and PDF formats, all from the same
+**rivtText** file. **rivt** is written as a pure Python package that can be
+integrated with the large library of Python engineering and scientific
+libraries.
 
 The program prioritizes four design principles:
 
@@ -119,16 +119,16 @@ that separate words in file and folder names are stripped out when used as
 document and division names in the document.
 
 Document input files are separated into folders labeled text and resource.
-Files in the text folder are shareable rivtText files that contain the primary
+Files in the text folder are rivtText files that contain the primary
 calculation information. The resource folder includes supporting files (images,
 pdf etc.) and other files that may include confidential project information or
 copyrighted material. The resource folder often contains binary information and
-is not designed to share.
+that may not be shareable.
 
 Output files are written to three folders, depending on the output type. The
-UTF8 output is written to a README.txt file within the text folder. It is
-displayed and searchable on version control platforms like GitHub. PDF output
-is written to the report folder, and HTML output to the website folder.
+UTF8 output is written to a README.txt file within the text folder (displayed
+and searchable on version control platforms like GitHub). PDF output is written
+to the report folder, and HTML output to the website folder.
 
 **Folder Structure Example**
 
@@ -200,9 +200,8 @@ recreated. In summary, rivt reads string functions in a .py file as input and
 outputs a plain text document to the same folder. Fully formatted pdf or html
 files are output to the report or site folders respectively. A simple text
 editor may be used for writing the files, but writing speed is dramatically
-improved if a full-featured IDE (e.g. VSCode) is used. It includes many
-extensions that improve efficiency. rivt strings may be executed interactively
-using the standard cell tag (# %%). Execution steps are summarized as :
+improved with a full-featured IDE (e.g. VSCode) with extensions that improve
+efficiency. Execution steps are summarized as :
 
 <pre> 
                  --------------------------
