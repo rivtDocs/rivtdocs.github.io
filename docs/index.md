@@ -52,14 +52,15 @@ describe how various combinations fit. Enabling cut and paste of common ideas
 from previous projects, including calculations, enables an engineer to explore
 more options to improve performance, reduce cost and respond to industry changes.
 
-Many effective engineering calculation programs are available, but they include
-barriers to widespread sharing. A few well known programs are listed in the
-table below. The first is high initial software costs that continue because of
-constantly changing file formats requiring program upgrades. In addition,
-because files and interfaces are incompatible between the different programs,
-multiple software purchases and learning curves are required when sharing.
-Other limitations include software that does not easily produce formatted
-reports, provide version control or easily integrate with external programs.
+Many effective engineering calculation programs are available but they include
+barriers to widespread document sharing. A few well known programs are listed
+in the table below. The first restriction is high initial software costs, often
+on a per computer basis, that continue beyond the initial purchase because of
+frequent changes requiring program upgrades. In addition, because files and
+interfaces are incompatible between the different programs, multiple software
+purchases and learning curves are required when sharing. Other limitations
+include software that does not easily produce formatted reports, provide
+version control or easily integrate with external programs.
 
 **Program Comparison**
 
@@ -67,17 +68,17 @@ reports, provide version control or easily integrate with external programs.
 
 Taken together these limitations prevent widespread sharing of editable
 calculation documents and result in nearly identical calculations being
-rewritten in different forms countless times. **rivtText**, along with the
-program **rivt**, and open source stack installer **rivtDocs**, were developed
-to eliminate these barriers and promote calculation document reuse.
-
+rewritten many times. **rivtText**, along with the program **rivt**, and
+open source stack installer **rivtDocs**, were developed to eliminate these
+barriers and promote calculation document reuse.
 
 ## **rivtDocs** Overview
 
-The minimum software needed to run **rivt** with utf8 text output is a Python
-installation and a plain text processor. The minimum version runs on mobile
-platforms. **rivtDocs** is an installer that integrates five open source
-programs to provide a complete document production system:
+The minimum software needed to run **rivt** with utf8 text output is Python and
+a plain text processor. This minimum version runs on all platforms, including
+mobile. **rivtDocs** is a set of installers for Windows, OSX and Linux that
+integrates five open source programs to provide a complete document production
+system:
 
 - Python 3.8 or higher (required)  
 - Python libraries + **rivt** (required)
@@ -85,10 +86,10 @@ programs to provide a complete document production system:
 - LaTeX (recommended for output quality)
 - Github (recommended for collaboration and version control)
 
-**rivtDocs** installs as a system level program or portable folder and is
-available for Windows, Mac, and Linux. It also runs in the cloud using GitHub
-CodeSpaces or other cloud service providers. Installation details are provided
-in the [rivtDocs User Manual](http://www.rivtmanual.net>)
+**rivtDocs** installs as a system level program or portable folder. It also
+runs in the cloud using GitHub CodeSpaces or other cloud service providers.
+Installation details are provided in the [rivtDocs User
+Manual](http://www.rivtmanual.net>)
 
 ## **rivt** Overview
 
